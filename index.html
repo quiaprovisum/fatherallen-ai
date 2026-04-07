@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fr. Kenneth Allen · On the Use of Artificial Intelligence</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --ink:            #0e0c0a;
+    --parchment:      #f5f0e8;
+    --gold:           #c9a84c;
+    --gold-dim:       #8a6f2e;
+    --crimson:        #7a1a1a;
+    --crimson-bright: #9b2222;
+    --smoke:          #1a1714;
+    --ash:            #2c2824;
+    --mist:           #4a443c;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background-color: var(--ink);
+    color: var(--parchment);
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    font-size: 18px;
+    line-height: 1.75;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+
+  /* Grain */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.04'/%3E%3C/svg%3E");
+    opacity: 0.4;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* Vignette */
+  body::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: radial-gradient(ellipse at center, transparent 40%, rgba(0,0,0,0.65) 100%);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .site-wrapper {
+    position: relative;
+    z-index: 1;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+
+  /* ── HEADER ── */
+  .site-header {
+    text-align: center;
+    padding: 5.5rem 0 3.5rem;
+    animation: fadeUp 1.4s ease both;
+  }
+
+  .rule-top {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+  }
+  .rule-top::before,
+  .rule-top::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(to right, transparent, var(--gold-dim));
+  }
+  .rule-top::after {
+    background: linear-gradient(to left, transparent, var(--gold-dim));
+  }
+  .rule-diamond {
+    width: 6px;
+    height: 6px;
+    background: var(--gold);
+    transform: rotate(45deg);
+    flex-shrink: 0;
+  }
+
+  .eyebrow {
+    font-family: 'Cinzel', serif;
+    font-size: 0.68rem;
+    letter-spacing: 0.38em;
+    text-transform: uppercase;
+    color: var(--gold-dim);
+    margin-bottom: 1.6rem;
+  }
+
+  h1 {
+    font-family: 'Cinzel', serif;
+    font-size: clamp(2.1rem, 5vw, 3.4rem);
+    font-weight: 700;
+    line-height: 1.15;
+    color: var(--parchment);
+    letter-spacing: 0.025em;
+    margin-bottom: 0.4rem;
+  }
+
+  h1 em {
+    font-style: normal;
+    color: var(--gold);
+  }
+
+  .subtitle {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.1rem;
+    font-style: italic;
+    color: var(--mist);
+    font-weight: 300;
+    margin-top: 1.1rem;
+    letter-spacing: 0.02em;
+  }
+
+  /* ── SCRIPTURE BLOCK ── */
+  .scripture {
+    animation: fadeUp 1.4s 0.25s ease both;
+    margin: 3.5rem 0 3rem;
+    text-align: center;
+  }
+
+  .scripture-text {
+    font-size: 1.45rem;
+    font-style: italic;
+    font-weight: 300;
+    color: var(--parchment);
+    line-height: 1.7;
+    letter-spacing: 0.01em;
+  }
+
+  .scripture-text::before {
+    content: '\201C';
+    color: var(--crimson-bright);
+    font-size: 2.2rem;
+    line-height: 0;
+    vertical-align: -0.4em;
+    margin-right: 0.1em;
+  }
+
+  .scripture-ref {
+    display: block;
+    font-family: 'Cinzel', serif;
+    font-size: 0.62rem;
+    letter-spacing: 0.32em;
+    text-transform: uppercase;
+    color: var(--gold-dim);
+    margin-top: 1.1rem;
+  }
+
+  /* ── BODY COPY ── */
+  .body-copy {
+    animation: fadeUp 1.4s 0.45s ease both;
+    margin: 3rem 0;
+  }
+
+  .body-copy p {
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #c2bab0;
+    line-height: 1.9;
+  }
+
+  .body-copy p + p {
+    margin-top: 2rem;
+  }
+
+  .body-copy em {
+    color: var(--parchment);
+    font-style: italic;
+  }
+
+  .body-copy strong {
+    color: var(--parchment);
+    font-weight: 600;
+  }
+
+  /* ── CLOSING STRIKE ── */
+  .closing {
+    animation: fadeUp 1.4s 0.65s ease both;
+    margin: 3.5rem 0 4rem;
+    padding: 2.5rem 2.5rem;
+    border-left: 2px solid var(--crimson);
+    background: linear-gradient(135deg, rgba(122,26,26,0.07) 0%, transparent 60%);
+  }
+
+  .closing p {
+    font-size: 1.35rem;
+    font-style: italic;
+    font-weight: 300;
+    color: #d8d0c4;
+    line-height: 1.85;
+  }
+
+  .closing p strong {
+    font-style: normal;
+    font-weight: 600;
+    color: var(--parchment);
+  }
+
+  /* ── SECTION RULE ── */
+  .section-rule {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin: 2rem 0;
+    animation: fadeUp 1.4s 0.5s ease both;
+  }
+  .section-rule::before,
+  .section-rule::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--ash);
+  }
+  .section-rule span {
+    font-family: 'Cinzel', serif;
+    font-size: 0.6rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold-dim);
+    white-space: nowrap;
+  }
+
+  /* ── PRINCIPLES ── */
+  .principles {
+    animation: fadeUp 1.4s 0.75s ease both;
+  }
+
+  .principle {
+    display: grid;
+    grid-template-columns: 3rem 1fr;
+    gap: 0 1.75rem;
+    align-items: start;
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--ash);
+    transition: background 0.3s ease;
+  }
+
+  .principle:first-child {
+    border-top: 1px solid var(--ash);
+  }
+
+  .principle:hover .principle-numeral {
+    color: var(--gold);
+  }
+
+  .principle-numeral {
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--crimson-bright);
+    line-height: 1.3;
+    transition: color 0.3s;
+    padding-top: 0.1rem;
+    text-align: right;
+  }
+
+  .principle-title {
+    font-family: 'Cinzel', serif;
+    font-size: 0.85rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 0.6rem;
+    display: block;
+  }
+
+  .principle-text {
+    font-size: 1.05rem;
+    font-weight: 300;
+    color: #b8b0a0;
+    line-height: 1.8;
+  }
+
+  .principle-text em {
+    color: var(--parchment);
+    font-style: italic;
+  }
+
+  /* ── FOOTER ── */
+  .site-footer {
+    animation: fadeUp 1.4s 0.85s ease both;
+    text-align: center;
+    padding: 3rem 0 4.5rem;
+    border-top: 1px solid var(--ash);
+    margin-top: 1rem;
+  }
+
+  .footer-mark {
+    font-family: 'Cinzel', serif;
+    font-size: 0.6rem;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    color: var(--mist);
+    line-height: 2.2;
+  }
+
+  .footer-mark a {
+    color: var(--gold-dim);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  .footer-mark a:hover { color: var(--gold); }
+
+  /* ── ANIMATIONS ── */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(18px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 520px) {
+    .site-header { padding: 3.5rem 0 2.5rem; }
+    h1 { font-size: 1.9rem; }
+    .scripture-text { font-size: 1.2rem; }
+    .body-copy p { font-size: 1.08rem; }
+    .closing { padding: 1.75rem 1.5rem; }
+    .closing p { font-size: 1.15rem; }
+  }
+</style>
+</head>
+<body>
+<div class="site-wrapper">
+
+  <!-- ── HEADER ── -->
+  <header class="site-header">
+    <div class="rule-top"><div class="rule-diamond"></div></div>
+    <p class="eyebrow">Fr. Kenneth Allen</p>
+    <h1>On the Use of<br><em>Artificial Intelligence</em></h1>
+    <p class="subtitle">The oldest vocation and the newest tool</p>
+  </header>
+
+  <!-- ── SCRIPTURE ── -->
+  <section class="scripture">
+    <p class="scripture-text">
+      Increase and multiply and fill the earth,<br>and make it yours
+    </p>
+    <span class="scripture-ref">Genesis 1:28</span>
+  </section>
+
+  <div class="section-rule"><span></span></div>
+
+  <!-- ── BODY COPY ── -->
+  <section class="body-copy">
+    <p>
+      That is the first commission given to the human race — before the fall, before the law,
+      before the temple, before the covenant. Man is the one creature who does not simply
+      <em>inhabit</em> the world — he <em>names</em> it. He orders it through dominion and
+      stewardship; through cultivating and tending. Church teaching is unambiguous: we not only
+      transform the world around us, but become more fully ourselves through work.
+      Human work corresponds to human dignity, expresses it, and increases it.
+    </p>
+    <p>
+      The mandate to create is not incidental to human nature — it is <em>constitutive</em> of it.
+      AI is not a shortcut. It is the latest extension of the oldest vocation.
+    </p>
+    <p>
+      You cannot learn the ocean from the shore. The hesitation most people feel is not prudence —
+      it is the friction of the new, dressed up as wisdom.
+    </p>
+  </section>
+
+  <!-- ── CLOSING STRIKE ── -->
+  <div class="closing">
+    <p>
+      Learn it. Use it. The tools of an age belong to those who pick them up,
+      and every tool shapes the hand that holds it. The hammer teaches weight.
+      The pen teaches precision. The algorithm, if we let it, teaches
+      <strong>passivity</strong> — the quiet abdication of at least one great capacity
+      that makes us irreplaceable: the capacity to mean something - both to ourselves,
+      and to others. And that is precisely why, if for no other reason,
+      you should pick AI up and <strong>master it</strong>.
+    </p>
+  </div>
+
+  <div class="section-rule" style="margin-top:4rem;"><span>Five Principles</span></div>
+
+  <!-- ── PRINCIPLES ── -->
+  <section class="principles">
+
+    <div class="principle">
+      <div class="principle-numeral">I</div>
+      <div class="principle-body">
+        <span class="principle-title">Active</span>
+        <p class="principle-text">
+          Use AI as a <em>collaborator</em>, not a replacement. Bring your question, your judgment,
+          your dissatisfaction with the first answer. The machine generates;
+          you discern. That distinction is not incidental — it is everything.
+        </p>
+      </div>
+    </div>
+
+    <div class="principle">
+      <div class="principle-numeral">II</div>
+      <div class="principle-body">
+        <span class="principle-title">Conscious</span>
+        <p class="principle-text">
+          Know what you are doing and why. Awareness of the tool's architecture —
+          its training, its limits, its tendency toward the plausible over the true —
+          is not a technical curiosity. It is a <em>moral obligation</em>.
+        </p>
+      </div>
+    </div>
+
+    <div class="principle">
+      <div class="principle-numeral">III</div>
+      <div class="principle-body">
+        <span class="principle-title">Fully Engaged</span>
+        <p class="principle-text">
+          Half-attention produces half-results at twice the risk.
+          The danger of AI is not that it will think for you —
+          it is that you will <em>let it</em>, and not notice until the thought
+          that was supposed to be yours has gone missing.
+        </p>
+      </div>
+    </div>
+
+    <div class="principle">
+      <div class="principle-numeral">IV</div>
+      <div class="principle-body">
+        <span class="principle-title">Ethical</span>
+        <p class="principle-text">
+          Every output lands somewhere in the world and does something to someone.
+          The question is not only <em>can I generate this</em>
+          but what it will mean, in whose hands, for whose sake.
+          The machine carries no conscience. You do.
+        </p>
+      </div>
+    </div>
+
+    <div class="principle">
+      <div class="principle-numeral">V</div>
+      <div class="principle-body">
+        <span class="principle-title">Responsible</span>
+        <p class="principle-text">
+          Own the output. Do not shelter behind the model's name
+          when the words are yours to sign. <em>Responsibility follows authorship</em>,
+          and authorship — the choice to publish, to send, to act — remains
+          irreducibly human, whatever assisted the composition.
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="site-footer">
+    <p class="footer-mark"><a href="#">Fr. Kenneth Allen</a></p>
+    <p class="footer-mark">Theology &nbsp;·&nbsp; Scripture &nbsp;·&nbsp; The Long Work of Paying Attention</p>
+  </footer>
+
+</div>
+</body>
+</html>
