@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Father Kenneth Allen</title>
+<style> 
+<link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+.principles {
+    animation: fadeUp 1.4s 0.75s ease both;
+  }
+
+  .principle {
+    display: grid;
+    grid-template-columns: 3rem 1fr;
+    gap: 0 1.75rem;
+    align-items: start;
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--ash);
+    transition: background 0.3s ease;
+  }
+
+  .principle:first-child {
+    border-top: 1px solid var(--ash);
+  }
+
+  .principle:hover .principle-numeral {
+    color: var(--gold);
+  }
+
+  .principle-numeral {
+    font-family: 'Cinzel', serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: var(--crimson-bright);
+    line-height: 1.3;
+    transition: color 0.3s;
+    padding-top: 0.1rem;
+    text-align: right;
+  }
+
+  .principle-title {
+    font-family: 'Cinzel', serif;
+    font-size: 0.85rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 0.6rem;
+    display: block;
+  }
+
+  .principle-text {
+    font-size: 1.05rem;
+    font-weight: 300;
+    color: #b8b0a0;
+    line-height: 1.8;
+  }
+
+  .principle-text em {
+    color: var(--parchment);
+    font-style: italic;
+  }
+</style>
+</head>
+<body>
+  <!-- ─── NAV ─────────────────────────────────────────────── -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="/" class="wordmark">FATHER ALLEN</a>
+      <div class="nav__links">
+        <a href="/#writing" class="nav__link">Writing</a>
+        <a href="/#homilies" class="nav__link">Homilies</a>
+        <a href="/about.html" class="nav__link nav__link--current" aria-current="page">About</a>
+        <a href="/#contact" class="nav__link">Contact</a>
+      </div>
+      <a href="https://substack.com/@frkennethallen" class="btn btn--outline btn--sapphire">SUBSCRIBE</a>
+    </div>
+  </nav>
+
+  <main>
+<section class="principles">
+
+    <div class="principle">
+      <div class="principle-numeral">I</div>
+      <div class="principle-body">
+        <span class="principle-title">Active</span>
+        <p class="principle-text">
+          Use AI as a <em>collaborator</em>, not a replacement. Bring your question, your judgment,
+          your dissatisfaction with the first answer. The machine generates;
+          you discern. That distinction is not incidental — it is everything.
+        </p>
+      </div>
+    </div>
+
+    <div class="principle">
+      <div class="principle-numeral">II</div>
+      <div class="principle-body">
+        <span class="principle-title">Conscious</span>
+        <p class="principle-text">
+          Know what you are doing and why. Awareness of the tool's architecture —
+          its training, its limits, its tendency toward the plausible over the true —
+          is not a technical curiosity. It is a <em>moral obligation</em>.
+        </p>
+      </div>
+    </div>
+
+    <div class="principle">
+      <div class="principle-numeral">III</div>
+      <div class="principle-body">
+        <span class="principle-title">Fully Engaged</span>
+        <p class="principle-text">
+          Half-attention produces half-results at twice the risk.
+          The danger of AI is not that it will think for you —
+          it is that you will <em>let it</em>, and not notice until the thought
+          that was supposed to be yours has gone missing.
+        </p>
+      </div>
+    </div>
+
+    <div class="principle">
+      <div class="principle-numeral">IV</div>
+      <div class="principle-body">
+        <span class="principle-title">Ethical</span>
+        <p class="principle-text">
+          Every output lands somewhere in the world and does something to someone.
+          The question is not only <em>can I generate this</em>
+          but what it will mean, in whose hands, for whose sake.
+          The machine carries no conscience. You do.
+        </p>
+      </div>
+    </div>
+
+    <div class="principle">
+      <div class="principle-numeral">V</div>
+      <div class="principle-body">
+        <span class="principle-title">Responsible</span>
+        <p class="principle-text">
+          Own the output. Do not shelter behind the model's name
+          when the words are yours to sign. <em>Responsibility follows authorship</em>,
+          and authorship — the choice to publish, to send, to act — remains
+          irreducibly human, whatever assisted the composition.
+        </p>
+      </div>
+    </div>
+
+  </section>
+</section>
+
+  </main>
+
+  <!-- ─── FOOTER ────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="wordmark">FATHER ALLEN</span>
+      <nav class="footer__links" aria-label="Footer">
+        <a href="https://substack.com/@frkennethallen" class="footer__link">Writing</a>
+        <a href="https://substack.com/@frkennethallen" class="footer__link">Homilies</a>
+        <a href="/about.html" class="footer__link">About</a>
+        <a href="/cdn-cgi/l/email-protection#83e8e2c3e5e2f7ebe6f1e2efefe6edade2ea" class="footer__link">Contact</a>
+        <a href="/" class="footer__link">fatherallen.ai</a>
+      </nav>
+      <span class="footer__copy">&copy; <span id="year"></span> Father Kenneth Allen</span>
+    </div>
+  </footer>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js" defer></script><script>
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Scroll-reveal
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.fade-up:not(.visible)').forEach(function (el) {
+      observer.observe(el);
+    });
+
+    // Nav scroll state
+    var nav = document.getElementById('nav');
+    window.addEventListener('scroll', function () {
+      nav.classList.toggle('nav--scrolled', window.scrollY > 40);
+    });
+
+    // Formspree
+    window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
+    formspree('initForm', { formElement: '#subscribe-form', formId: 'mjgpzgnv' });
+  </script>
+  <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"c62accdcb15142c9963657ef4324e538","r":1,"server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
+</body>
+</html>
