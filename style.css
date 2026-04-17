@@ -1,564 +1,98 @@
-/* ─── DESIGN TOKENS ──────────────────────────────────────────── */
-:root {
-  /* Ground */
-  --white:          #FFFFFF;
-  --off-white:      #F8F7F5;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Father Kenneth Allen — Scripture, Creativity, and the Life of Faith</title>
+  <meta name="description" content="A Catholic priest writing on Sacred Scripture, creativity, and the vocation of the human person.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-  /* Text */
-  --ink:            #111111;
-  --subtext:        #5A5A5A;
-  --muted:          #9A9A9A;
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a href="/" class="wordmark" aria-label="Father Allen — home">Father Allen</a>
+      <nav class="nav" aria-label="Primary">
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+        <a href="https://frkennethallen.substack.com/subscribe" class="nav__cta">Subscribe</a>
+      </nav>
+    </div>
+  </header>
 
-  /* Jewel Accents */
-  --sapphire:       #1B50D8;   /* truth, intellect */
-  --emerald:        #0A7A55;   /* creation, growth */
-  --ruby:           #B91C49;   /* sacrifice, love */
-  --amethyst:       #6D28D9;   /* contemplation */
+  <main>
 
-  /* Borders */
-  --border:         #E4E4E4;
-  --border-faint:   #F0F0F0;
+    <section class="hero">
+      <p class="eyebrow">Scripture &middot; Creativity &middot; The Life of Faith</p>
+      <h1 class="hero__title">
+        Writing at the intersection of <em>Sacred Scripture</em> and the fullness of human life.
+      </h1>
+      <p class="hero__lede">
+        Father Kenneth Allen is a Catholic priest, spiritual director, and writer exploring the mandate for creativity, prosperity, and the vocation of the human person &mdash; rooted in Sacred Scripture.
+      </p>
+      <p class="hero__actions">
+        <a href="/writing" class="link-arrow">Read the latest</a>
+        <span class="link-sep" aria-hidden="true">&middot;</span>
+        <a href="/about" class="link-arrow">About Father Allen</a>
+      </p>
+    </section>
 
-  /* Typography */
-  --font-display:   'Cinzel', serif;
-  --font-body:      'Cormorant Garamond', serif;
-  --font-ui:        'DM Sans', sans-serif;
+    <hr class="rule">
 
-  /* Spacing */
-  --section-pad:    96px 32px;
-  --max-width:      1160px;
-}
+    <section class="section">
+      <h2 class="section__title">A priest writing from within the tradition &mdash; toward what&rsquo;s possible.</h2>
+      <p>
+        Father Kenneth Allen is a Roman Catholic priest whose work explores the scriptural grounding for creativity, prosperity, and the human vocation. He writes for those who take both faith and their work seriously &mdash; and who sense that the two belong together.
+      </p>
+    </section>
 
-/* ─── RESET ──────────────────────────────────────────────────── */
-*, *::before, *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
+    <section class="pull">
+      <blockquote class="pull__quote">
+        <span class="pull__mark" aria-hidden="true">&ldquo;</span>In the beginning God created heaven, and earth.<span class="pull__mark" aria-hidden="true">&rdquo;</span>
+      </blockquote>
+      <p class="pull__body">
+        The first words of Scripture don&rsquo;t describe God&rsquo;s authority. They describe his creativity. The human person, made in his image, inherits the same impulse &mdash; and the same mandate.
+      </p>
+      <p class="pull__cite">Genesis 1:1 &mdash; and what it means for us</p>
+    </section>
 
-html { scroll-behavior: smooth; }
+  </main>
 
-body {
-  background: var(--white);
-  color: var(--ink);
-  font-family: var(--font-body);
-  -webkit-font-smoothing: antialiased;
-}
+  <footer class="site-footer">
+    <div class="site-footer__inner">
+      <span class="wordmark wordmark--sm">Father Allen</span>
+      <nav class="nav nav--footer" aria-label="Footer">
+        <a href="/writing">Writing</a>
+        <a href="/homilies">Homilies</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+      </nav>
+      <p class="site-footer__meta">&copy; Father Kenneth Allen &middot; fatherallen.ai</p>
+    </div>
+  </footer>
 
-a { text-decoration: none; color: inherit; }
+  <script>
+    // Scroll-entry animation. Transform + opacity only. No scroll listeners.
+    (function () {
+      var els = document.querySelectorAll('.hero, .section, .pull');
+      if (!('IntersectionObserver' in window)) {
+        els.forEach(function (el) { el.classList.add('is-in'); });
+        return;
+      }
+      var io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('is-in');
+            io.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+      els.forEach(function (el) { io.observe(el); });
+    })();
+  </script>
 
-::selection {
-  background: var(--sapphire);
-  color: white;
-}
-
-/* ─── LAYOUT ─────────────────────────────────────────────────── */
-.container {
-  max-width: var(--max-width);
-  margin: 0 auto;
-  padding: 0 32px;
-}
-
-/* ─── SCROLL REVEAL ──────────────────────────────────────────── */
-.fade-up {
-  opacity: 0;
-  transform: translateY(24px);
-  transition: opacity 0.7s ease, transform 0.7s ease;
-}
-.fade-up.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* ─── NAV ────────────────────────────────────────────────────── */
-.nav {
-  position: fixed;
-  top: 0; left: 0; right: 0;
-  z-index: 100;
-  background: var(--white);
-  border-bottom: 1px solid transparent;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
-}
-.nav--scrolled {
-  border-bottom-color: var(--border);
-  box-shadow: 0 1px 24px rgba(0, 0, 0, 0.04);
-  backdrop-filter: blur(12px);
-}
-.nav__inner {
-  height: 68px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 24px;
-}
-.nav__links {
-  display: flex;
-  gap: 36px;
-  font-family: var(--font-ui);
-  font-size: 13px;
-  letter-spacing: 0.06em;
-  font-weight: 400;
-  color: var(--subtext);
-}
-.nav__link {
-  position: relative;
-  transition: color 0.2s ease;
-}
-.nav__link::after {
-  content: '';
-  position: absolute;
-  bottom: -2px; left: 0;
-  height: 1px;
-  background: var(--sapphire);
-  width: 0;
-  transition: width 0.25s ease;
-}
-.nav__link:hover { color: var(--ink); }
-.nav__link:hover::after { width: 100%; }
-
-/* ─── WORDMARK ───────────────────────────────────────────────── */
-.wordmark {
-  font-family: var(--font-display);
-  font-size: 17px;
-  letter-spacing: 0.12em;
-  color: var(--ink);
-  font-weight: 400;
-  white-space: nowrap;
-}
-
-/* ─── BUTTONS ────────────────────────────────────────────────── */
-.btn {
-  display: inline-block;
-  font-family: var(--font-ui);
-  font-size: 12px;
-  letter-spacing: 0.1em;
-  font-weight: 500;
-  padding: 10px 22px;
-  cursor: pointer;
-  transition: background 0.22s ease, color 0.22s ease;
-  white-space: nowrap;
-}
-.btn--outline.btn--sapphire {
-  color: var(--sapphire);
-  border: 1.5px solid var(--sapphire);
-  background: transparent;
-}
-.btn--outline.btn--sapphire:hover {
-  background: var(--sapphire);
-  color: white;
-}
-
-.ghost-link {
-  font-family: var(--font-ui);
-  font-size: 13px;
-  letter-spacing: 0.06em;
-  color: var(--subtext);
-  transition: color 0.2s ease;
-}
-.ghost-link:hover { color: var(--ink); }
-
-/* ─── EYEBROW ────────────────────────────────────────────────── */
-.eyebrow {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-  margin-bottom: 20px;
-}
-.eyebrow__rule {
-  display: inline-block;
-  height: 2px;
-  width: 24px;
-  flex-shrink: 0;
-}
-.eyebrow__text {
-  font-family: var(--font-ui);
-  font-size: 11px;
-  letter-spacing: 0.16em;
-  font-weight: 500;
-  text-transform: uppercase;
-}
-.eyebrow--sapphire .eyebrow__rule  { background: var(--sapphire); }
-.eyebrow--sapphire .eyebrow__text  { color: var(--sapphire); }
-.eyebrow--sapphire .eyebrow__rule  { width: 32px; }  /* hero variant — slightly wider */
-.eyebrow--emerald  .eyebrow__rule  { background: var(--emerald); }
-.eyebrow--emerald  .eyebrow__text  { color: var(--emerald); }
-.eyebrow--ruby     .eyebrow__rule  { background: var(--ruby); }
-.eyebrow--ruby     .eyebrow__text  { color: var(--ruby); }
-.eyebrow--amethyst .eyebrow__rule  { background: var(--amethyst); }
-.eyebrow--amethyst .eyebrow__text  { color: var(--amethyst); }
-
-/* ─── HERO ───────────────────────────────────────────────────── */
-.hero {
-  padding: 148px 0 96px;
-}
-.hero__content {
-  max-width: 760px;
-}
-.hero__heading {
-  font-family: var(--font-body);
-  font-weight: 300;
-  font-size: clamp(42px, 6vw, 76px);
-  line-height: 1.1;
-  color: var(--ink);
-  letter-spacing: -0.01em;
-  margin-bottom: 32px;
-}
-.accent--sapphire {
-  font-style: italic;
-  color: var(--sapphire);
-}
-.hero__sub {
-  font-family: var(--font-body);
-  font-size: 20px;
-  font-weight: 300;
-  color: var(--subtext);
-  line-height: 1.75;
-  max-width: 580px;
-  margin-bottom: 48px;
-}
-.hero__ctas {
-  display: flex;
-  gap: 24px;
-  align-items: center;
-  flex-wrap: wrap;
-}
-.hero__ctas .btn {
-  padding: 14px 28px;
-  font-size: 13px;
-}
-.hero__rule {
-  margin-top: 80px;
-  height: 1px;
-  background: linear-gradient(to right, var(--sapphire), var(--emerald), transparent);
-  opacity: 0.3;
-}
-
-/* ─── WRITINGS ───────────────────────────────────────────────── */
-.writings {
-  background: var(--off-white);
-  padding: var(--section-pad);
-}
-.section-header {
-  margin-bottom: 56px;
-}
-.section-header .eyebrow { margin-bottom: 12px; }
-.section-header__title {
-  font-family: var(--font-body);
-  font-weight: 300;
-  font-size: clamp(28px, 3.5vw, 42px);
-  color: var(--ink);
-  letter-spacing: -0.01em;
-  line-height: 1.2;
-}
-.section-footer {
-  margin-top: 56px;
-  text-align: center;
-}
-
-/* ─── CARDS ──────────────────────────────────────────────────── */
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2px;
-}
-.card {
-  display: flex;
-  flex-direction: column;
-  background: var(--white);
-  border: 1px solid var(--border);
-  padding: 36px 32px;
-  position: relative;
-  overflow: hidden;
-  transition: border-color 0.25s ease, box-shadow 0.25s ease;
-}
-.card:hover {
-  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.07);
-}
-.card--sapphire:hover  { border-color: var(--sapphire); }
-.card--emerald:hover   { border-color: var(--emerald);  }
-.card--ruby:hover      { border-color: var(--ruby);     }
-
-.card__meta {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 20px;
-}
-.card__tag {
-  font-family: var(--font-ui);
-  font-size: 10px;
-  letter-spacing: 0.14em;
-  font-weight: 500;
-  text-transform: uppercase;
-}
-.tag--sapphire { color: var(--sapphire); }
-.tag--emerald  { color: var(--emerald);  }
-.tag--ruby     { color: var(--ruby);     }
-
-.card__date {
-  font-family: var(--font-ui);
-  font-size: 11px;
-  color: var(--muted);
-}
-.card__title {
-  font-family: var(--font-body);
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 1.3;
-  color: var(--ink);
-  margin-bottom: 14px;
-  letter-spacing: -0.01em;
-}
-.card__excerpt {
-  font-family: var(--font-body);
-  font-size: 16px;
-  font-weight: 300;
-  color: var(--subtext);
-  line-height: 1.7;
-  flex: 1;
-  margin-bottom: 28px;
-}
-.card__read {
-  font-family: var(--font-ui);
-  font-size: 11px;
-  color: var(--muted);
-  letter-spacing: 0.06em;
-}
-.card__underline {
-  display: block;
-  position: absolute;
-  bottom: 0; left: 0;
-  height: 2px;
-  width: 0;
-  transition: width 0.3s ease;
-}
-.card__underline--sapphire { background: var(--sapphire); }
-.card__underline--emerald  { background: var(--emerald);  }
-.card__underline--ruby     { background: var(--ruby);     }
-
-.card:hover .card__underline { width: 100%; }
-
-/* ─── ABOUT TEASER ───────────────────────────────────────────── */
-.about-teaser {
-  padding: var(--section-pad);
-}
-.about-teaser__grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 80px;
-  align-items: center;
-}
-.about-teaser__text .eyebrow { margin-bottom: 24px; }
-.about-teaser__heading {
-  font-family: var(--font-body);
-  font-weight: 300;
-  font-size: clamp(30px, 4vw, 46px);
-  line-height: 1.2;
-  color: var(--ink);
-  margin-bottom: 24px;
-  letter-spacing: -0.01em;
-}
-.about-teaser__body {
-  font-family: var(--font-body);
-  font-size: 18px;
-  font-weight: 300;
-  color: var(--subtext);
-  line-height: 1.8;
-  margin-bottom: 36px;
-}
-
-/* Panel */
-.about-teaser__panel {
-  background: var(--off-white);
-  border: 1px solid var(--border);
-  padding: 48px 40px;
-  position: relative;
-  overflow: hidden;
-}
-.panel__jewel-bar {
-  position: absolute;
-  top: 0; left: 0; right: 0;
-  height: 3px;
-  background: linear-gradient(to right, var(--sapphire), var(--emerald), var(--amethyst));
-}
-.panel__quote {
-  font-family: var(--font-body);
-  font-style: italic;
-  font-weight: 300;
-  font-size: 22px;
-  line-height: 1.65;
-  color: var(--ink);
-  margin-bottom: 20px;
-}
-.panel__body {
-  font-family: var(--font-body);
-  font-size: 16px;
-  font-weight: 300;
-  color: var(--subtext);
-  line-height: 1.7;
-  margin-bottom: 20px;
-}
-.panel__source {
-  font-family: var(--font-ui);
-  font-size: 11px;
-  color: var(--muted);
-  letter-spacing: 0.1em;
-}
-
-/* ─── SUBSCRIBE ──────────────────────────────────────────────── */
-.subscribe {
-  background: var(--ink);
-  padding: var(--section-pad);
-}
-.subscribe__inner {
-  max-width: 620px;
-  margin: 0 auto;
-  text-align: center;
-}
-.subscribe__dots {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 32px;
-}
-.dot {
-  display: inline-block;
-  width: 8px; height: 8px;
-  border-radius: 50%;
-}
-.dot--sapphire  { background: var(--sapphire); }
-.dot--emerald   { background: var(--emerald);  }
-.dot--ruby      { background: var(--ruby);     }
-.dot--amethyst  { background: var(--amethyst); }
-
-.subscribe__heading {
-  font-family: var(--font-body);
-  font-weight: 300;
-  font-size: clamp(28px, 4vw, 42px);
-  color: white;
-  line-height: 1.2;
-  margin-bottom: 16px;
-  letter-spacing: -0.01em;
-}
-.subscribe__sub {
-  font-family: var(--font-body);
-  font-size: 17px;
-  font-weight: 300;
-  color: rgba(255, 255, 255, 0.55);
-  line-height: 1.7;
-  margin-bottom: 40px;
-}
-.subscribe__form {
-  display: flex;
-  max-width: 440px;
-  margin: 0 auto;
-}
-.subscribe__input {
-  flex: 1;
-  font-family: var(--font-ui);
-  font-size: 14px;
-  padding: 14px 20px;
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.18);
-  border-right: none;
-  color: white;
-  outline: none;
-  letter-spacing: 0.04em;
-}
-.subscribe__input::placeholder { color: rgba(255,255,255,0.35); }
-.subscribe__btn {
-  font-family: var(--font-ui);
-  font-size: 12px;
-  letter-spacing: 0.1em;
-  font-weight: 500;
-  background: var(--sapphire);
-  color: white;
-  border: none;
-  padding: 14px 24px;
-  cursor: pointer;
-  white-space: nowrap;
-  transition: background 0.2s ease;
-}
-.subscribe__btn:hover { background: #1440B8; }
-.subscribe__thanks {
-  font-family: var(--font-ui);
-  font-size: 14px;
-  color: var(--emerald);
-  letter-spacing: 0.06em;
-}
-/* Formspree populates [data-fs-success] with its own text — style the container */
-[data-fs-success]:not(:empty) {
-  font-family: var(--font-ui);
-  font-size: 14px;
-  color: var(--emerald);
-  letter-spacing: 0.06em;
-}
-[data-fs-success]:not(:empty) ~ .subscribe__form {
-  display: none;
-}
-.subscribe__error,
-[data-fs-error]:not(:empty) {
-  font-family: var(--font-ui);
-  font-size: 12px;
-  color: var(--ruby);
-  letter-spacing: 0.05em;
-  margin-top: 10px;
-  display: block;
-}
-.subscribe__field-error:empty { display: none; }
-/* Disable state during submission */
-.subscribe__btn:disabled {
-  opacity: 0.5;
-  cursor: not-allowed;
-}
-
-/* ─── FOOTER ─────────────────────────────────────────────────── */
-.footer {
-  border-top: 1px solid var(--border);
-  padding: 48px 0;
-  background: var(--white);
-}
-.footer__inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 24px;
-}
-.footer__links {
-  display: flex;
-  gap: 32px;
-  font-family: var(--font-ui);
-  font-size: 12px;
-  letter-spacing: 0.06em;
-}
-.footer__link {
-  color: var(--muted);
-  transition: color 0.2s ease;
-}
-.footer__link:hover { color: var(--sapphire); }
-.footer__copy {
-  font-family: var(--font-ui);
-  font-size: 11px;
-  color: var(--muted);
-  letter-spacing: 0.06em;
-}
-
-/* ─── RESPONSIVE ─────────────────────────────────────────────── */
-@media (max-width: 860px) {
-  .about-teaser__grid {
-    grid-template-columns: 1fr;
-    gap: 48px;
-  }
-  .nav__links { display: none; }
-  .footer__inner { flex-direction: column; text-align: center; }
-  .footer__links { flex-wrap: wrap; justify-content: center; }
-}
-@media (max-width: 600px) {
-  :root { --section-pad: 72px 20px; }
-  .container { padding: 0 20px; }
-  .subscribe__form { flex-direction: column; }
-  .subscribe__input { border-right: 1px solid rgba(255,255,255,0.18); border-bottom: none; }
-  .hero { padding: 120px 0 72px; }
-}
+</body>
+</html>
