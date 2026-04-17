@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About &middot; Father Kenneth Allen</title>
+  <meta name="description" content="Father Kenneth Allen is a Catholic priest, spiritual director, and writer exploring the mandate for creativity, prosperity, and the vocation of the human person, rooted in Sacred Scripture." />
+  <link rel="stylesheet" href="https://fatherallen.ai/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ─── NAV ─────────────────────────────────────────────── -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="/" class="wordmark">FATHER ALLEN</a>
+      <div class="nav__links">
+        <a href="/#writing" class="nav__link">Writing</a>
+        <a href="/#homilies" class="nav__link">Homilies</a>
+        <a href="/about.html" class="nav__link nav__link--current" aria-current="page">About</a>
+        <a href="/#contact" class="nav__link">Contact</a>
+      </div>
+      <a href="https://substack.com/@frkennethallen" class="btn btn--outline btn--sapphire">SUBSCRIBE</a>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ─── HERO ──────────────────────────────────────────── -->
+    <section class="hero">
+      <div class="container">
+
+        <div class="eyebrow eyebrow--sapphire fade-up visible">
+          <span class="eyebrow__rule"></span>
+          <span class="eyebrow__text">Scripture &middot; Creativity &middot; The Life of Faith</span>
+        </div>
+
+        <h1 class="hero__heading">About</h1>
+
+        <p class="hero__sub">
+          Father Kenneth Allen is a Catholic priest, spiritual director, and writer
+          exploring the mandate for creativity, prosperity, and the vocation of the
+          human person, rooted in Sacred Scripture. His history is in Sacred Music and the arts.
+        </p>
+
+        <p class="hero__sub">
+          He is incardinated in the Archdiocese of New Orleans, currently on a medical leave of absence.
+        </p>
+
+        <p class="sub">
+          His friends have been studiously telling him for several years to rid himself of his WordPress site. "It's easy!" they say, as they code away all the day. We're getting there. 
+        </p>
+
+        <p class="sub"><em>Bah.</em></p>
+
+        <div class="hero__rule"></div>
+
+      </div>
+    </section>
+
+    <!-- ─── SUBSCRIBE ─────────────────────────────────────── -->
+    <section class="subscribe" id="subscribe">
+      <div class="container">
+        <div class="subscribe__inner fade-up">
+
+          <div class="subscribe__dots">
+            <span class="dot dot--sapphire"></span>
+            <span class="dot dot--emerald"></span>
+            <span class="dot dot--ruby"></span>
+            <span class="dot dot--amethyst"></span>
+          </div>
+
+          <h2 class="subscribe__heading">
+            Homilies and reflections, direct to your inbox.
+          </h2>
+          <p class="subscribe__sub">
+            Coming in May &mdash; a spirituality of faith, flourishing, of prosperity.
+          </p>
+
+          <div data-fs-success class="subscribe__thanks"></div>
+          <div data-fs-error class="subscribe__error"></div>
+
+          <form class="subscribe__form" id="subscribe-form">
+            <label for="sub-email" class="visually-hidden">Email address</label>
+            <input
+              type="email"
+              id="sub-email"
+              name="&#101;&#109;&#97;&#105;&#108;"
+              class="subscribe__input"
+              placeholder="Your email address"
+              autocomplete="email"
+              data-fs-field
+              required
+            />
+            <button type="submit" class="subscribe__btn" data-fs-submit-btn>SUBSCRIBE</button>
+          </form>
+          <span data-fs-error="email" class="subscribe__field-error"></span>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ─── FOOTER ────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="wordmark">FATHER ALLEN</span>
+      <nav class="footer__links" aria-label="Footer">
+        <a href="https://substack.com/@frkennethallen" class="footer__link">Writing</a>
+        <a href="https://substack.com/@frkennethallen" class="footer__link">Homilies</a>
+        <a href="/about.html" class="footer__link">About</a>
+        <a href="mailto:ka@fatherallen.ai" class="footer__link">Contact</a>
+        <a href="/" class="footer__link">fatherallen.ai</a>
+      </nav>
+      <span class="footer__copy">&copy; <span id="year"></span> Father Kenneth Allen</span>
+    </div>
+  </footer>
+
+  <script>
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Scroll-reveal
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.fade-up:not(.visible)').forEach(function (el) {
+      observer.observe(el);
+    });
+
+    // Nav scroll state
+    var nav = document.getElementById('nav');
+    window.addEventListener('scroll', function () {
+      nav.classList.toggle('nav--scrolled', window.scrollY > 40);
+    });
+
+    // Formspree
+    window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
+    formspree('initForm', { formElement: '#subscribe-form', formId: 'mjgpzgnv' });
+  </script>
+  <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+
+</body>
+</html>
