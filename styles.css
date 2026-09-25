@@ -195,8 +195,10 @@ a { text-decoration: none; color: inherit; }
   color: var(--muted);
   line-height: 1.55;
   max-width: 34rem;
-  margin: 0.85rem 0 1.75rem;
+  margin: 0.85rem 0 2.75rem;
+  padding-bottom: 0.25rem;
   letter-spacing: 0.01em;
+  display: block;
 }
 
 /* ─── HERO ───────────────────────────────────────────────────── */
@@ -573,4 +575,8 @@ a { text-decoration: none; color: inherit; }
   .subscribe__form { flex-direction: column; }
   .subscribe__input { border-right: 1px solid rgba(255,255,255,0.18); border-bottom: none; }
   .hero { padding: 120px 0 72px; }
+  .hero__project {
+    margin-bottom: 3.25rem;
+    padding-bottom: 0.5rem;
+  }
 }
