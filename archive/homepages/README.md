@@ -37,3 +37,7 @@ Ordered copies of fatherallen.ai homepage eras. The live site is separate (`inde
 9. **[09-2026-09-25-indexmarch-try](09-2026-09-25-indexmarch-try/)** — Brief indexmarch restore  
    _2026-09-25_  
    Tried again; rejected (not the dark parchment).
+
+10. **[10-2026-09-25-fraunces-about-contact](10-2026-09-25-fraunces-about-contact/)** — Fraunces About & Contact  
+   _2026-09-04 → 2026-09-25_  
+   Desk-era About/Contact archived when matching April pages to indexoriginal.

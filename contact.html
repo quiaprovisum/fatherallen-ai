@@ -1,47 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact — Fr. Kenneth Allen</title>
-<meta name="description" content="Prayer requests and notes welcome at kenneth@fatherallen.net. He reads mail himself.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Instrument+Sans:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact &middot; Father Kenneth Allen</title>
+  <meta name="description" content="Prayer requests and notes welcome at kenneth@fatherallen.net. Father Kenneth Allen reads the mail himself." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <header class="site-nav">
-    <a class="site-nav__mark" href="index.html">Father Allen</a>
-    <ul class="site-nav__links">
-      <li><a href="index.html#writing">Writing</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="contact.html" aria-current="page">Contact</a></li>
-      <li><a href="https://frkennethallen.substack.com" target="_blank" rel="noopener">Substack</a></li>
-    </ul>
-  </header>
 
-<main class="page">
-  <div class="depth" aria-hidden="true"></div>
+  <!-- ─── NAV ─────────────────────────────────────────────── -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="/" class="wordmark">FATHER ALLEN</a>
+      <div class="nav__links">
+        <a href="/#writing" class="nav__link">Writing</a>
+        <a href="/#homilies" class="nav__link">Homilies</a>
+        <a href="/about.html" class="nav__link">About</a>
+        <a href="/contact.html" class="nav__link nav__link--current" aria-current="page">Contact</a>
+      </div>
+      <a href="https://substack.com/@frkennethallen" class="btn btn--outline btn--sapphire">SUBSCRIBE</a>
+    </div>
+  </nav>
 
-  <p class="eyebrow">Contact</p>
-  <h1 class="page-title">Write or ask for prayer</h1>
-  <p class="lede">Prayer requests and notes are welcome.</p>
+  <main>
 
-  <section class="prose">
-    <p>Prayer requests and notes are welcome at <a class="email" href="mailto:kenneth@fatherallen.net">kenneth@fatherallen.net</a>.</p>
-    <p>He reads the mail himself and replies as he can. There is no parish office line behind this address, and it is not for emergencies.</p>
-  </section>
+    <!-- ─── HERO ──────────────────────────────────────────── -->
+    <section class="hero">
+      <div class="container">
+        <div class="eyebrow eyebrow--sapphire fade-up visible">
+          <span class="eyebrow__rule"></span>
+          <span class="eyebrow__text">Write &middot; Ask for prayer</span>
+        </div>
 
-  <a class="btn" href="mailto:kenneth@fatherallen.net">
-    <span class="jewel" aria-hidden="true"></span>
-    Email kenneth@fatherallen.net
-  </a>
-</main>
+        <h1 class="hero__heading">Contact</h1>
 
-<footer>
-  <span class="verse">“Let the one who is thirsty come.”</span>
-  <span class="ref">Revelation 22 : 17</span>
-</footer>
+        <p class="hero__sub">
+          Prayer requests and notes are welcome at
+          <a href="mailto:kenneth@fatherallen.net">kenneth@fatherallen.net</a>.
+        </p>
+
+        <p class="hero__sub">
+          He reads the mail himself and replies as he can. There is no parish office
+          line behind this address, and it is not for emergencies.
+        </p>
+
+        <div class="hero__ctas">
+          <a href="mailto:kenneth@fatherallen.net" class="btn btn--outline btn--sapphire">Email kenneth@fatherallen.net</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ─── FOOTER ────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="wordmark">FATHER ALLEN</span>
+      <nav class="footer__links" aria-label="Footer">
+        <a href="https://substack.com/@frkennethallen" class="footer__link">Writing</a>
+        <a href="https://substack.com/@frkennethallen" class="footer__link">Homilies</a>
+        <a href="/about.html" class="footer__link">About</a>
+        <a href="mailto:kenneth@fatherallen.net" class="footer__link">Contact</a>
+        <a href="/" class="footer__link">fatherallen.ai</a>
+      </nav>
+      <span class="footer__copy">&copy; <span id="year"></span> Father Kenneth Allen</span>
+    </div>
+  </footer>
+
+  <script>
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Scroll-reveal
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.fade-up:not(.visible)').forEach(function (el) {
+      observer.observe(el);
+    });
+
+    // Nav scroll state
+    var nav = document.getElementById('nav');
+    window.addEventListener('scroll', function () {
+      nav.classList.toggle('nav--scrolled', window.scrollY > 40);
+    });
+
+    // Formspree
+    window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
+    formspree('initForm', { formElement: '#subscribe-form', formId: 'mjgpzgnv' });
+  </script>
+  <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
+
 </body>
 </html>
