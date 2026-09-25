@@ -1,0 +1,481 @@
+/* fatherallen.ai redesign prototype — shared tokens + components
+   DNA: Fraunces + Instrument Sans, paper, deep-water sapphire, three jewels.
+   Not the old Cinzel/Cormorant magazine stylesheet. */
+
+:root {
+  --paper:    #FDFDFC;
+  --ink:      #191B1E;
+  --muted:    #70757C;
+  --hairline: #E7E8EA;
+
+  --deep-1:   #060F1E;
+  --deep-2:   #0C2242;
+  --deep-3:   #14395F;
+  --deep-4:   #1E5578;
+  --touch:    #123457;
+
+  --emerald:  #0E7A5B;
+  --garnet:   #8C2438;
+  --amethyst: #56398C;
+
+  --cream:    #F3F1EA;
+  --soft-blue:#8FB4CC;
+
+  --content:  38rem;
+  --chrome:   44rem;
+}
+
+*, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Instrument Sans", system-ui, sans-serif;
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+a { color: inherit; }
+
+/* ── Site chrome nav (all pages) ─────────────────────────────── */
+.site-nav {
+  width: 100%;
+  max-width: var(--chrome);
+  padding: 1.1rem 1.5rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem 1.5rem;
+}
+
+.site-nav__mark {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.site-nav__mark:hover,
+.site-nav__mark:focus-visible {
+  color: var(--touch);
+}
+
+.site-nav__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1.15rem;
+  list-style: none;
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--muted);
+}
+
+.site-nav__links a {
+  text-decoration: none;
+  color: var(--muted);
+  transition: color 160ms ease;
+}
+
+.site-nav__links a:hover,
+.site-nav__links a:focus-visible {
+  color: var(--ink);
+}
+
+.site-nav__links a[aria-current="page"] {
+  color: var(--touch);
+}
+
+.site-nav a:focus-visible,
+.doors a:focus-visible,
+.btn:focus-visible,
+.prose a:focus-visible {
+  outline: 2px solid var(--touch);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* ── Main reading column ─────────────────────────────────────── */
+main {
+  width: 100%;
+  max-width: var(--content);
+  padding: clamp(2rem, 6vh, 3.5rem) 1.5rem 4.5rem;
+  flex: 1;
+}
+
+main.page {
+  padding-top: clamp(1.5rem, 4vh, 2.5rem);
+}
+
+/* Depth bar — looking into water */
+.depth {
+  height: 10px;
+  width: 100%;
+  border-radius: 999px;
+  background:
+    radial-gradient(120% 180% at 12% 0%,  rgba(255,255,255,0.28), transparent 42%),
+    radial-gradient(90% 160% at 85% 100%, var(--deep-4), transparent 60%),
+    linear-gradient(100deg, var(--deep-1) 0%, var(--deep-2) 45%, var(--deep-3) 78%, var(--deep-4) 100%);
+  box-shadow: 0 1px 2px rgba(6,15,30,0.25), inset 0 1px 1px rgba(255,255,255,0.18);
+  transform-origin: left center;
+  animation: draw 1.2s cubic-bezier(.22,.8,.3,1) both;
+  margin-bottom: 2.75rem;
+}
+
+@keyframes draw {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+
+.eyebrow {
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+}
+
+.eyebrow .j { font-size: 0.9em; }
+.eyebrow .j1 { color: var(--emerald); }
+.eyebrow .j2 { color: var(--garnet); }
+.eyebrow .j3 { color: var(--amethyst); }
+
+h1 {
+  font-family: "Fraunces", Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(2.4rem, 8vw, 3.75rem);
+  line-height: 1.06;
+  letter-spacing: -0.015em;
+  margin-bottom: 1rem;
+}
+
+h1 .surname {
+  font-style: italic;
+  background: linear-gradient(115deg, var(--deep-2) 0%, var(--deep-3) 55%, var(--deep-4) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+h1.page-title {
+  font-size: clamp(2rem, 6vw, 2.75rem);
+  margin-bottom: 0.5rem;
+}
+
+.line {
+  font-family: "Fraunces", Georgia, serif;
+  font-style: italic;
+  font-size: 1.25rem;
+  color: var(--muted);
+  margin-bottom: 2.5rem;
+}
+
+.lede {
+  font-family: "Fraunces", Georgia, serif;
+  font-style: italic;
+  font-size: 1.15rem;
+  color: var(--muted);
+  margin-bottom: 2rem;
+}
+
+.bio p,
+.prose p {
+  margin-bottom: 1.1rem;
+}
+
+.bio p:last-child,
+.prose p:last-child {
+  margin-bottom: 0;
+}
+
+.bio em,
+.prose em {
+  font-family: "Fraunces", Georgia, serif;
+  color: var(--touch);
+}
+
+.prose a {
+  color: var(--touch);
+  text-underline-offset: 0.15em;
+}
+
+.prose a:hover {
+  color: var(--deep-3);
+}
+
+/* Door list (home) */
+.doors {
+  margin-top: 3rem;
+  border-top: 1px solid var(--hairline);
+}
+
+.doors a {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  padding: 1.05rem 0.35rem;
+  border-bottom: 1px solid var(--hairline);
+  text-decoration: none;
+  color: var(--ink);
+  font-weight: 500;
+  transition: padding-left 180ms ease, color 180ms ease;
+}
+
+.doors a .where {
+  font-weight: 400;
+  font-size: 0.85rem;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.doors a::before {
+  content: "";
+  align-self: center;
+  width: 7px;
+  height: 7px;
+  border-radius: 2px;
+  transform: rotate(45deg);
+  margin-right: 0.75rem;
+  flex: none;
+}
+
+.doors a.e::before {
+  background: linear-gradient(135deg, #17A57C, var(--emerald) 60%, #063D2D);
+}
+.doors a.g::before {
+  background: linear-gradient(135deg, #C24A60, var(--garnet) 60%, #4A0F1C);
+}
+.doors a.a::before {
+  background: linear-gradient(135deg, #8763C9, var(--amethyst) 60%, #2C1B4E);
+}
+.doors a.k::before {
+  background: linear-gradient(135deg, #A8AEB6, #70757C 60%, #3A3E44);
+  opacity: 0.7;
+}
+
+.doors a.e:hover,
+.doors a.e:focus-visible { color: var(--emerald); }
+.doors a.g:hover,
+.doors a.g:focus-visible { color: var(--garnet); }
+.doors a.a:hover,
+.doors a.a:focus-visible { color: var(--amethyst); }
+
+.doors a:hover,
+.doors a:focus-visible {
+  padding-left: 0.6rem;
+}
+
+/* Kitchen — quieter "Coming" door */
+.doors a.k {
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.doors a.k:hover,
+.doors a.k:focus-visible {
+  color: var(--ink);
+  padding-left: 0.35rem;
+}
+
+.doors a.k .where {
+  font-size: 0.78rem;
+  letter-spacing: 0.04em;
+}
+
+/* Jewel divider */
+.divider {
+  margin: 4.5rem 0 3rem;
+  text-align: center;
+  font-size: 0.7rem;
+  letter-spacing: 0.9em;
+  padding-left: 0.9em;
+}
+
+.divider .j1 { color: var(--emerald); }
+.divider .j2 { color: var(--garnet); }
+.divider .j3 { color: var(--amethyst); }
+
+/* Featured essay panel */
+article.essay {
+  background:
+    radial-gradient(140% 200% at 15% -20%, rgba(30,85,120,0.55), transparent 55%),
+    radial-gradient(120% 180% at 88% 120%, rgba(20,57,95,0.8), transparent 60%),
+    linear-gradient(170deg, var(--deep-2) 0%, var(--deep-1) 100%);
+  color: var(--cream);
+  border-radius: 16px;
+  padding: clamp(2rem, 6vw, 3.25rem);
+  box-shadow: 0 18px 45px -20px rgba(6,15,30,0.45);
+}
+
+article.essay .kicker {
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--soft-blue);
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 0.75rem;
+}
+
+article.essay h2 {
+  font-family: "Fraunces", Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(1.7rem, 5vw, 2.2rem);
+  line-height: 1.15;
+  text-align: center;
+  color: var(--cream);
+  margin-bottom: 0.65rem;
+}
+
+article.essay .subtitle {
+  font-family: "Fraunces", Georgia, serif;
+  font-weight: 400;
+  font-size: clamp(1.05rem, 3vw, 1.25rem);
+  line-height: 1.35;
+  text-align: center;
+  color: #C9DEEC;
+  margin-bottom: 2.25rem;
+}
+
+article.essay .subtitle em {
+  font-style: italic;
+  background: linear-gradient(115deg, #9FC3DA 0%, #C9DEEC 55%, #F0F6FA 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+article.essay p {
+  margin-bottom: 1.35rem;
+  font-size: 1rem;
+  line-height: 1.78;
+  color: #E9EDF0;
+}
+
+article.essay p:last-of-type { margin-bottom: 0; }
+
+article.essay .subtitle + p::first-letter {
+  font-family: "Fraunces", Georgia, serif;
+  font-size: 3.4em;
+  line-height: 0.82;
+  float: left;
+  padding-right: 0.09em;
+  background: linear-gradient(150deg, #9FC3DA 0%, #D5E5F0 60%, #FFFFFF 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+article.essay strong {
+  font-weight: 600;
+  color: var(--cream);
+}
+
+article.essay em { font-style: italic; }
+
+/* Contact / About helpers */
+.note {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--hairline);
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1.75rem;
+  padding: 0.85rem 1.35rem;
+  font-family: "Instrument Sans", system-ui, sans-serif;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-decoration: none;
+  color: var(--cream);
+  background:
+    radial-gradient(120% 180% at 15% -20%, rgba(30,85,120,0.45), transparent 55%),
+    linear-gradient(170deg, var(--deep-3) 0%, var(--deep-1) 100%);
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 8px 22px -12px rgba(6,15,30,0.5);
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.btn:hover,
+.btn:focus-visible {
+  transform: translateY(-1px);
+  box-shadow: 0 12px 28px -12px rgba(6,15,30,0.55);
+  color: #fff;
+}
+
+.btn .jewel {
+  width: 7px;
+  height: 7px;
+  border-radius: 2px;
+  transform: rotate(45deg);
+  background: linear-gradient(135deg, #C24A60, var(--garnet) 60%, #4A0F1C);
+  flex: none;
+}
+
+.email {
+  font-family: "Instrument Sans", system-ui, sans-serif;
+  font-weight: 500;
+  color: var(--touch);
+  word-break: break-word;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  background:
+    radial-gradient(140% 200% at 15% -20%, rgba(30,85,120,0.55), transparent 55%),
+    radial-gradient(120% 180% at 88% 120%, rgba(20,57,95,0.8), transparent 60%),
+    linear-gradient(170deg, var(--deep-2) 0%, var(--deep-1) 100%);
+  color: var(--cream);
+  padding: 3rem 1.5rem 3.25rem;
+  text-align: center;
+}
+
+footer .verse {
+  font-family: "Fraunces", Georgia, serif;
+  font-style: italic;
+  font-size: 1.15rem;
+  display: block;
+  margin-bottom: 0.45rem;
+}
+
+footer .ref {
+  font-size: 0.76rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--soft-blue);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .depth { animation: none; }
+  .doors a,
+  .btn { transition: none; }
+  html { scroll-behavior: auto; }
+}
+
+@media (max-width: 480px) {
+  .site-nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

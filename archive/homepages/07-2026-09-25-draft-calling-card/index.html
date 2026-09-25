@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fr. Kenneth Allen — Priest &amp; Writer</title>
+<meta name="description" content="Catholic priest and writer. Essays on grace, creating, flourishing, and seeking — from the beginning.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..600;1,9..144,300..600&family=Instrument+Sans:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --paper:    #FDFDFC;
+    --ink:      #191B1E;
+    --muted:    #70757C;
+    --hairline: #E7E8EA;
+
+    /* Touch color: deep water sapphire, always rendered as gradient depth */
+    --deep-1:   #060F1E;
+    --deep-2:   #0C2242;
+    --deep-3:   #14395F;
+    --deep-4:   #1E5578;
+    --touch:    #123457;
+
+    /* Three jewel accents, used sparingly */
+    --emerald:  #0E7A5B;
+    --garnet:   #8C2438;
+    --amethyst: #56398C;
+
+    --cream:    #F3F1EA;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: "Instrument Sans", system-ui, sans-serif;
+    font-size: 1.0625rem;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  main {
+    width: 100%;
+    max-width: 36rem;
+    padding: clamp(3.5rem, 10vh, 6.5rem) 1.5rem 4.5rem;
+    flex: 1;
+  }
+
+  /* The depth block: a slim bar of layered gradient, like looking into water */
+  .depth {
+    height: 10px;
+    width: 100%;
+    border-radius: 999px;
+    background:
+      radial-gradient(120% 180% at 12% 0%,  rgba(255,255,255,0.28), transparent 42%),
+      radial-gradient(90% 160% at 85% 100%, var(--deep-4), transparent 60%),
+      linear-gradient(100deg, var(--deep-1) 0%, var(--deep-2) 45%, var(--deep-3) 78%, var(--deep-4) 100%);
+    box-shadow: 0 1px 2px rgba(6,15,30,0.25), inset 0 1px 1px rgba(255,255,255,0.18);
+    transform-origin: left center;
+    animation: draw 1.2s cubic-bezier(.22,.8,.3,1) both;
+    margin-bottom: 3rem;
+  }
+  @keyframes draw {
+    from { transform: scaleX(0); }
+    to   { transform: scaleX(1); }
+  }
+
+  .eyebrow {
+    font-size: 0.75rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--muted);
+    font-weight: 500;
+    margin-bottom: 1.25rem;
+  }
+  /* The three jewels live here, quietly */
+  .eyebrow .j { font-size: 0.9em; }
+  .eyebrow .j1 { color: var(--emerald); }
+  .eyebrow .j2 { color: var(--garnet); }
+  .eyebrow .j3 { color: var(--amethyst); }
+
+  h1 {
+    font-family: "Fraunces", Georgia, serif;
+    font-weight: 400;
+    font-size: clamp(2.6rem, 8vw, 3.75rem);
+    line-height: 1.06;
+    letter-spacing: -0.015em;
+    margin-bottom: 1rem;
+  }
+  h1 .surname {
+    font-style: italic;
+    background: linear-gradient(115deg, var(--deep-2) 0%, var(--deep-3) 55%, var(--deep-4) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+
+  .line {
+    font-family: "Fraunces", Georgia, serif;
+    font-style: italic;
+    font-size: 1.25rem;
+    color: var(--muted);
+    margin-bottom: 2.5rem;
+  }
+
+  .bio p { margin-bottom: 1.1rem; }
+  .bio p:last-child { margin-bottom: 0; }
+  .bio em {
+    font-family: "Fraunces", Georgia, serif;
+    color: var(--touch);
+  }
+
+  /* Links: white space, hairlines, one jewel each */
+  nav { margin-top: 3rem; border-top: 1px solid var(--hairline); }
+
+  nav a {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    padding: 1.05rem 0.35rem;
+    border-bottom: 1px solid var(--hairline);
+    text-decoration: none;
+    color: var(--ink);
+    font-weight: 500;
+    transition: padding-left 180ms ease, color 180ms ease;
+  }
+  nav a .where {
+    font-weight: 400;
+    font-size: 0.85rem;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+  nav a::before {
+    content: "";
+    align-self: center;
+    width: 7px; height: 7px;
+    border-radius: 2px;
+    transform: rotate(45deg);
+    margin-right: 0.75rem;
+    flex: none;
+  }
+  nav a.e::before { background: linear-gradient(135deg, #17A57C, var(--emerald) 60%, #063D2D); }
+  nav a.g::before { background: linear-gradient(135deg, #C24A60, var(--garnet) 60%, #4A0F1C); }
+  nav a.a::before { background: linear-gradient(135deg, #8763C9, var(--amethyst) 60%, #2C1B4E); }
+  nav a.e:hover, nav a.e:focus-visible { color: var(--emerald); }
+  nav a.g:hover, nav a.g:focus-visible { color: var(--garnet); }
+  nav a.a:hover, nav a.a:focus-visible { color: var(--amethyst); }
+  nav a:hover, nav a:focus-visible { padding-left: 0.6rem; }
+  nav a:focus-visible {
+    outline: 2px solid var(--touch);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+
+  /* Footer: the deep water. Layered gradients for depth. */
+  footer {
+    width: 100%;
+    background:
+      radial-gradient(140% 200% at 15% -20%, rgba(30,85,120,0.55), transparent 55%),
+      radial-gradient(120% 180% at 88% 120%, rgba(20,57,95,0.8), transparent 60%),
+      linear-gradient(170deg, var(--deep-2) 0%, var(--deep-1) 100%);
+    color: var(--cream);
+    padding: 3rem 1.5rem 3.25rem;
+    text-align: center;
+  }
+  footer .verse {
+    font-family: "Fraunces", Georgia, serif;
+    font-style: italic;
+    font-size: 1.15rem;
+    display: block;
+    margin-bottom: 0.45rem;
+  }
+  footer .ref {
+    font-size: 0.76rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: #8FB4CC;
+  }
+
+  /* Below the fold: the essay */
+  .divider {
+    margin: 4.5rem 0 3rem;
+    text-align: center;
+    font-size: 0.7rem;
+    letter-spacing: 0.9em;
+    padding-left: 0.9em; /* balances the letter-spacing */
+  }
+  .divider .j1 { color: var(--emerald); }
+  .divider .j2 { color: var(--garnet); }
+  .divider .j3 { color: var(--amethyst); }
+
+  article {
+    background:
+      radial-gradient(140% 200% at 15% -20%, rgba(30,85,120,0.55), transparent 55%),
+      radial-gradient(120% 180% at 88% 120%, rgba(20,57,95,0.8), transparent 60%),
+      linear-gradient(170deg, var(--deep-2) 0%, var(--deep-1) 100%);
+    color: var(--cream);
+    border-radius: 16px;
+    padding: clamp(2rem, 6vw, 3.25rem);
+    box-shadow: 0 18px 45px -20px rgba(6,15,30,0.45);
+  }
+
+  article .kicker {
+    font-size: 0.75rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #8FB4CC;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 0.75rem;
+  }
+  article h2 {
+    font-family: "Fraunces", Georgia, serif;
+    font-weight: 400;
+    font-size: clamp(1.7rem, 5vw, 2.2rem);
+    line-height: 1.15;
+    text-align: center;
+    color: var(--cream);
+    margin-bottom: 2.25rem;
+  }
+  article h2 em {
+    background: linear-gradient(115deg, #9FC3DA 0%, #C9DEEC 55%, #F0F6FA 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  article p {
+    margin-bottom: 1.35rem;
+    font-size: 1rem;
+    line-height: 1.78;
+    color: #E9EDF0;
+  }
+  article p:last-of-type { margin-bottom: 0; }
+  article p:first-of-type::first-letter {
+    font-family: "Fraunces", Georgia, serif;
+    font-size: 3.4em;
+    line-height: 0.82;
+    float: left;
+    padding-right: 0.09em;
+    background: linear-gradient(150deg, #9FC3DA 0%, #D5E5F0 60%, #FFFFFF 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  article em { font-style: italic; }
+
+  @media (prefers-reduced-motion: reduce) {
+    .depth { animation: none; }
+    nav a { transition: none; }
+    html { scroll-behavior: auto; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <div class="depth" aria-hidden="true"></div>
+
+  <p class="eyebrow">Priest <span class="j j1">◆</span> Writer <span class="j j2">◆</span> Pilgrim <span class="j j3">◆</span></p>
+
+  <h1>Fr. Kenneth <span class="surname">Allen</span></h1>
+
+  <p class="line">Grace, at work in ordinary life.</p>
+
+  <section class="bio">
+    <p>I'm a Catholic priest with twenty-two years in pastoral ministry, a sacred musician, a photographer, an eternal pilgrim, and a writer by long habit.</p>
+    <p>I write about the life of grace and of gratitude — offered in the hope that it may be of help to someone along the way.</p>
+  </section>
+
+  <nav aria-label="Links">
+    <!-- Update the href values below with your own links -->
+    <a class="e" href="https://frkennethallen.substack.com" target="_blank" rel="noopener">
+      Read my Substack<span class="where">Substack</span>
+    </a>
+    <a class="g" href="mailto:you@example.com">
+      Drop me an Email or Prayer Request<span class="where">Email</span>
+    </a>
+  </nav>
+
+
+  <div class="divider" aria-hidden="true"><span class="j1">◆</span> <span class="j2">◆</span> <span class="j3">◆</span></div>
+
+  <article>
+    <h2>Some Thoughts on AI</h2>
+    <h3 style="padding-bottom: 25px; text-align: center;">Sacred Tradition and the Coming <em>Anthropological Revolution</em></h3>
+
+    <p>The Church's contemporary engagement with artificial intelligence is forged in many fires. Somewhat absent are teachings of the pre-conciliar magisterium, the metaphysics of St. Thomas Aquinas, and patristic sources. This lens is not a subjective preference but the objective standard of the Church's fuller tradition, against which any modern text must be measured.</p>
+
+<p> It reveals three interlocking deficiencies in the prevailing response: insufficient metaphysical depth, attenuated supernatural orientation, and a theological register that remains captive to twentieth-century Catholic social teaching categories. These deficiencies leave the response competent in its immediate pastoral intent, yet ultimately inadequate to the ontological and eschatological rupture posed by artificial intelligence and transhumanism.</p>
+
+    <p><b>Metaphysical depth</b> is the first deficiency. The tradition, especially in Aquinas, does not treat the human person as an ethical or phenomenological datum but as a hylomorphic composite whose essence (<em>quidditas</em>) is really distinct from its act of existence (<em>esse</em>), whose rational soul is the substantial form of the body, and whose intellectual nature is ordered by its very constitution toward truth as its proper object.</p> 
+
+<p>St. Thomas's treatise <em>De Anima</em> and <em>Summa Theologiae</em> I, qq. 75–89 establish this with precision: the soul is subsistent, immaterial, and capable of separate existence after death precisely because it is the form of a body yet exceeds it. The Fathers, from St. Athanasius (<em>De Incarnatione</em>) to St. Gregory of Nyssa, deepen this into a vision of man as <em>imago Dei</em> whose likeness is dynamic, directed toward deification (<em>theosis</em>). The pre-conciliar magisterium — Leo XIII's <em>Aeterni Patris</em>, Pius XI's <em>Studiorum Ducem</em>, Pius XII's <em>Humani Generis</em> — insisted on this Thomistic foundation as the <em>philosophia perennis</em> required for theology.</p>
+
+    <p>The contemporary idiom operates instead with a thinner ontology. It invokes "ontological dignity" and <em>imago Dei</em>, yet subordinates these to the personalist and phenomenological categories dominant since <em>Gaudium et Spes</em>. The human person appears more as a relational center of consciousness and freedom than as a substance whose act of being is participated <em>analogice</em> from the divine <em>Ipsum Esse Subsistens</em>.</p>
+
+<p>This shift, traceable to twentieth-century developments, sacrifices the razor-sharp distinctions of act and potency, form and matter, that alone can expose why an artificial system — lacking any substantial form and possessing only simulated operations — can never be a person in the metaphysical sense. The result is a competent affirmation of dignity that nevertheless fails to arm the intellect against the precise claim of transhumanism: that technology can alter or transcend the given constitution of human nature itself.</p>
+
+    <p><b>Supernatural orientation</b> constitutes the second deficiency. In the full tradition, anthropology is never separable from soteriology. Man is created for a supernatural end — the beatific vision — that grace alone can attain, elevating nature without destroying it. St. Thomas teaches that grace perfects nature <em>per modum naturae</em> yet remains <em>supra naturam</em>; the Fathers (especially the Cappadocians and St. Maximus the Confessor) present the Incarnation as the restoration and elevation of the human <em>physis</em> into Trinitarian communion. Pre-conciliar popes — Pius X in <em>Pascendi</em>, Pius XI in <em>Quadragesimo Anno</em>, Pius XII in <em>Mystici Corporis</em> and <em>Mediator Dei</em> — kept the supernatural vocation front and center, warning that any purely natural or immanent humanism collapses into naturalism or Pelagianism.</p>
+
+    <p>The prevailing response gestures toward grace and Christian humanism, yet its dominant horizon remains the immanent "integral human development" and "civilization of love" idiom developed after Vatican II. The human person is safeguarded primarily through ethical, social, and technological ordering in this world. The eschatological tension — man as <em>viator</em> whose true homeland is not perfected earthly society but the heavenly Jerusalem — is subordinated to a this-worldly safeguarding of dignity against algorithmic manipulation and power concentration.</p> 
+
+<p>This produces competent pastoral teaching that rightly rejects the reduction of man to data or efficiency. It does not, however, equip the faithful with the full supernatural armor needed when transhumanism promises not merely better tools but the overcoming of death, finitude, and creaturehood itself — an explicit recapitulation of the serpent's <em>eritis sicut dii</em>. Without a robust theology of original sin, concupiscence, and the absolute necessity of grace for any authentic "more than human" destiny, the critique remains vulnerable to the very promethean logic it seeks to restrain.</p>
+
+    <p><b>The theological register</b> is the third and encompassing deficiency. The now-standard post-conciliar vocabulary — "signs of the times," "technocratic paradigm," subsidiarity and solidarity as developed in the line from <em>Rerum Novarum</em> through <em>Centesimus Annus</em>, "integral ecology" of development, preferential option for the poor, structures of sin — represents legitimate development in its place, yet marks a shift from the deductive, ontological, and dogmatic register of the pre-conciliar magisterium to an inductive, historical, and dialogical one. Leo XIII's <em>Rerum Novarum</em> and Pius XI's <em>Quadragesimo Anno</em> proceed from natural law and the eternal law to concrete applications with scholastic clarity.</p> 
+
+<p>The Fathers read technological or cultural crises through the lens of idolatry, kenosis, and recapitulation in Christ. The contemporary register, even where it cites the earlier popes and Aquinas on grace, remains embedded in a framework that privileges historical consciousness and expert consultation over the <em>philosophia perennis</em> and the patristic <em>regula fidei</em>.</p>
+
+    <p>This register is competent: it produces coherent, accessible, pastorally sensitive teaching that correctly identifies the capacity of artificial intelligence to concentrate power, erode work, and manipulate truth. It is ultimately inadequate, however, because the anthropological revolution of AI and transhumanism is not primarily a new "sign of the times" requiring updated social principles. It is a direct assault on the immutable metaphysical and supernatural constitution of man. Transhumanism does not merely threaten dignity; it denies that man possesses a fixed nature at all.</p> 
+
+<p>Only the sharper ontological categories of Aquinas (the soul as <em>forma corporis</em>, intellect as immaterial power ordered to <em>verum</em>) and the eschatological categories of the Fathers (man as microcosm destined for <em>theosis</em> or eternal loss) can expose this as a new form of gnosticism or Pelagian self-salvation. The thinner lens can condemn the symptoms — concentration of power, loss of meaning in work, algorithmic idolatry — but cannot diagnose the disease at its root: the refusal of creaturehood and the rejection of the supernatural order established by the Creator and restored only in Christ.</p>
+
+    <p>Measured by this lens, the Church's present engagement with artificial intelligence is a competent exercise in the post-conciliar mode. It reaffirms human dignity, warns against dehumanizing applications, and calls for ethical governance rooted in the common good. Yet the same lens shows that it remains inadequate to the depth of the crisis.</p> 
+
+<p>The anthropological revolution demands not an updating of twentieth-century social teaching but a return to the fuller tradition's metaphysical and supernatural resources. Without that return, even the most sincere magisterial intervention risks offering ethical guidelines where ontological and soteriological clarity is required. The present teaching gestures toward the tradition; it does not yet inhabit its full strength. That is the precise diagnostic the pre-conciliar, Thomistic, and patristic lens supplies.</p>
+  </article>
+</main>
+
+<footer>
+  <span class="verse">“Let the one who is thirsty come.”</span>
+  <span class="ref">Revelation 22 : 17</span>
+</footer>
+</body>
+</html>
