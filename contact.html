@@ -15,14 +15,14 @@
   <!-- ─── NAV ─────────────────────────────────────────────── -->
   <nav class="nav" id="nav">
     <div class="nav__inner container">
-      <a href="/" class="wordmark">FATHER ALLEN</a>
+      <a href="index.html" class="wordmark">FATHER ALLEN</a>
       <div class="nav__links">
-        <a href="/#writing" class="nav__link">Writing</a>
-        <a href="/#homilies" class="nav__link">Homilies</a>
-        <a href="/about.html" class="nav__link">About</a>
-        <a href="/contact.html" class="nav__link nav__link--current" aria-current="page">Contact</a>
+        <a href="index.html#writing" class="nav__link">Writing</a>
+        <a href="https://frkennethallen.substack.com" class="nav__link">Homilies</a>
+        <a href="about.html" class="nav__link">About</a>
+        <a href="contact.html" class="nav__link nav__link--current" aria-current="page">Contact</a>
       </div>
-      <a href="https://substack.com/@frkennethallen" class="btn btn--outline btn--sapphire">SUBSCRIBE</a>
+      <a href="https://frkennethallen.substack.com" class="btn btn--outline btn--sapphire">SUBSCRIBE</a>
     </div>
   </nav>
 
@@ -61,11 +61,11 @@
     <div class="container footer__inner">
       <span class="wordmark">FATHER ALLEN</span>
       <nav class="footer__links" aria-label="Footer">
-        <a href="https://substack.com/@frkennethallen" class="footer__link">Writing</a>
-        <a href="https://substack.com/@frkennethallen" class="footer__link">Homilies</a>
-        <a href="/about.html" class="footer__link">About</a>
+        <a href="https://frkennethallen.substack.com" class="footer__link">Writing</a>
+        <a href="https://frkennethallen.substack.com" class="footer__link">Homilies</a>
+        <a href="about.html" class="footer__link">About</a>
         <a href="mailto:kenneth@fatherallen.net" class="footer__link">Contact</a>
-        <a href="/" class="footer__link">fatherallen.ai</a>
+        <a href="index.html" class="footer__link">fatherallen.ai</a>
       </nav>
       <span class="footer__copy">&copy; <span id="year"></span> Father Kenneth Allen</span>
     </div>
@@ -95,11 +95,7 @@
       nav.classList.toggle('nav--scrolled', window.scrollY > 40);
     });
 
-    // Formspree
-    window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
-    formspree('initForm', { formElement: '#subscribe-form', formId: 'mjgpzgnv' });
   </script>
-  <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
 
 </body>
 </html>

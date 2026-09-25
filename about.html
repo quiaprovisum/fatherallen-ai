@@ -15,14 +15,14 @@
   <!-- ─── NAV ─────────────────────────────────────────────── -->
   <nav class="nav" id="nav">
     <div class="nav__inner container">
-      <a href="/" class="wordmark">FATHER ALLEN</a>
+      <a href="index.html" class="wordmark">FATHER ALLEN</a>
       <div class="nav__links">
-        <a href="/#writing" class="nav__link">Writing</a>
-        <a href="/#homilies" class="nav__link">Homilies</a>
-        <a href="/about.html" class="nav__link nav__link--current" aria-current="page">About</a>
-        <a href="/contact.html" class="nav__link">Contact</a>
+        <a href="index.html#writing" class="nav__link">Writing</a>
+        <a href="https://frkennethallen.substack.com" class="nav__link">Homilies</a>
+        <a href="about.html" class="nav__link nav__link--current" aria-current="page">About</a>
+        <a href="contact.html" class="nav__link">Contact</a>
       </div>
-      <a href="https://substack.com/@frkennethallen" class="btn btn--outline btn--sapphire">SUBSCRIBE</a>
+      <a href="https://frkennethallen.substack.com" class="btn btn--outline btn--sapphire">SUBSCRIBE</a>
     </div>
   </nav>
 
@@ -40,22 +40,14 @@
 
         <p class="hero__sub">
           Father Kenneth Allen is a Catholic priest, spiritual director, and writer
-          exploring the mandate for creativity and the vocation of the
-          human person, rooted in Sacred Scripture. His history is in Sacred Music and the arts.
+          exploring the mandate for creativity and the vocation of the human person,
+          rooted in Sacred Scripture. His background is in sacred music and the arts.
         </p>
 
         <p class="hero__sub">
-          He is incardinated in the Archdiocese of New Orleans, currently on a medical leave of absence.
+          He is incardinated in the Archdiocese of New Orleans, currently between parish
+          assignments while recovering and writing.
         </p>
-
-         <p class="hero__sub">
-          His friends have been repeatedly telling him, for several years, to rid himself of his WordPress site. 
-          "It's easy!" they say, as they code away all the day.  We're getting there. 
-        </p>
-
-         <p class="hero__sub">
-           <em>Bah.</em>
-         </p>
 
       </div>
     </section>
@@ -76,31 +68,17 @@
             Homilies and reflections, direct to your inbox.
           </h2>
           <p class="subscribe__sub">
-            A spirituality of faith and flourishing.
+            A spirituality of faith and flourishing — Reflections and Rabbit Holes on Substack.
           </p>
 
-          <div data-fs-success class="subscribe__thanks"></div>
-          <div data-fs-error class="subscribe__error"></div>
-
-          <form class="subscribe__form" id="subscribe-form">
-            <label for="sub-email" class="visually-hidden">Email address</label>
-            <input
-              type="email"
-              id="sub-email"
-              name="&#101;&#109;&#97;&#105;&#108;"
-              class="subscribe__input"
-              placeholder="Your email address"
-              autocomplete="email"
-              data-fs-field
-              required
-            />
-            <button type="submit" class="subscribe__btn" data-fs-submit-btn>SUBSCRIBE</button>
-          </form>
-          <span data-fs-error="email" class="subscribe__field-error"></span>
+          <div class="subscribe__form" style="display:flex;justify-content:center;">
+            <a href="https://frkennethallen.substack.com" class="subscribe__btn" style="text-decoration:none;display:inline-flex;align-items:center;justify-content:center;">Subscribe on Substack</a>
+          </div>
 
         </div>
       </div>
     </section>
+
 
   </main>
 
@@ -109,11 +87,11 @@
     <div class="container footer__inner">
       <span class="wordmark">FATHER ALLEN</span>
       <nav class="footer__links" aria-label="Footer">
-        <a href="https://substack.com/@frkennethallen" class="footer__link">Writing</a>
-        <a href="https://substack.com/@frkennethallen" class="footer__link">Homilies</a>
-        <a href="/about.html" class="footer__link">About</a>
+        <a href="https://frkennethallen.substack.com" class="footer__link">Writing</a>
+        <a href="https://frkennethallen.substack.com" class="footer__link">Homilies</a>
+        <a href="about.html" class="footer__link">About</a>
         <a href="mailto:kenneth@fatherallen.net" class="footer__link">Contact</a>
-        <a href="/" class="footer__link">fatherallen.ai</a>
+        <a href="index.html" class="footer__link">fatherallen.ai</a>
       </nav>
       <span class="footer__copy">&copy; <span id="year"></span> Father Kenneth Allen</span>
     </div>
@@ -143,11 +121,7 @@
       nav.classList.toggle('nav--scrolled', window.scrollY > 40);
     });
 
-    // Formspree
-    window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
-    formspree('initForm', { formElement: '#subscribe-form', formId: 'mjgpzgnv' });
   </script>
-  <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
 
 </body>
 </html>

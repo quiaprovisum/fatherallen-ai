@@ -14,14 +14,14 @@
   <!-- ─── NAV ─────────────────────────────────────────────── -->
   <nav class="nav" id="nav">
     <div class="nav__inner container">
-      <a href="#" class="wordmark">FATHER ALLEN</a>
+      <a href="index.html" class="wordmark">FATHER ALLEN</a>
       <div class="nav__links">
         <a href="#writing" class="nav__link">Writing</a>
-        <a href="#homilies" class="nav__link">Homilies</a>
+        <a href="https://frkennethallen.substack.com" class="nav__link">Homilies</a>
         <a href="#about" class="nav__link">About</a>
         <a href="contact.html" class="nav__link">Contact</a>
       </div>
-      <a href="https://substack.com/@frkennethallen" class="btn btn--outline btn--sapphire">SUBSCRIBE</a>
+      <a href="https://frkennethallen.substack.com" class="btn btn--outline btn--sapphire">SUBSCRIBE</a>
     </div>
   </nav>
 
@@ -47,7 +47,7 @@
             human person — rooted in Sacred Scripture.
           </p>
           <div class="hero__ctas">
-            <a href="https://substack.com/@frkennethallen" class="btn btn--outline btn--sapphire">Read the Latest</a>
+            <a href="https://frkennethallen.substack.com" class="btn btn--outline btn--sapphire">Read the Latest</a>
             <a href="#about" class="ghost-link">About Father Allen →</a>
           </div>
         </div>
@@ -65,11 +65,18 @@
             <span class="eyebrow__text">Recent Writing</span>
           </div>
           <h2 class="section-header__title">Essays &amp; reflections.</h2>
+          <p class="hero__sub fade-up" style="margin-top:1rem;max-width:36rem;">
+            Scripture, the spiritual life, writing, and ordinary days — published as
+            <em>Reflections and Rabbit Holes</em>.
+          </p>
+          <div class="hero__ctas" style="margin-top:1.25rem;">
+            <a href="https://frkennethallen.substack.com" class="btn btn--outline btn--sapphire">Read on Substack</a>
+            <a href="https://frkennethallen.substack.com" class="ghost-link">Reflections and Rabbit Holes →</a>
+          </div>
         </div>
-
-        <div class="cards">
       </div>
     </section>
+
 
     <!-- ─── ABOUT TEASER ──────────────────────────────────── -->
     <section class="about-teaser" id="about">
@@ -87,10 +94,10 @@
             </h2>
             <p class="about-teaser__body">
               Father Kenneth Allen is a Roman Catholic priest whose work explores the scriptural
-              grounding for creativity and the human vocation. He writes for those
-              who take faith seriously, as well as the desire to create and to flourish — and who sense that the economy and the world are changing
+              grounding for creativity and the human vocation. He writes for those who take faith
+              seriously — and who want to create and to flourish.
             </p>
-            <a href="https://fatherallen.ai/about.html" class="ghost-link">Read the full story →</a>
+            <a href="about.html" class="ghost-link">Read the full story →</a>
           </div>
 
           <!-- Right: panel -->
@@ -124,29 +131,17 @@
             Homilies and reflections, direct to your inbox.
           </h2>
           <p class="subscribe__sub">
-            A spirituality of faith and flourishing.
+            A spirituality of faith and flourishing — Reflections and Rabbit Holes on Substack.
           </p>
 
-          <div data-fs-success class="subscribe__thanks"></div>
-          <div data-fs-error class="subscribe__error"></div>
-
-          <form class="subscribe__form" id="subscribe-form">
-            <input
-              type="email"
-              id="sub-email"
-              name="&#101;&#109;&#97;&#105;&#108;"
-              class="subscribe__input"
-              placeholder="Your email address"
-              data-fs-field
-              required
-            />
-            <button type="submit" class="subscribe__btn" data-fs-submit-btn>SUBSCRIBE</button>
-          </form>
-          <span data-fs-error="email" class="subscribe__field-error"></span>
+          <div class="subscribe__form" style="display:flex;justify-content:center;">
+            <a href="https://frkennethallen.substack.com" class="subscribe__btn" style="text-decoration:none;display:inline-flex;align-items:center;justify-content:center;">Subscribe on Substack</a>
+          </div>
 
         </div>
       </div>
     </section>
+
 
   </main>
 
@@ -155,11 +150,11 @@
     <div class="container footer__inner">
       <span class="wordmark">FATHER ALLEN</span>
       <nav class="footer__links">
-        <a href="https://substack.com/@frkennethallen" class="footer__link">Writing</a>
-        <a href="https://substack.com/@frkennethallen" class="footer__link">Homilies</a>
-        <a href="https://fatherallen.ai/about.html" class="footer__link">About</a>
-        <a href="mailto:ka@fatherallen.ai" class="footer__link">Contact</a>
-        <a href="/" class="footer__link">fatherallen.ai</a>
+        <a href="https://frkennethallen.substack.com" class="footer__link">Writing</a>
+        <a href="https://frkennethallen.substack.com" class="footer__link">Homilies</a>
+        <a href="about.html" class="footer__link">About</a>
+        <a href="mailto:kenneth@fatherallen.net" class="footer__link">Contact</a>
+        <a href="index.html" class="footer__link">fatherallen.ai</a>
       </nav>
       <span class="footer__copy">© <span id="year"></span> Father Kenneth Allen</span>
     </div>
@@ -187,11 +182,7 @@
       nav.classList.toggle('nav--scrolled', window.scrollY > 40);
     });
 
-    // ─ Formspree
-    window.formspree = window.formspree || function () { (formspree.q = formspree.q || []).push(arguments); };
-    formspree('initForm', { formElement: '#subscribe-form', formId: 'mjgpzgnv' });
   </script>
-  <script src="https://unpkg.com/@formspree/ajax@1" defer></script>
 
 </body>
 </html>
