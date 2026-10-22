@@ -41,3 +41,7 @@ Ordered copies of fatherallen.ai homepage eras. The live site is separate (`inde
 10. **[10-2026-09-25-fraunces-about-contact](10-2026-09-25-fraunces-about-contact/)** — Fraunces About & Contact  
    _2026-09-04 → 2026-09-25_  
    Desk-era About/Contact archived when matching April pages to indexoriginal.
+
+11. **[11-2026-10-21-cinzel-home-about-contact](11-2026-10-21-cinzel-home-about-contact/)** — Cinzel home, About & Contact  
+   _2026-09-25 → 2026-10-21_  
+   Home, About and Contact (plus `styles.css`) as live just before the Oct 21 redesign.

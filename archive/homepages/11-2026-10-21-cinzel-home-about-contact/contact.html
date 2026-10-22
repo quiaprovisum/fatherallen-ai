@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact &middot; Father Kenneth Allen</title>
+  <meta name="description" content="Prayer requests and notes welcome at kenneth@fatherallen.net. Father Kenneth Allen reads the mail himself." />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ─── NAV ─────────────────────────────────────────────── -->
+  <nav class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="index.html" class="wordmark">FATHER ALLEN</a>
+      <div class="nav__links">
+        <a href="index.html#writing" class="nav__link">Writing</a>
+        <a href="https://frkennethallen.substack.com" class="nav__link">Homilies</a>
+        <a href="about.html" class="nav__link">About</a>
+        <a href="contact.html" class="nav__link nav__link--current" aria-current="page">Contact</a>
+      </div>
+      <a href="https://frkennethallen.substack.com" class="btn btn--outline btn--sapphire">SUBSCRIBE</a>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- ─── HERO ──────────────────────────────────────────── -->
+    <section class="hero">
+      <div class="container">
+        <div class="eyebrow eyebrow--sapphire fade-up visible">
+          <span class="eyebrow__rule"></span>
+          <span class="eyebrow__text">Write &middot; Ask for prayer</span>
+        </div>
+
+        <h1 class="hero__heading">Contact</h1>
+
+        <p class="hero__sub">
+          Prayer requests and notes are welcome at
+          <a href="mailto:kenneth@fatherallen.net">kenneth@fatherallen.net</a>.
+        </p>
+
+        <p class="hero__sub">
+          He reads the mail himself and replies as he can. There is no parish office
+          line behind this address, and it is not for emergencies.
+        </p>
+
+        <div class="hero__ctas">
+          <a href="mailto:kenneth@fatherallen.net" class="btn btn--outline btn--sapphire">Email kenneth@fatherallen.net</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ─── FOOTER ────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="wordmark">FATHER ALLEN</span>
+      <nav class="footer__links" aria-label="Footer">
+        <a href="https://frkennethallen.substack.com" class="footer__link">Writing</a>
+        <a href="https://frkennethallen.substack.com" class="footer__link">Homilies</a>
+        <a href="about.html" class="footer__link">About</a>
+        <a href="mailto:kenneth@fatherallen.net" class="footer__link">Contact</a>
+        <a href="index.html" class="footer__link">fatherallen.ai</a>
+      </nav>
+      <span class="footer__copy">&copy; <span id="year"></span> Father Kenneth Allen</span>
+    </div>
+  </footer>
+
+  <script>
+    // Year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Scroll-reveal
+    var observer = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.fade-up:not(.visible)').forEach(function (el) {
+      observer.observe(el);
+    });
+
+    // Nav scroll state
+    var nav = document.getElementById('nav');
+    window.addEventListener('scroll', function () {
+      nav.classList.toggle('nav--scrolled', window.scrollY > 40);
+    });
+
+  </script>
+
+</body>
+</html>
