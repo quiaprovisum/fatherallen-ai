@@ -447,7 +447,7 @@ main {
       <div class="subscribe">
         <h2 id="subscribe-title">Homilies and reflections, direct to your inbox.</h2>
         <p>A spirituality of faith and flourishing, from Reflections on Substack.</p>
-        <form class="form" id="subscribe-form" novalidate>
+        <form class="form" id="subscribe-form" action="https://frkennethallen.substack.com/subscribe" method="get" target="_blank" rel="noopener" novalidate>
           <label for="subscribe-email">Email address</label>
           <div class="form__row">
             <input id="subscribe-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
@@ -476,26 +476,14 @@ main {
   if (form) {
     var input = document.getElementById('subscribe-email');
     var status = document.getElementById('subscribe-status');
-    var ENDPOINT = 'https://formspree.io/f/mjgpzgnv';
-    var isLive = /(^|\.)fatherallen\.ai$/.test(location.hostname);
     form.addEventListener('submit', function (e) {
-      e.preventDefault();
       if (!input.value || !input.checkValidity()) {
+        e.preventDefault();
         status.textContent = 'Please enter a full email address, like name@example.com.';
         input.focus();
         return;
       }
-      if (!isLive) {
-        status.textContent = 'This is a preview. On fatherallen.ai this adds your address to the list.';
-        return;
-      }
-      status.textContent = 'Sending...';
-      fetch(ENDPOINT, { method: 'POST', body: new FormData(form), headers: { Accept: 'application/json' } })
-        .then(function (r) {
-          if (r.ok) { form.reset(); status.textContent = 'Thank you. The next one will reach your inbox.'; }
-          else { status.textContent = 'That did not go through. Please check the address and try again.'; }
-        })
-        .catch(function () { status.textContent = 'No connection right now. Please try again in a moment.'; });
+      status.textContent = 'Opening Substack in a new tab to confirm your subscription.';
     });
   }
 
