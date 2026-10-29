@@ -1,6 +1,62 @@
 {
   "entries": [
     {
+      "id": "2026-10-29-afternoon",
+      "date": "2026-10-29",
+      "edition": "Afternoon",
+      "items": [
+        {
+          "text": "Archbishop Luis Marín de San Martín, prefect of the Dicastery for the Service of Charity, is visiting Ukraine on Pope Leo XIV's behalf. In Kyiv he met volunteers and Church communities providing hot meals and shelter to people affected by the war.",
+          "links": [
+            {
+              "label": "Vatican News on X",
+              "url": "https://x.com/VaticanNews/status/2115817691986481656"
+            }
+          ]
+        },
+        {
+          "text": "At the UN General Assembly on Oct. 28, the Holy See's Permanent Observer, Archbishop Christophe El Kassis, called outer space a common good that must stay a realm of peace and cooperation, and urged that its exploration benefit all peoples, including developing countries, without creating new inequalities.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/vatican-city/news/2026-10/archbishop-el-kassis-united-nations-outer-space-cooperation.html"
+            }
+          ]
+        },
+        {
+          "text": "Ahead of the U.S. midterm elections, the USCCB released videos in which Archbishops Alexander Sample, William Lori and Shelton Fabre urge Catholics to form their consciences in faith first. Sample said Catholics are disciples of Jesus first, Americans second, and party members third, and Lori stressed that faithful citizenship is not a voter guide.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/world/us/u-s-bishops-urge-catholic-voters-start-with-your-faith"
+            }
+          ]
+        },
+        {
+          "text": "In Urda, Spain, parish priest Fr. José Miguel Fernández, who spent hours with victims of Wednesday's high-speed train collision, celebrated a Mass for the dead and their families.",
+          "links": [
+            {
+              "label": "EWTN News Español",
+              "url": "https://www.ewtnnews.com/es/mundo/espana/dios-vida-parroco-urda-tragedia"
+            },
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/world/father-give-me-a-hug-i-m-alive-a-priest-s-testimony-of-the-train-collision-in-spain"
+            }
+          ]
+        },
+        {
+          "text": "Church and AI: Bishop Watterson High School in Columbus, Ohio, held a full day of faculty formation titled Faithfully Forward: Navigating AI in Catholic Education, joined by teachers from its Catholic feeder schools.",
+          "links": [
+            {
+              "label": "Bishop Watterson HS on X",
+              "url": "https://x.com/BishopWatterson/status/2115843608636997740"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-29-morning",
       "date": "2026-10-29",
       "edition": "Morning",
