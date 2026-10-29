@@ -17,6 +17,22 @@
     }
   }
 
+  function safeImage(value) {
+    var raw = asString(value).trim();
+    if (!raw || raw.indexOf('\\') !== -1 || raw.indexOf('..') !== -1) return '';
+    if (raw.charAt(0) === '/') {
+      if (!/^\/news\/img\/[A-Za-z0-9][A-Za-z0-9._-]*\.(?:jpe?g|png|gif|webp)$/i.test(raw)) return '';
+      return raw;
+    }
+    try {
+      var url = new URL(raw);
+      if (url.protocol !== 'https:') return '';
+      return url.href;
+    } catch (err) {
+      return '';
+    }
+  }
+
   function headingText(entry) {
     var date = asString(entry.date).trim();
     var when = date;
@@ -128,6 +144,31 @@
     return article;
   }
 
+  function renderFoldedEntry(entry) {
+    var article = document.createElement('article');
+    article.className = 'edition edition--fold';
+    var slug = asString(entry.id).trim().replace(/[^A-Za-z0-9_-]/g, '');
+    if (slug) article.id = 'edition-' + slug;
+
+    var details = document.createElement('details');
+    var summary = document.createElement('summary');
+    var heading = document.createElement('h3');
+    heading.textContent = headingText(entry);
+    summary.appendChild(heading);
+    details.appendChild(summary);
+
+    var items = Array.isArray(entry.items) ? entry.items : [];
+    var list = document.createElement('ul');
+    list.className = 'news-items';
+    items.forEach(function (item) {
+      var rendered = renderItem(item);
+      if (rendered) list.appendChild(rendered);
+    });
+    if (list.childNodes.length) details.appendChild(list);
+    article.appendChild(details);
+    return article;
+  }
+
   function statusParagraph(text) {
     var p = document.createElement('p');
     p.className = 'news-status';
@@ -143,6 +184,7 @@
 
   function mount(root, entries) {
     var limit = Number(root.getAttribute('data-limit'));
+    var foldAfter = Number(root.getAttribute('data-fold'));
     var shown = entries;
     if (limit > 0) shown = entries.slice(0, limit);
     var level = root.getAttribute('data-heading') === 'h2' ? 'h2' : 'h3';
@@ -150,39 +192,133 @@
     if (!shown.length) {
       root.appendChild(statusParagraph('No church news yet.'));
     } else {
-      shown.forEach(function (entry) {
-        root.appendChild(renderEntry(entry, level));
+      shown.forEach(function (entry, index) {
+        if (foldAfter > 0 && index >= foldAfter) root.appendChild(renderFoldedEntry(entry));
+        else root.appendChild(renderEntry(entry, level));
       });
     }
     root.setAttribute('aria-busy', 'false');
   }
 
-  function feedUrl(root) {
-    var path = root.getAttribute('data-feed') || 'news/feed.json';
+  function cacheUrl(path) {
     var bucket = Math.floor(Date.now() / MINUTE);
     return path + (path.indexOf('?') === -1 ? '?' : '&') + 'v=' + bucket;
   }
 
-  function init() {
+  function renderToday(root, data) {
+    if (!data || typeof data !== 'object' || Array.isArray(data)) return;
+    var kind = asString(data.kind).trim();
+    var title = asString(data.title).trim();
+    var subtitle = asString(data.subtitle).trim();
+    var text = asString(data.text);
+    var credit = asString(data.credit).trim();
+    var image = safeImage(data.image);
+    var alt = asString(data.imageAlt).trim() || title || kind || 'Illustration';
+    var source = safeUrl(data.sourceUrl);
+    if (!kind && !title && !subtitle && !text.trim() && !image) return;
+
+    root.textContent = '';
+
+    if (image) {
+      var figure = document.createElement('figure');
+      figure.className = 'today__figure';
+      var img = document.createElement('img');
+      img.className = 'today__photo';
+      img.src = image;
+      img.alt = alt;
+      img.decoding = 'async';
+      img.addEventListener('error', function () {
+        if (figure.parentNode) figure.remove();
+        if (!root.querySelector('.today__words')) root.hidden = true;
+      });
+      figure.appendChild(img);
+      if (credit) {
+        var caption = document.createElement('figcaption');
+        caption.className = 'today__credit';
+        if (source) {
+          var link = document.createElement('a');
+          link.href = source;
+          link.target = '_blank';
+          link.rel = 'noopener noreferrer';
+          link.textContent = credit;
+          caption.appendChild(link);
+        } else {
+          caption.textContent = credit;
+        }
+        figure.appendChild(caption);
+      }
+      root.appendChild(figure);
+    }
+
+    var words = document.createElement('div');
+    words.className = 'today__words';
+    if (kind) {
+      var kindEl = document.createElement('p');
+      kindEl.className = 'today__kind';
+      kindEl.textContent = kind;
+      words.appendChild(kindEl);
+    }
+    if (title) {
+      var titleEl = document.createElement('h2');
+      titleEl.className = 'today__title';
+      titleEl.textContent = title;
+      words.appendChild(titleEl);
+    }
+    if (subtitle) {
+      var subtitleEl = document.createElement('p');
+      subtitleEl.className = 'today__subtitle';
+      subtitleEl.textContent = subtitle;
+      words.appendChild(subtitleEl);
+    }
+    if (text.trim()) {
+      var textEl = document.createElement('p');
+      textEl.textContent = text;
+      words.appendChild(textEl);
+    }
+    if (words.childNodes.length) root.appendChild(words);
+    else if (!image) return;
+
+    root.hidden = false;
+  }
+
+  function readJson(path) {
+    return fetch(cacheUrl(path), { cache: 'no-cache' }).then(function (response) {
+      if (!response.ok) throw new Error('status');
+      return response.text();
+    }).then(function (raw) {
+      return JSON.parse(raw.replace(/^\uFEFF/, ''));
+    });
+  }
+
+  function initNews() {
     var nodes = document.querySelectorAll('[data-church-news]');
     if (!nodes.length) return;
-    var root = nodes[0];
-    fetch(feedUrl(root), { cache: 'no-cache' })
-      .then(function (response) {
-        if (!response.ok) throw new Error('status');
-        return response.text();
-      })
-      .then(function (raw) {
-        var data = JSON.parse(raw.replace(/^\uFEFF/, ''));
-        var entries = prepare(data);
-        if (!entries) throw new Error('shape');
-        Array.prototype.forEach.call(nodes, function (node) { mount(node, entries); });
-      })
-      .catch(function () {
-        Array.prototype.forEach.call(nodes, function (node) {
-          showStatus(node, 'Church news could not be loaded just now.');
-        });
+    var path = nodes[0].getAttribute('data-feed') || 'news/feed.json';
+    readJson(path).then(function (data) {
+      var entries = prepare(data);
+      if (!entries) throw new Error('shape');
+      Array.prototype.forEach.call(nodes, function (node) { mount(node, entries); });
+    }).catch(function () {
+      Array.prototype.forEach.call(nodes, function (node) {
+        showStatus(node, 'Church news could not be loaded just now.');
       });
+    });
+  }
+
+  function initToday() {
+    var nodes = document.querySelectorAll('[data-today]');
+    if (!nodes.length) return;
+    var path = nodes[0].getAttribute('data-feed') || 'news/today.json';
+    readJson(path).then(function (data) {
+      Array.prototype.forEach.call(nodes, function (node) { renderToday(node, data); });
+    }).catch(function () {
+      Array.prototype.forEach.call(nodes, function (node) { node.hidden = true; });
+    });
+  }
+
+  function init() {
+    initNews();
+    initToday();
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
