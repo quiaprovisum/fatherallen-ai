@@ -407,6 +407,85 @@ main {
 }
 .copy:hover { color: var(--gold-light); }
 .envelope a:focus-visible, .envelope button:focus-visible { outline-color: var(--gold); }
+
+/* ---------- Church News ---------- */
+.church-news {
+  width: min(100%, var(--col-wide));
+  margin-inline: auto;
+  display: grid;
+  gap: 1.5rem clamp(2rem, 5vw, 4rem);
+}
+@media (min-width: 900px) {
+  .church-news { grid-template-columns: minmax(0, 2fr) minmax(0, 3fr); align-items: start; }
+}
+.church-news > h2 {
+  font-size: clamp(1.75rem, 1.25rem + 1.8vw, 2.625rem);
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+}
+.church-news__body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  min-width: 0;
+}
+.church-news__body > .textlink { align-self: flex-start; }
+.digests {
+  width: min(100%, var(--col-text));
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.edition {
+  display: flex;
+  flex-direction: column;
+  gap: 1.15rem;
+  min-width: 0;
+}
+.edition + .edition {
+  margin-top: clamp(2rem, 4vw, 3rem);
+  padding-top: clamp(2rem, 4vw, 3rem);
+  border-top: 1px solid var(--rule);
+}
+.edition h2,
+.edition h3 {
+  margin: 0;
+  font-family: var(--display);
+  font-weight: 500;
+  font-size: clamp(1.35rem, 1.1rem + 0.9vw, 1.85rem);
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+}
+.news-items {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.35rem;
+}
+.news-items li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+  min-width: 0;
+}
+.news-items p { overflow-wrap: break-word; }
+.news-sources {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 0.85rem;
+  row-gap: 0.35rem;
+}
+.news-sep { color: var(--ink-soft); }
+.news-sources a { overflow-wrap: anywhere; }
+.news-status {
+  color: var(--ink-soft);
+  font: italic 400 1.125rem/1.5 var(--display);
+}
 </style>
 </head>
 <body>
@@ -424,7 +503,8 @@ main {
     <nav class="nav" aria-label="Primary">
       <ul>
         <li><a href="#writing">Writing</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="news/">Church News</a></li>
+        <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
         <li><a href="#subscribe">Subscribe</a></li>
       </ul>
@@ -438,7 +518,7 @@ main {
         <p class="standfirst">I'm a Catholic priest. I write about Scripture, about the work of making things, and about the light that keeps finding its way into dark places.</p>
         <div class="actions">
           <a class="button" href="https://frkennethallen.substack.com">Read my writing</a>
-          <a class="textlink" href="#about">About me</a>
+          <a class="textlink" href="about.html">About me</a>
         </div>
       </div>
 
@@ -456,12 +536,18 @@ main {
       </figure>
     </section>
 
-    <section class="about" id="about" aria-labelledby="about-title">
-      <h2 id="about-title">The first thing God does is make something.</h2>
-      <div class="about__body">
-        <p>That's where Scripture begins, and it's where I begin. Before we learn anything else about God, we watch Him create. A few lines later we find out we're made in His image.</p>
-        <p>I take that at its word. The urge to build, to write, to paint, to start something of your own, belongs to that image. I follow that thread into prayer, into labor, and into the ordinary days in between. Nothing is wasted for anyone who keeps working steadily in the light God gives, in service to others.</p>
-        <a class="textlink" href="about.html">More about me</a>
+    <section class="church-news" id="church-news" aria-labelledby="church-news-title">
+      <h2 id="church-news-title">Church News</h2>
+      <div class="church-news__body">
+        <p>Short Catholic news digests from the Vatican, bishops, the Archdiocese of New Orleans, the traditional liturgy, and the Church on AI. Every item links its source.</p>
+        <div id="church-news-home" data-church-news data-feed="news/feed.json" data-limit="3" data-heading="h3" aria-live="polite" aria-busy="true">
+          <p class="news-status">Loading church news…</p>
+        </div>
+        <noscript>
+          <style>.news-status { display: none; }</style>
+          <p class="news-status" style="display:block">Enable JavaScript to read church news.</p>
+        </noscript>
+        <a class="textlink" href="news/">More church news</a>
       </div>
     </section>
 
@@ -491,12 +577,14 @@ main {
     <a class="brand" href="index.html">Father Allen</a>
     <ul>
       <li><a href="#writing">Writing</a></li>
+      <li><a href="news/">Church News</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="contact.html">Contact</a></li>
     </ul>
     <small>&copy; 2026 Father Kenneth Allen</small>
   </footer>
 </div>
+<script src="news/news.js"></script>
 <script>
 (function () {
   /* Subscribe form */
