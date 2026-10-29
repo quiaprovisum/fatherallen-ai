@@ -1,6 +1,40 @@
 {
   "entries": [
     {
+      "id": "2026-10-29-early-morning",
+      "date": "2026-10-29",
+      "edition": "Early Morning",
+      "items": [
+        {
+          "text": "At the FABC Office of Social Communication assembly in Macau (Oct. 27-31), themed on Magnifica Humanitas and communicating Christ in the age of AI, Bishop Malcolm Sequeira of Amravati, India, told Asian Catholic communicators that AI should be a tool, not their armor. \"Be assured. Be fearless. Do not panic,\" he said, noting the Church has always put the tools of each era at the service of the Gospel.",
+          "links": [
+            {
+              "label": "Radio Veritas Asia",
+              "url": "https://www.rvasia.org/asian-news/bishop-malcolm-sequeira-calls-asian-communicators-fearless-evangelization-rooted-jesus"
+            }
+          ]
+        },
+        {
+          "text": "In Rome, the Ad Bonum Facere Foundation, formed by Poor Clare, Capuchin Poor Clare, Benedictine and Discalced Carmelite monasteries, held its first course on women's monasteries in the age of AI. Fr. Philip Larrey told Vatican News that AI has little place in contemplative prayer but can help cloistered communities with practical work such as legal, administrative and supply tasks, provided sources are checked; he pointed to Magisterium AI's citations as a good example.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/church/news/2026-10/dr-philip-larrey-monastic-life-interested-in-proper-use-of-ai.html"
+            }
+          ]
+        },
+        {
+          "text": "Six young Christian men in Egypt, aged 17 to 23, were released after more than two weeks in prison over a TikTok video authorities called offensive to Islam, but they still face charges of exploiting and insulting religion.",
+          "links": [
+            {
+              "label": "The Catholic Herald",
+              "url": "https://thecatholicherald.com/article/egypt-urged-to-drop-charges-against-six-christians-over-tiktok-video"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-28-evening",
       "date": "2026-10-28",
       "edition": "Evening",
