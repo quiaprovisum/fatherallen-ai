@@ -1,6 +1,53 @@
 {
   "entries": [
     {
+      "id": "2026-10-29-morning",
+      "date": "2026-10-29",
+      "edition": "Morning",
+      "items": [
+        {
+          "text": "Pope Leo XIV sent a telegram, signed by Cardinal Parolin and addressed to Archbishop Francisco Cerro Chaves of Toledo, expressing deep sorrow after two high-speed trains collided in Urda, central Spain, on Wednesday. The provisional death toll stands at 68, with 53 still hospitalized; the Pope prayed for the dead, comforted families, and encouraged rescue teams.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-leo-mourns-lives-lost-in-spain-train-crash.html"
+            }
+          ]
+        },
+        {
+          "text": "Costa Rican President Laura Fernández Delgado met Pope Leo XIV at the Vatican on Oct. 29 and invited him to visit Costa Rica, which has not hosted a pope since St. John Paul II in 1983. Talks with Cardinal Parolin and Archbishop Gallagher covered security and migration, especially Nicaraguan migrants.",
+          "links": [
+            {
+              "label": "EWTN News Español",
+              "url": "https://www.ewtnnews.com/es/vaticano/presidenta-costa-rica-papa-leon"
+            }
+          ]
+        },
+        {
+          "text": "Organisers of the Ad Petri Sedem Latin Mass pilgrimage moved to settle confusion over last weekend in Rome. They say the one-hour Mass at St. Mary Major and its no-photography rule were agreed in advance and were not last-minute restrictions, while the Secretariat of State's refusal of a Mass and a group procession in St. Peter's still stands.",
+          "links": [
+            {
+              "label": "The Catholic Herald",
+              "url": "https://thecatholicherald.com/article/latin-mass-pilgrimage-organiser-dispels-fake-news-about-event"
+            },
+            {
+              "label": "InfoVaticana",
+              "url": "https://infovaticana.com/en/2026/10/28/organizers-of-ad-petri-sedem-clarify-restrictions-on-schneiders-mass-at-santa-maria-maggiore/"
+            }
+          ]
+        },
+        {
+          "text": "In National Catholic Reporter, Chicago high school senior Leo Fiascone describes building a bilingual citizenship-test study platform for Erie Neighborhood House, including a 24/7 AI tutor called Benji. He says he took Magnifica Humanitas as a call to aim AI at people often left behind; the tool supports human tutors rather than replacing them and is being shared with other Chicago groups.",
+          "links": [
+            {
+              "label": "National Catholic Reporter",
+              "url": "https://www.ncronline.org/opinion/guided-catholic-faith-high-schooler-made-ai-tutor-citizenship-students"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-29-early-morning",
       "date": "2026-10-29",
       "edition": "Early Morning",
