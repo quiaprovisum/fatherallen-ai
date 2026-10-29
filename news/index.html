@@ -486,6 +486,94 @@ main {
   color: var(--ink-soft);
   font: italic 400 1.125rem/1.5 var(--display);
 }
+.edition + .edition.edition--fold,
+.edition.edition--fold + .edition.edition--fold {
+  margin-top: 0.35rem;
+  padding-top: 0.85rem;
+}
+.edition--fold summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.35rem 1.25rem;
+  cursor: pointer;
+  list-style: none;
+}
+.edition--fold summary::-webkit-details-marker { display: none; }
+.edition--fold summary::marker { content: ""; }
+.edition--fold summary:focus-visible { outline: 2px solid var(--navy); outline-offset: 3px; }
+.edition--fold h3 { flex: 1 1 auto; min-width: 0; font-size: clamp(1.15rem, 1.02rem + 0.4vw, 1.4rem); }
+.edition--fold summary::after {
+  content: "Open";
+  flex: none;
+  font: 500 0.75rem/1.5 var(--ui);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+.edition--fold details[open] summary::after { content: "Close"; }
+.edition--fold .news-items { margin-top: 1rem; }
+
+/* Saint or Scripture of the Day. Hidden until today.json loads. */
+.today[hidden] { display: none !important; }
+.today {
+  grid-column: 1 / -1;
+  display: grid;
+  gap: 1.25rem clamp(1.5rem, 4vw, 3rem);
+  align-items: start;
+  min-width: 0;
+  padding-bottom: clamp(1.5rem, 3vw, 2.25rem);
+  border-bottom: 1px solid var(--rule);
+}
+@media (min-width: 900px) {
+  .today { grid-template-columns: minmax(0, 2fr) minmax(0, 3fr); }
+}
+.today__figure { margin: 0; min-width: 0; }
+.today__photo {
+  display: block;
+  width: auto;
+  max-width: 100%;
+  max-height: clamp(16rem, 46vw, 26rem);
+  height: auto;
+  object-fit: contain;
+}
+.today__credit {
+  margin: 0.7rem 0 0;
+  max-width: 42em;
+  font: italic 400 0.8125rem/1.45 var(--ui);
+  color: var(--ink-soft);
+}
+.today__credit a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+  text-decoration-color: var(--gold);
+  overflow-wrap: anywhere;
+}
+.today__credit a:hover { color: var(--navy-hover); text-decoration-color: var(--navy-hover); }
+.today__words {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  min-width: 0;
+}
+.today__kind {
+  font: 500 0.75rem/1.5 var(--ui);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--navy);
+}
+.today__title {
+  font-size: clamp(1.75rem, 1.2rem + 1.6vw, 2.5rem);
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+}
+.today__subtitle {
+  font: italic 400 1.125rem/1.45 var(--display);
+  color: var(--ink-soft);
+}
 </style>
 </head>
 <body>
