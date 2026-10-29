@@ -1,0 +1,38 @@
+{
+  "entries": [
+    {
+      "id": "2026-10-28-evening",
+      "date": "2026-10-28",
+      "edition": "Evening",
+      "items": [
+        {
+          "text": "Bishop Carlos Herrera, president of Nicaragua's bishops' conference, confirmed the Holy See has postponed their ad limina visit to next year, citing a lack of “appropriate conditions.” Four of the ten bishops are already in exile, and priests say the others fear they wouldn't be allowed back in.",
+          "links": [
+            {
+              "label": "EWTN News Español",
+              "url": "https://www.ewtnnews.com/es/mundo/america/obispo-nicaragua-santa-sede-pospuso"
+            }
+          ]
+        },
+        {
+          "text": "Cardinal Parolin opened the Gregorian University's conference on the Holy See and 20th-century totalitarian regimes, warning that some still want to “control how humanity lives and thinks.”",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/vatican-city/news/2026-10/cardinal-parolin-gregorian-conference-20th-century-regimes.html"
+            }
+          ]
+        },
+        {
+          "text": "In New Orleans, Archbishop Checchio's November Clarion Herald column turns to All Saints and All Souls, Blessed Francis Xavier Seelos, and Servant of God Henriette Delille, and asks the faithful to pray for their own dead this month.",
+          "links": [
+            {
+              "label": "Clarion Herald",
+              "url": "https://clarionherald.org/news/a-season-of-prayer-praise-and-thanksgiving"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
