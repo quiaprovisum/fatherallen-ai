@@ -1,6 +1,49 @@
 {
   "entries": [
     {
+      "id": "2026-10-30-afternoon",
+      "date": "2026-10-30",
+      "edition": "Afternoon",
+      "items": [
+        {
+          "text": "Pope Leo XIV has approved amendments to the personnel regulations of the Roman Curia in a rescript dated October 19. The changes clarify who may suspend an employee (office heads up to 30 days, the Curia's Disciplinary Commission for longer), fix a mismatch in the deadlines for presenting a defense that had led to some proceedings being voided, and address access to legal assistance.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/vatican-city/news/2026-10/new-safeguards-for-employees-of-the-holy-see.html"
+            }
+          ]
+        },
+        {
+          "text": "Closing their plenary assembly in Salzburg, the Council of European Bishops' Conferences appealed for a just and lasting peace in Ukraine and other war zones, saying true peace cannot be imposed and begins in the human heart. The assembly confirmed Archbishop Gintaras Grušas of Vilnius as president for 2026-2031 and elected Archbishop Eamon Martin of Armagh and Archbishop Dražen Kutleša of Zagreb as vice-presidents.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/church/news/2026-10/bishops-conferences-europe-peace-ukraine-synodality-st-francis.html"
+            }
+          ]
+        },
+        {
+          "text": "At the Asian bishops' social communication assembly in Macau, Radio Veritas Asia's Gethsemani Cindy Gorospe asked bishops' conferences to bring young Catholic digital missionaries into pastoral life, proposing a dedicated FABC committee and formation in theology, spiritual resilience and communication ahead of World Youth Day 2027 in Seoul. Speakers also urged that AI be directed toward human dignity and lasting relationships.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/church/news/2026-10/asian-church-urged-humanize-ai-support-digital-missionaries.html"
+            }
+          ]
+        },
+        {
+          "text": "Valerie Pisano, president and CEO of Mila, the Quebec Artificial Intelligence Institute, told Vatican News that more people need to get involved in shaping AI so its development is directed toward the good of humanity.",
+          "links": [
+            {
+              "label": "Vatican News on X",
+              "url": "https://x.com/VaticanNews/status/2116221845917847681"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-30-morning",
       "date": "2026-10-30",
       "edition": "Morning",
