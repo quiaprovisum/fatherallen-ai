@@ -1,6 +1,52 @@
 {
   "entries": [
     {
+      "id": "2026-10-30-morning",
+      "date": "2026-10-30",
+      "edition": "Morning",
+      "items": [
+        {
+          "text": "Pope Leo XIV addressed a Vatican meeting on the future of AI, organized by the Pontifical Academy for Life and the Future of Life Institute. He said AI's future is not pre-determined and depends on human choices, that machines are tools and not persons and should not be given legal personhood, that decisions over life and the use of force must stay under human oversight, and that AI's benefits should be shared with those most in need. He urged states meeting in Geneva in November to move toward banning lethal autonomous weapons and called for international institutions with shared standards and independent oversight.",
+          "links": [
+            {
+              "label": "Vatican.va",
+              "url": "https://www.vatican.va/content/leo-xiv/en/speeches/2026/october/documents/20261030-incontro-pav.html"
+            },
+            {
+              "label": "Pope Leo XIV on X",
+              "url": "https://x.com/Pontifex/status/2116146977230459383"
+            }
+          ]
+        },
+        {
+          "text": "The Holy See confirmed that Pope Leo XIV has submitted his mail-in ballot in Chicago for the U.S. midterm elections, making him the first pope to vote in an American election. The statement said he has voted whenever eligible, including during his years in Peru, and believes in the right and duty of citizens to take part in democratic processes.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/world/us/pope-leo-xiv-to-become-first-pope-to-vote-in-an-american-election"
+            },
+            {
+              "label": "Vatican News on X",
+              "url": "https://x.com/VaticanNews/status/2116153867666685976"
+            }
+          ]
+        },
+        {
+          "text": "Pope Leo XIV named two new undersecretaries of the General Secretariat of the Synod: Fr. Giacomo Costa, SJ, who served as special secretary of recent synod assemblies, and Salesian Sr. Elena Massimi, FMA, a professor of liturgy and sacramental theology at the Pontifical Salesian University.",
+          "links": [
+            {
+              "label": "Michael Haynes on X",
+              "url": "https://x.com/MLJHaynes/status/2116124395278160080"
+            },
+            {
+              "label": "EWTN News Español on X",
+              "url": "https://x.com/aciprensa/status/2116138357746999431"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-30-early-morning",
       "date": "2026-10-30",
       "edition": "Early Morning",
