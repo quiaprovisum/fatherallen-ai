@@ -104,7 +104,7 @@ A `409` means the `sha` is stale because another update landed. GET again, decod
 | Field | Required | Notes |
 | --- | --- | --- |
 | `date` | yes | `YYYY-MM-DD`. Recorded for the job. The page does not compare it with the visitor’s clock, so a late job still shows the last card. |
-| `kind` | yes | `Saint of the Day` or `Scripture of the Day`. Starts the heading, as in "Scripture of the Day: Luke 13:31-35". |
+| `kind` | yes | `Saint of the Day` or `Scripture of the Day`. Shown as the small label. |
 | `title` | yes | Plain text. |
 | `subtitle` | no | Plain text. Feast rank and readings, or the scripture reference. |
 | `text` | yes | Plain text, one to three sentences. Not HTML. |

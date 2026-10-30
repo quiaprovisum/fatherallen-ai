@@ -49,3 +49,7 @@ Ordered copies of fatherallen.ai homepage eras. The live site is separate (`inde
 12. **[12-2026-10-29-newsreader-gold-mat](12-2026-10-29-newsreader-gold-mat/)**: Newsreader home with the drifting gold mat  
    _2026-10-21 to 2026-10-29_  
    Home, About, Contact and Church News (plus `news.js` and the old root `styles.css`) as live just before the Oct 29 Impeccable cleanup.
+
+13. **[13-2026-10-29-impeccable-refresh](13-2026-10-29-impeccable-refresh/)**: Impeccable refresh (shared styles, flat violet plate, still gold mat)  
+   _2026-10-29_  
+   Live briefly on Oct 29 and reverted at the owner's request; the site went back to the previous design (entry 12).

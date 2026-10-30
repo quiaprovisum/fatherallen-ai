@@ -176,17 +176,10 @@
     return p;
   }
 
-  /* One quiet announcement for screen readers, instead of reading the whole feed aloud */
-  function announce(text) {
-    var nodes = document.querySelectorAll('[data-news-status]');
-    Array.prototype.forEach.call(nodes, function (node) { node.textContent = text; });
-  }
-
   function showStatus(root, text) {
     root.textContent = '';
     root.appendChild(statusParagraph(text));
     root.setAttribute('aria-busy', 'false');
-    announce(text);
   }
 
   function mount(root, entries) {
@@ -205,7 +198,6 @@
       });
     }
     root.setAttribute('aria-busy', 'false');
-    announce(shown.length ? 'Church news loaded.' : 'No church news yet.');
   }
 
   function cacheUrl(path) {
@@ -260,12 +252,16 @@
 
     var words = document.createElement('div');
     words.className = 'today__words';
-    /* The kind leads the heading: "Saint of the Day: Saint Jude" */
-    var heading = kind && title ? kind + ': ' + title : (title || kind);
-    if (heading) {
+    if (kind) {
+      var kindEl = document.createElement('p');
+      kindEl.className = 'today__kind';
+      kindEl.textContent = kind;
+      words.appendChild(kindEl);
+    }
+    if (title) {
       var titleEl = document.createElement('h2');
       titleEl.className = 'today__title';
-      titleEl.textContent = heading;
+      titleEl.textContent = title;
       words.appendChild(titleEl);
     }
     if (subtitle) {

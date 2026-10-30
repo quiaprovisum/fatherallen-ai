@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Father Kenneth Allen</title>
+<meta name="description" content="Father Kenneth Allen, Catholic priest and writer. Essays on Scripture, prayer, and the spiritual life.">
+<link rel="canonical" href="https://fatherallen.ai/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Father Allen">
+<meta property="og:title" content="Father Kenneth Allen">
+<meta property="og:description" content="Essays on Scripture, prayer, and the spiritual life.">
+<meta property="og:url" content="https://fatherallen.ai/">
+<meta property="og:image" content="https://fatherallen.ai/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Father Kenneth Allen. Essays on Scripture, prayer, and the spiritual life.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#f4c430">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/img/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="field" aria-hidden="true"></div>
+<div class="keyline" aria-hidden="true"></div>
+
+<div class="sheet">
+  <header class="masthead">
+    <a class="brand" href="index.html">Father Allen</a>
+    <nav class="nav" aria-label="Primary">
+      <ul>
+        <li><a href="#writing">Writing</a></li>
+        <li><a href="news/">Church News</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#subscribe">Subscribe</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__words">
+        <h1 id="hero-title">Father Kenneth Allen</h1>
+        <p class="standfirst">I'm a Catholic priest and spiritual director. I write about Scripture, prayer, and the spiritual life.</p>
+        <div class="actions">
+          <a class="button" href="https://frkennethallen.substack.com">Read my writing</a>
+          <a class="textlink" href="about.html">About me</a>
+        </div>
+      </div>
+
+      <figure class="plate">
+        <div class="plate__field">
+          <blockquote>God, at the beginning of time, created heaven and earth.</blockquote>
+        </div>
+        <figcaption>Genesis 1:1, Knox Translation</figcaption>
+      </figure>
+    </section>
+
+    <section class="writing" id="writing" aria-labelledby="writing-title">
+      <h2 class="pubname" id="writing-title">Reflections</h2>
+      <p>My Substack. Essays on Scripture, prayer, and the spiritual life.</p>
+      <ul class="posts" aria-label="Recent essays">
+        <li><a href="https://frkennethallen.substack.com/p/the-castaways-of-providence-street"><span class="posts__title">The Castaways of Providence Street</span><span class="posts__date">October 2026</span></a></li>
+        <li><a href="https://frkennethallen.substack.com/p/called-into-his-wonderful-light"><span class="posts__title">Called Into His Wonderful Light</span><span class="posts__date">August 2026</span></a></li>
+        <li><a href="https://frkennethallen.substack.com/p/healing-of-trauma-in-the-purgative"><span class="posts__title">Beyond Traumatic Living</span><span class="posts__date">June 2026</span></a></li>
+      </ul>
+      <a class="textlink" href="https://frkennethallen.substack.com/archive">All essays on Substack</a>
+    </section>
+
+    <section class="band" id="subscribe" aria-labelledby="subscribe-title">
+      <div class="subscribe">
+        <h2 id="subscribe-title">Get the next reflection by email.</h2>
+        <p>Homilies and reflections, sent when they're written.</p>
+        <form class="form" id="subscribe-form" action="https://frkennethallen.substack.com/subscribe" method="get" target="_blank" rel="noopener" novalidate>
+          <label for="subscribe-email">Email address</label>
+          <div class="form__row">
+            <input id="subscribe-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required>
+            <button class="button" type="submit">Subscribe</button>
+          </div>
+          <p class="form__status" id="subscribe-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="church-news" id="church-news" aria-labelledby="church-news-title">
+      <section class="today" id="today" data-today data-feed="news/today.json" hidden></section>
+      <h2 id="church-news-title">Church News</h2>
+      <div class="church-news__body">
+        <p>Short Catholic news digests including the Vatican, bishops, the Archdiocese of New Orleans, and the Church on AI. Every item links its source.</p>
+        <div id="church-news-home" data-church-news data-feed="news/feed.json" data-limit="7" data-fold="1" data-heading="h3" aria-busy="true">
+          <p class="news-status">Loading church news…</p>
+        </div>
+        <p class="visually-hidden" data-news-status role="status" aria-live="polite"></p>
+        <noscript>
+          <style>.news-status { display: none; }</style>
+          <p class="news-status" style="display:block">Enable JavaScript to read church news.</p>
+        </noscript>
+        <a class="textlink" href="news/">More church news</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand" href="index.html">Father Allen</a>
+    <ul>
+      <li><a href="#writing">Writing</a></li>
+      <li><a href="news/">Church News</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <small>&copy; 2026 Father Kenneth Allen</small>
+  </footer>
+</div>
+<script src="news/news.js"></script>
+<script>
+(function () {
+  /* Subscribe form */
+  var form = document.getElementById('subscribe-form');
+  if (form) {
+    var input = document.getElementById('subscribe-email');
+    var status = document.getElementById('subscribe-status');
+    form.addEventListener('submit', function (e) {
+      if (!input.value || !input.checkValidity()) {
+        e.preventDefault();
+        status.textContent = 'Please enter a full email address, like name@example.com.';
+        input.focus();
+        return;
+      }
+      status.textContent = 'Opening Substack in a new tab to confirm your subscription.';
+    });
+  }
+})();
+</script>
+</body>
+</html>

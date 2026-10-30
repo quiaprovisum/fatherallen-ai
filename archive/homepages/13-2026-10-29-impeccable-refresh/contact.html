@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contact | Father Allen</title>
+<meta name="description" content="Write to Father Kenneth Allen, or ask for prayer.">
+<link rel="canonical" href="https://fatherallen.ai/contact.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Father Allen">
+<meta property="og:title" content="Contact Father Kenneth Allen">
+<meta property="og:description" content="Write to Father Kenneth Allen, or ask for prayer.">
+<meta property="og:url" content="https://fatherallen.ai/contact.html">
+<meta property="og:image" content="https://fatherallen.ai/img/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Father Kenneth Allen. Essays on Scripture, prayer, and the spiritual life.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#f4c430">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/img/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@0;1&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="field" aria-hidden="true"></div>
+<div class="keyline" aria-hidden="true"></div>
+
+<div class="sheet">
+  <header class="masthead">
+    <a class="brand" href="index.html">Father Allen</a>
+    <nav class="nav" aria-label="Primary">
+      <ul>
+        <li><a href="index.html#writing">Writing</a></li>
+        <li><a href="news/">Church News</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+        <li><a href="index.html#subscribe">Subscribe</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="page-head" aria-labelledby="page-title">
+      <h1 id="page-title">Contact</h1>
+      <p class="standfirst">Write, or ask for prayer.</p>
+    </section>
+
+    <section class="contact" aria-labelledby="note-title">
+      <div class="contact__note">
+        <h2 id="note-title">Prayer requests and notes are welcome.</h2>
+        <p>I read the mail myself and reply as I can.</p>
+        <p>There is no parish office line behind this address, and it is not for emergencies.</p>
+      </div>
+      <div class="envelope">
+        <p>Write to</p>
+        <span class="envelope__address" id="address">kenneth@fatherallen.net</span>
+        <noscript><p>kenneth at fatherallen dot net</p></noscript>
+        <div class="envelope__actions">
+          <a class="button" href="mailto:kenneth@fatherallen.net">Send an email</a>
+          <button class="copy" id="copy-address" type="button">Copy address</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand" href="index.html">Father Allen</a>
+    <ul>
+      <li><a href="index.html#writing">Writing</a></li>
+      <li><a href="news/">Church News</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <small>&copy; 2026 Father Kenneth Allen</small>
+  </footer>
+</div>
+<script>
+(function () {
+  /* Copy the email address */
+  var copy = document.getElementById('copy-address');
+  if (copy) {
+    var address = document.getElementById('address');
+    copy.addEventListener('click', function () {
+      var text = address.textContent.trim();
+      function selectIt() {
+        var range = document.createRange();
+        range.selectNodeContents(address);
+        var sel = window.getSelection();
+        sel.removeAllRanges();
+        sel.addRange(range);
+        copy.textContent = 'Selected. Press copy';
+      }
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(function () { copy.textContent = 'Copied'; }, selectIt);
+      } else { selectIt(); }
+    });
+  }
+})();
+</script>
+</body>
+</html>
