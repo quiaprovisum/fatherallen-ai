@@ -45,3 +45,7 @@ Ordered copies of fatherallen.ai homepage eras. The live site is separate (`inde
 11. **[11-2026-10-21-cinzel-home-about-contact](11-2026-10-21-cinzel-home-about-contact/)** — Cinzel home, About & Contact  
    _2026-09-25 → 2026-10-21_  
    Home, About and Contact (plus `styles.css`) as live just before the Oct 21 redesign.
+
+12. **[12-2026-10-29-newsreader-gold-mat](12-2026-10-29-newsreader-gold-mat/)**: Newsreader home with the drifting gold mat  
+   _2026-10-21 to 2026-10-29_  
+   Home, About, Contact and Church News (plus `news.js` and the old root `styles.css`) as live just before the Oct 29 Impeccable cleanup.
