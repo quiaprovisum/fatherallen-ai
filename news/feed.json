@@ -1,6 +1,44 @@
 {
   "entries": [
     {
+      "id": "2026-10-30-early-morning",
+      "date": "2026-10-30",
+      "edition": "Early Morning",
+      "items": [
+        {
+          "text": "Pope Leo XIV has requested a mail-in ballot for the November 3 U.S. midterm elections in Illinois, the Chicago Sun-Times reported. He is registered under his baptismal name, Robert Francis Prevost, at an address in New Lenox, home to an Augustinian parish and high school. The ballot was requested on October 3.",
+          "links": [
+            {
+              "label": "The Catholic Herald",
+              "url": "https://thecatholicherald.com/article/pope-leo-xiv-requests-mail-in-ballot-for-us-midterm-elections"
+            }
+          ]
+        },
+        {
+          "text": "Church and AI: At the Asian bishops' communications assembly in Macau on October 29, Bishop Marcelino Antonio Maralit Jr. of San Pablo, Philippines, called the digital world \"the main square, the Areopagus of our time\" for the Church in Asia and urged an ethical, person-centered use of AI. He proposed pastoral guidelines on transparency, data privacy and seminary formation, cautioned priests not to pass off AI-written homilies as their own, and concluded that \"behind every screen in Asia, there is a face.\"",
+          "links": [
+            {
+              "label": "Radio Veritas Asia",
+              "url": "https://www.rvasia.org/asian-news/behind-every-screen-face-fabc-communication-chair-urges-asian-church-humanize-ai"
+            }
+          ]
+        },
+        {
+          "text": "The Vatican Museums opened \"A Century of the Popemobile,\" showing eight historic Mercedes-Benz papal cars, from the 1930 Nürburg 460 given to Pius XI to the modern Popemobiles. It runs in the Square Garden through January 31, 2027, included with museum admission.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/vatican-city/news/2026-10/vatican-museums-exhibit-marks-a-century-of-the-popemobile.html"
+            },
+            {
+              "label": "Vatican Museums",
+              "url": "https://www.museivaticani.va/content/museivaticani/en/eventi-e-novita/iniziative/mostre/2026/un-secolo-papamobile.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-29-evening",
       "date": "2026-10-29",
       "edition": "Evening",
