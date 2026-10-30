@@ -1,6 +1,58 @@
 {
   "entries": [
     {
+      "id": "2026-10-29-evening",
+      "date": "2026-10-29",
+      "edition": "Evening",
+      "items": [
+        {
+          "text": "Pope Leo XIV visits Uruguay November 6 to 8, the first papal visit there in nearly 38 years. Bishop Arturo Fajardo of Salto, ordained a priest by St. John Paul II in 1988, said he hopes the visit will help baptized Catholics who have drifted rediscover the joy of the faith.",
+          "links": [
+            {
+              "label": "EWTN News Español",
+              "url": "https://www.ewtnnews.com/es/mundo/america/leon-xiv-reavive-fe-uruguay"
+            }
+          ]
+        },
+        {
+          "text": "Cardinal Luis Cabrera of Guayaquil, Ecuador, announced a technical safety review of church buildings and parish houses across the archdiocese's 161 parishes, with the fire department, after Redemptorist Father Patricio Sánchez Molinari was killed on October 17 when a cross fell on him during Mass. The collection at Saturday's Mass marking 100 years of the city's Christ the King feast will go to victims of El Niño flooding.",
+          "links": [
+            {
+              "label": "EWTN News Español",
+              "url": "https://www.ewtnnews.com/es/mundo/america/cabrera-seguridad-muerte-sacerdote-cruz"
+            }
+          ]
+        },
+        {
+          "text": "The International Catholic Migration Commission, founded in 1951 under Pius XII, marks its 75th anniversary with a Council meeting in Rome on November 10 to 12 to elect a new president and adopt a four-year strategy. Cardinal Fabio Baggio and former UN refugee chief Filippo Grandi are among the speakers.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/church/news/2026-10/icmc-75th-anniversary-meeting-rome-episcopal-conferences-local.html"
+            }
+          ]
+        },
+        {
+          "text": "A report that the Summorum Pontificum pilgrimage will be barred from using Rome's Augustinianum for future gatherings has been denied by Christian Marquant, president of the coalition that organizes it, who said the group never asked for the venue for 2027 and nothing was refused. The report came from a Messainlatino editor recounting a conversation; the separate refusal of a Pontifical Mass in St. Peter's this year still stands.",
+          "links": [
+            {
+              "label": "LifeSiteNews",
+              "url": "https://www.lifesitenews.com/news/latin-mass-pilgrimage-banned-from-rome-conference-venue-report/"
+            }
+          ]
+        },
+        {
+          "text": "Speaking at the Vatican's International Congress for Pastoral Care in Schools and Universities on October 23, Cardinal Timothy Radcliffe urged educators to meet young people in the age of AI by inviting questions, wonder and adventure. He called for a new vision of work that is about being human, rooted in the kind of loving attention to others that no AI can give.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/vatican-city/news/2026-10/cardinal-timothy-radcliffe-ai-digital-era-young-people-faith.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-29-afternoon",
       "date": "2026-10-29",
       "edition": "Afternoon",
