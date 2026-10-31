@@ -1,6 +1,49 @@
 {
   "entries": [
     {
+      "id": "2026-10-31-afternoon",
+      "date": "2026-10-31",
+      "edition": "Afternoon",
+      "items": [
+        {
+          "text": "Five Spanish Franciscan friars killed in 1597 while serving the Guale people on the Georgia coast, known as the Georgia Martyrs, were beatified in Savannah on Saturday, October 31. Cardinal Frank Leo of Toronto presided as papal legate and called them shining witnesses of the Gospel.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/church/news/2026-10/franciscan-missionaries-beatified-georgia-cardinal-leo.html"
+            }
+          ]
+        },
+        {
+          "text": "Papal Almoner Archbishop Luis Marín de San Martín closed his charity mission to Ukraine on October 30 with stops in Kyiv and Fastiv, visiting a Missionaries of Charity shelter and meeting mothers who lost children in the war, after a night of missile and drone attacks on the capital.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/vatican-city/news/2026-10/ukraine-papal-almoner-concludes-visit-to-a-wounded-people.html"
+            }
+          ]
+        },
+        {
+          "text": "Louisiana's Fifth Circuit Court of Appeal dismissed a wrongful-death lawsuit against the Archdiocese of New Orleans brought by the mother of a 17-year-old Archbishop Rummel High School student who died by suicide hours after being expelled. The court found the facts did not fit any theory of liability; the mother's attorney says she will appeal.",
+          "links": [
+            {
+              "label": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/oct/31/louisiana-wrongful-death-lawsuit-catholic-school"
+            }
+          ]
+        },
+        {
+          "text": "Bishop Fintan Monahan of Killaloe, Ireland, defended his diocese's use of AI-generated images of Jesus, the four evangelists and local saints in feast-day and daily Gospel posts after some parishioners objected. He told Clare FM the tool is used under strict guidelines and is meant to complement, not replace, human pastoral contact.",
+          "links": [
+            {
+              "label": "Clare FM",
+              "url": "https://www.clare.fm/news/bishop-of-killaloe-defends-use-of-ai-jesus-imagery/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-31-morning",
       "date": "2026-10-31",
       "edition": "Morning",
