@@ -1,6 +1,49 @@
 {
   "entries": [
     {
+      "id": "2026-10-31-morning",
+      "date": "2026-10-31",
+      "edition": "Morning",
+      "items": [
+        {
+          "text": "Pope Leo XIV met Saturday with representatives of towns in Lazio, Marche, Umbria and Abruzzo hit by the 2016-2017 Central Italy earthquakes, which killed about 300 people. Ten years on, about 10,000 people still live in temporary housing. The Pope urged that reconstruction move as quickly, safely and transparently as possible, built on shared responsibility and a vision that starts again from God, people and the common good.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-10/ten-years-after-earthquakes-pope-calls-for-rebuilding.html"
+            }
+          ]
+        },
+        {
+          "text": "Archbishop Paul Gallagher, the Vatican foreign minister, said a papal visit to the United States is very likely in the not-too-distant future, possibly 2027 or later, with timing shaped by the U.S. election calendar. He said Pope Leo is going ahead with his Nov. 6-17 trip to Uruguay, Argentina and Peru because he wants to go, given positive reports after his lung surgery.",
+          "links": [
+            {
+              "label": "Catholic News Service",
+              "url": "https://www.usccb.org/news/2026/election-cycle-will-influence-when-pope-heads-us-top-vatican-diplomat-says"
+            }
+          ]
+        },
+        {
+          "text": "Pope Leo chose \"The love of Christ sends us forth,\" from St. Paul's Second Letter to the Corinthians, as the theme for the 101st World Mission Day on Oct. 24, 2027. His message for the day will be published early next year.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-10/world-mission-day-2027-theme-love-of-christ-sends-us-forth.html"
+            }
+          ]
+        },
+        {
+          "text": "Fr. Fernando Fernández de Bobadilla, pastor of Los Yébenes in Spain, described giving general absolution aloud to the dead and dying at the Oct. 28 high-speed train collision near Urda (Toledo), then staying to comfort the injured and help rescue workers. He said the experience showed him how beautiful it is to be a priest in such painful circumstances.",
+          "links": [
+            {
+              "label": "EWTN News Español",
+              "url": "https://www.ewtnnews.com/es/mundo/espana/absolucion-general-tragedia-urda-sacerdote"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-31-early-morning",
       "date": "2026-10-31",
       "edition": "Early Morning",
