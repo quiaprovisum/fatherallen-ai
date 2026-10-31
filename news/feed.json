@@ -1,6 +1,40 @@
 {
   "entries": [
     {
+      "id": "2026-10-30-evening",
+      "date": "2026-10-30",
+      "edition": "Evening",
+      "items": [
+        {
+          "text": "Archbishop Richard Daniel Alarcón Urrutia of Cusco, Peru, died on October 30 at age 74 after a battle with cancer, just over two weeks before Pope Leo XIV is due in Cusco on November 15. Coadjutor Archbishop Lizardo Estrada Herrera now takes full leadership of the archdiocese.",
+          "links": [
+            {
+              "label": "EWTN News Español",
+              "url": "https://www.ewtnnews.com/es/mundo/america/fallece-arzobispo-cusco-richard-alarcon"
+            }
+          ]
+        },
+        {
+          "text": "EWTN is shutting down its WEWN shortwave radio service on October 31 after 34 years, citing high costs, aging transmitters and a shrinking shortwave audience. Its programming will keep reaching Africa, the Middle East and Latin America through more than 600 AM/FM affiliates, satellite, streaming and apps.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/world/us/ewtn-to-end-shortwave-radio-operations-after-34-years"
+            }
+          ]
+        },
+        {
+          "text": "The Diocese of Savannah expects about 10,000 people on Saturday, October 31, for the beatification of the five Franciscan Georgia martyrs killed in 1597, only the sixth beatification held in the United States. The Mass will be celebrated at the Savannah convention center.",
+          "links": [
+            {
+              "label": "National Catholic Reporter (AP)",
+              "url": "https://www.ncronline.org/news/killed-almost-430-years-ago-5-catholic-friars-will-soon-be-one-step-sainthood"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-30-afternoon",
       "date": "2026-10-30",
       "edition": "Afternoon",
