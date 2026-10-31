@@ -1,6 +1,44 @@
 {
   "entries": [
     {
+      "id": "2026-10-31-early-morning",
+      "date": "2026-10-31",
+      "edition": "Early Morning",
+      "items": [
+        {
+          "text": "Paolo Ruffini, the first layperson to head a Roman Curia office, ends his eight-year term as Prefect of the Dicastery for Communication on October 31. Staff bid him farewell on October 30. Montserrat Alvarado, formerly president and chief operating officer of EWTN News, takes office on November 1 as the first laywoman to lead a Curia dicastery.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/vatican-city/news/2026-10/dicastery-communication-farewell-dr-ruffini-expresses-gratitude.html"
+            }
+          ]
+        },
+        {
+          "text": "Pope Leo XIV holds a private audience on Saturday in the Paul VI Hall with the basketball teams of his alma mater Villanova and of Notre Dame, plus traveling fans, about 7,000 people in all, ahead of the two schools' season opener in Rome.",
+          "links": [
+            {
+              "label": "AP",
+              "url": "https://apnews.com/article/vatican-pope-leo-villanova-notre-dame-college-basketball-3bb26f5b2b1bc2bd808b2dde13f585cb"
+            }
+          ]
+        },
+        {
+          "text": "Archbishop Peter Machado of Bengaluru, joined by Muslim and civil society leaders, urged Karnataka's government on October 30 to fully repeal the state's 2022 anti-conversion law rather than amend it, and to strengthen hate-speech laws. A rally is planned for November 9 at Freedom Park.",
+          "links": [
+            {
+              "label": "The Hindu",
+              "url": "https://www.thehindu.com/news/national/karnataka/religious-minority-leaders-urge-karnataka-government-to-repeal-anti-conversion-law-strengthen-legislation-to-address-hate-speech/article71644071.ece"
+            },
+            {
+              "label": "Vartha Bharati",
+              "url": "https://english.varthabharati.in/karnataka/bengaluru-rally-on-november-9-to-demand-repeal-of-anti-conversion-law-fulfilment-of-cong-manifesto-promises-2286782"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-30-evening",
       "date": "2026-10-30",
       "edition": "Evening",
