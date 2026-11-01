@@ -1,6 +1,44 @@
 {
   "entries": [
     {
+      "id": "2026-11-01-afternoon",
+      "date": "2026-11-01",
+      "edition": "Afternoon",
+      "items": [
+        {
+          "text": "Peru's Church is mourning a second bishop in under 48 hours. Bishop Jorge Pedro Carrión Pavlich of Puno, 76, died in Lima, two days after Cusco's Archbishop Richard Alarcón. He led Puno for more than 24 years. The funeral Mass is Tuesday, Nov. 3, in Puno, with burial in his hometown of Tarma on Nov. 4. Pope Leo XIV is due in Peru Nov. 11-16.",
+          "links": [
+            {
+              "label": "EWTN News Español",
+              "url": "https://www.ewtnnews.com/es/mundo/america/fallece-obispo-puno-jorge-carrion"
+            }
+          ]
+        },
+        {
+          "text": "New Orleans marked All Saints' Day with its traditional cemetery blessings, a French Catholic custom of blessing graves on Nov. 1. Archbishop James Checchio, celebrating his first All Saints' Day as archbishop, offered an 11 a.m. Mass at Our Lady of the Rosary and blessed the graves at St. Louis Cemetery No. 3, with evening Masses at Loyola and the Tulane Catholic Center.",
+          "links": [
+            {
+              "label": "WWL-TV",
+              "url": "https://www.wwltv.com/article/news/religion/all-saints-day-in-new-orleans-masses-cemetery-blessings-and-local-traditions/289-5d3e64e1-c192-40b9-888e-ae67114a19bc"
+            }
+          ]
+        },
+        {
+          "text": "France ordered stepped-up protection of churches and Christian cemeteries for All Saints' and All Souls'. Interior Minister Laurent Nuñez cited a very high terror threat level and 843 anti-Christian acts recorded in 2025, up 9 percent, mostly property damage and largely affecting Catholic sites.",
+          "links": [
+            {
+              "label": "La Croix",
+              "url": "https://www.la-croix.com/religion/toussaint-une-securite-renforcee-pour-les-lieux-de-culte-chretiens-va-etre-mise-en-place-20261028"
+            },
+            {
+              "label": "franceinfo",
+              "url": "https://www.franceinfo.fr/societe/religion/toussaint/toussaint-laurent-nunez-demande-aux-prefets-de-renforcer-la-securite-des-lieux-de-culte-et-cimetieres-chretiens_8257213.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-01-morning",
       "date": "2026-11-01",
       "edition": "Morning",
