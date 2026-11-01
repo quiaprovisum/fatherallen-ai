@@ -1,6 +1,31 @@
 {
   "entries": [
     {
+      "id": "2026-11-01-early-morning",
+      "date": "2026-11-01",
+      "edition": "Early Morning",
+      "items": [
+        {
+          "text": "Pope Leo XIV sent condolences on the death of Archbishop Richard Alarcón Urrutia of Cusco, calling him a selfless pastor and entrusting him to Our Lady of Bethlehem. The archbishop died Oct. 30 at 74, and his funeral is set for Nov. 1 in Cusco's cathedral. The Pope said he hopes to pray with the local Church during his Nov. 15 visit, and Archbishop Lizardo Estrada Herrera now leads the archdiocese.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/church/news/2026-10/cusco-peru-archbishop-richard-alarcon-urrutia-died-illness-pray.html"
+            }
+          ]
+        },
+        {
+          "text": "AI scientist Gary Marcus, who attended the Oct. 30 Vatican meeting on the future of AI, called Pope Leo XIV the clearest thinker on AI among prominent world leaders and endorsed all five points of his address, from keeping humans responsible for life-and-death decisions to building international oversight. Marcus says he is now a global ambassador for the encyclical Magnifica Humanitas through the Domus Communis Foundation.",
+          "links": [
+            {
+              "label": "Marcus on AI (Substack)",
+              "url": "https://garymarcus.substack.com/p/report-from-the-vatican"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-31-evening",
       "date": "2026-10-31",
       "edition": "Evening",
