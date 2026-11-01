@@ -1,6 +1,52 @@
 {
   "entries": [
     {
+      "id": "2026-11-01-morning",
+      "date": "2026-11-01",
+      "edition": "Morning",
+      "items": [
+        {
+          "text": "At the All Saints Angelus, Pope Leo XIV said holiness is not a privilege for a few but a universal vocation, made of choices of love that rise above greed and evil, and urged the faithful never to grow weary of fostering peace in great and ordinary situations alike.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-angelus-message-feast-all-saints-holiness-peace-love.html"
+            }
+          ]
+        },
+        {
+          "text": "After the Angelus, the Pope welcomed this week's evacuation of hundreds of civilians from the Russian-occupied Ukrainian town of Oleshky under a rare humanitarian ceasefire and hoped the cooperation behind it would lead to dialogue. He also recalled the newly beatified Georgia Martyrs, greeted athletes at the Youth Olympic Games in Senegal, pointed to the coming World Day of the Poor, and asked for prayers for the dead.",
+          "links": [
+            {
+              "label": "Vatican News on X",
+              "url": "https://x.com/VaticanNews/status/2116861828793843925"
+            },
+            {
+              "label": "Pope Leo XIV on X",
+              "url": "https://x.com/Pontifex/status/2116885470273835302"
+            },
+            {
+              "label": "Vatican News on X (closing greetings)",
+              "url": "https://x.com/VaticanNews/status/2116885472756846694"
+            }
+          ]
+        },
+        {
+          "text": "In New Orleans, St. Augustine High School, the Josephite-run Catholic school, beat Edna Karr 52-14 before more than 18,000 fans, ending Karr's 35-game winning streak and clinching a share of the Catholic League title, with Archbishop Rummel next on Friday.",
+          "links": [
+            {
+              "label": "Crescent City Sports",
+              "url": "https://crescentcitysports.com/st-augustine-crushes-edna-karr-52-14-snaps-35-game-winning-streak-jaelle-noble-7-tds/"
+            },
+            {
+              "label": "FOX 8 New Orleans",
+              "url": "https://www.fox8live.com/2026/11/01/st-aug-ends-edna-karrs-35-game-win-streak/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-01-early-morning",
       "date": "2026-11-01",
       "edition": "Early Morning",
