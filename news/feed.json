@@ -1,6 +1,44 @@
 {
   "entries": [
     {
+      "id": "2026-10-31-evening",
+      "date": "2026-10-31",
+      "edition": "Evening",
+      "items": [
+        {
+          "text": "Pope Leo XIV accepted the resignation of Archbishop Aldo Cavalli as Special Apostolic Visitator for the parish of Medjugorje and named Bishop Francesco Cavina, emeritus of Carpi, to the post for an indefinite period. The same bulletin named Fr. Martial Bernard, vicar general of Évry-Corbeil-Essonnes, as bishop of Soissons, France.",
+          "links": [
+            {
+              "label": "Holy See Press Office",
+              "url": "https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2026/10/31/261031b.html"
+            }
+          ]
+        },
+        {
+          "text": "Aid to the Church in Need's new report, Persecuted and Forgotten? 2024-26, finds conditions for Christians worsened in about 55 percent of the 18 countries studied, with none improving. The pontifical charity estimates 413 million Christians live where religious freedom is seriously violated and about 220 million face direct persecution, citing displacement in Africa and Asia, authoritarian pressure in places like Nicaragua and Iran, and religious nationalism in India.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/church/news/2026-10/acn-report-persecution-christians-africa-asia-displacement.html"
+            },
+            {
+              "label": "Aid to the Church in Need USA",
+              "url": "https://www.churchinneed.org/persecution-of-christians-worsens-in-55-of-countries-studied-with-none-improving/"
+            }
+          ]
+        },
+        {
+          "text": "Cardinal Luis Antonio Tagle, preaching at the 75th anniversary Mass of the Diocese of Legazpi in the Philippines, said homilies must come from personal faith and an encounter with Christ rather than from AI, which he described as a reorganizing of existing data. He added that technology and social media can support evangelization but cannot replace human witnesses, echoing Pope Leo XIV's February remarks to the clergy of Rome.",
+          "links": [
+            {
+              "label": "CBCP News",
+              "url": "https://cbcpnews.net/cbcpnews/cardinal-tagle-says-catholic-homilies-must-come-from-faith-not-ai/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-10-31-afternoon",
       "date": "2026-10-31",
       "edition": "Afternoon",
