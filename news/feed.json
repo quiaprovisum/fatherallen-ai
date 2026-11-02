@@ -1,6 +1,35 @@
 {
   "entries": [
     {
+      "id": "2026-11-02-early-morning",
+      "date": "2026-11-02",
+      "edition": "Early Morning",
+      "items": [
+        {
+          "text": "The Diocese of Macau, the first modern diocese created in Asia, closed its 450th-anniversary celebrations on October 31 with a pontifical Mass at the Forum de Macau presided over by Cardinal Luis Antonio Tagle. Thousands of faithful attended, and Cardinal Tagle called the jubilee an act of thanksgiving for a living faith that must keep moving forward. The jubilee year continues through January 2027.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/church/news/2026-11/diocese-macau-missionary-legacy-digital-age-celebrations.html"
+            }
+          ]
+        },
+        {
+          "text": "Pope Leo XIV celebrates Mass for All Souls' Day this afternoon at 4 p.m. Rome time at the city's Verano Cemetery, as he did in 2025. On Thursday, November 5, he will offer Mass in St. Peter's Basilica for the cardinals and bishops who died this past year, before leaving on November 6 for his South America trip to Uruguay, Argentina and Peru.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-10/pope-leo-to-celebrate-all-souls-mass-at-rome-s-verano-cemetery.html"
+            },
+            {
+              "label": "Vatican.va calendar",
+              "url": "https://www.vatican.va/content/leo-xiv/en/events/event.dir.html/content/vaticanevents/en/2026/11/2/messa-fedeli-defunti.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-01-evening",
       "date": "2026-11-01",
       "edition": "Evening",
