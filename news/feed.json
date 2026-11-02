@@ -1,6 +1,48 @@
 {
   "entries": [
     {
+      "id": "2026-11-01-evening",
+      "date": "2026-11-01",
+      "edition": "Evening",
+      "items": [
+        {
+          "text": "Oleshky evacuees reached Ukraine and reunited with family under a six-day local ceasefire brokered with help from U.S. First Lady Melania Trump and Pope Leo XIV's appeals. The Pope welcomed the operation at Sunday's Angelus and hoped it would lead to new peace initiatives; the truce was due to expire by Monday, and some residents chose to stay.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/world/news/2026-11/ukraine-russia-war-humanitarian-ceasefire-oleshky-evacuations.html"
+            },
+            {
+              "label": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/1/ukrainian-evacuees-from-russian-occupied-oleshky-reunite-with-family"
+            }
+          ]
+        },
+        {
+          "text": "In Savannah, Archbishop Gregory Hartmayer of Atlanta presided at an All Saints' Day Mass of thanksgiving for the five newly beatified Georgia Martyrs, Franciscan friars killed in 1597, saying they are on their way to being saints. Bishop Stephen Parkes said the diocese will keep their memorial on Sept. 22.",
+          "links": [
+            {
+              "label": "OSV News",
+              "url": "https://www.osvnews.com/at-nov-1-mass-of-thanksgiving-archbishop-says-beatified-georgia-martyrs-are-on-their-way-to-being-saints/"
+            }
+          ]
+        },
+        {
+          "text": "The Asian bishops' communications office (FABC-OSC) closed its Macau meeting with a statement calling AI a gift and an opportunity that must serve communion. It commits to AI literacy, pastoral AI policies in each bishops' conference, putting papal and Church documents online in local languages so AI tools represent the faith accurately, and a regional committee to train digital missionaries, while warning about deepfakes, cyber-scam trafficking and AI replacing human presence and prayer.",
+          "links": [
+            {
+              "label": "CBCP News",
+              "url": "https://cbcpnews.net/cbcpnews/asian-bishops-communications-arm-urges-ai-safeguards/"
+            },
+            {
+              "label": "Daily Tribune",
+              "url": "https://tribune.net.ph/2026/11/01/asian-bishops-urge-safeguards-on-artificial-intelligence-use"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-01-afternoon",
       "date": "2026-11-01",
       "edition": "Afternoon",
