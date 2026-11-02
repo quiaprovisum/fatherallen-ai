@@ -1,6 +1,40 @@
 {
   "entries": [
     {
+      "id": "2026-11-02-morning",
+      "date": "2026-11-02",
+      "edition": "Morning",
+      "items": [
+        {
+          "text": "The Maronite Archeparchy of Haifa condemned the vandalizing of the Saints Peter and Paul prayer hall in Nahariya, northern Israel, on All Saints' Day, where statues were broken and religious images defaced. Archbishop Moussa El-Hage called it a grave attack on freedom of worship and asked police to find those responsible, adding that the community will keep praying there and will not answer evil with hatred.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/world/news/2026-11/archeparchy-of-haifa-condemns-attack-on-prayer-hall-in-nahariya.html"
+            }
+          ]
+        },
+        {
+          "text": "New York Archbishop Ronald Hicks has joined the lawsuit by the Little Sisters of the Poor, other religious orders, Bishop John Barres of Rockville Centre and ArchCare challenging New York's new assisted suicide law, which a federal court has already barred the state from enforcing against the Catholic plaintiffs while the case proceeds. \"We refuse to allow New York to force us to harm the very ones we've been called to care for,\" he said.",
+          "links": [
+            {
+              "label": "National Catholic Register",
+              "url": "https://www.ncregister.com/cna/new-york-archbishop-joins-religious-sisters-in-suing-state-over-assisted-suicide-law"
+            }
+          ]
+        },
+        {
+          "text": "The Diocese of Rome will open the sainthood cause of Lorenzo Cuneo on Nov. 6 at the Lateran Palace. A scout and Caritas volunteer who served the homeless of Rome and war-torn families in the Balkans, he was killed at 28 by a truck after stopping to help a driver in trouble on the A1 motorway.",
+          "links": [
+            {
+              "label": "EWTN News Español",
+              "url": "https://www.ewtnnews.com/es/vaticano/abren-causa-beatificacion-joven-scout-roma"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-02-early-morning",
       "date": "2026-11-02",
       "edition": "Early Morning",
