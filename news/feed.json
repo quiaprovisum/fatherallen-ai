@@ -1,6 +1,44 @@
 {
   "entries": [
     {
+      "id": "2026-11-02-afternoon",
+      "date": "2026-11-02",
+      "edition": "Afternoon",
+      "items": [
+        {
+          "text": "Pope Leo XIV celebrated the All Souls' Day Mass at Rome's Campo Verano Cemetery, saying that faith in Christ means our bond with the dead is not broken but transformed. Calling the Beatitudes the path to a full life now and in eternity, he prayed especially for those whose loved ones were torn away by the senseless violence of war, asking that their tears touch the consciences of those with the power to silence the weapons.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/on-all-souls-pope-leo-says-beatitudes-are-the-path-to-full-life.html"
+            },
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/vatican/pope-leo-xiv-faith-assures-us-that-our-bond-with-the-faithful-departed-has-not-been-broken"
+            }
+          ]
+        },
+        {
+          "text": "Four priests were ordained Oct. 31 for the Society of the Missionaries of Divine Mercy, a traditional French community, by Bishop François Touvet at the Benedictine Abbey of Notre-Dame de Triors. The society had waited since 2022, when the Vatican halted diocesan ordinations, for confirmation that its new priests could offer the traditional Mass under Traditionis Custodes.",
+          "links": [
+            {
+              "label": "The Catholic Herald",
+              "url": "https://thecatholicherald.com/article/french-traditional-order-sees-ordinations-after-years-long-wait-for-vatican-approval"
+            }
+          ]
+        },
+        {
+          "text": "Poland's bishops have appealed for dialogue and prayer as a standoff over the country's Constitutional Tribunal deepens. The bishops' conference presidium said it is not the Church's role to judge the dispute, but asked politicians to calm the conflict and seek a peaceful resolution, warning of a deep crisis of the state.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/world/europe/polish-bishops-appeal-for-dialogue-as-constitutional-court-standoff-deepens"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-02-morning",
       "date": "2026-11-02",
       "edition": "Morning",
