@@ -1,6 +1,40 @@
 {
   "entries": [
     {
+      "id": "2026-11-02-evening",
+      "date": "2026-11-02",
+      "edition": "Evening",
+      "items": [
+        {
+          "text": "On the eve of the US midterm elections, Catholics are working for peace at the polls. The Franciscan Action Network is sending about 375 trained poll chaplains in several dozen states to offer a calm, de-escalating presence outside polling places, and a San Diego parish held a Eucharistic procession to a ballot box. The US bishops are urging Catholics to prayerfully discern their choices and vote.",
+          "links": [
+            {
+              "label": "OSV News",
+              "url": "https://www.osvnews.com/catholics-work-for-peace-at-the-polls-as-us-heads-into-midterm-elections/"
+            }
+          ]
+        },
+        {
+          "text": "Archbishop Timothy Broglio of the Archdiocese for the Military Services told America that moral injury is a growing pastoral concern for service members, including drone operators who fight from a distance. His archdiocese is preparing presentations to help military chaplains recognize and respond to it. On AI-driven warfare, he said the Church is applying the moral principles that have always guided it, starting, as Pope Leo's Magnifica Humanitas does, with the dignity of the human person.",
+          "links": [
+            {
+              "label": "America Magazine",
+              "url": "https://www.americamagazine.org/politics-society/weekly-dispatch/2026/11/02/archbishop-broglio-military-trump-hegseth-moral-injury/"
+            }
+          ]
+        },
+        {
+          "text": "More than 300 young Hebrew- and Arabic-speaking Catholics gathered in the Holy Land over the weekend for a youth festival organized by the St James Vicariate of the Latin Patriarchate of Jerusalem, praying together in both languages as a sign of unity amid conflict.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/church/news/2026-11/faith-that-unites-the-holy-lands-hosts-a-youth-festival-catholic.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-02-afternoon",
       "date": "2026-11-02",
       "edition": "Afternoon",
