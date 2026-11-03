@@ -1,6 +1,40 @@
 {
   "entries": [
     {
+      "id": "2026-11-03-morning",
+      "date": "2026-11-03",
+      "edition": "Morning",
+      "items": [
+        {
+          "text": "Pope Leo XIV released his message for the 2026 World Youth Day, celebrated in dioceses on Nov. 22, the Solemnity of Christ the King. He urges young people not to wait until they are perfect to open their lives to Christ, to bring Him their own wounds and those dividing their societies, and to prepare their hearts for the international gathering in Seoul, Aug. 3-8, 2027.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-message-young-people-world-youth-day-seoul-south-korea.html"
+            }
+          ]
+        },
+        {
+          "text": "Bishop Heiner Wilmer of Münster, chairman of the German Bishops' Conference, told Europe's bishops that the German Church wants full communion with the Pope, another sign that Germany's synodal path is adjusting under Leo XIV as the Vatican pushes back on plans for a permanent Synodal Conference.",
+          "links": [
+            {
+              "label": "The Catholic Herald",
+              "url": "https://thecatholicherald.com/article/head-of-german-bishops-we-want-full-communion-with-the-pope"
+            }
+          ]
+        },
+        {
+          "text": "A crucifix war memorial outside St Alban's Church in Warrington, England, was vandalised on the evening of Oct. 30, with the head knocked from the figure of Christ and an anti-Catholic message written on its plaque. Cheshire Police have released a CCTV image of a man they want to question.",
+          "links": [
+            {
+              "label": "The Catholic Herald",
+              "url": "https://thecatholicherald.com/article/police-seek-man-after-anti-catholic-graffiti-daubed-on-warrington-war-memorial-and-crucifix-vandalised"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-03-early-morning",
       "date": "2026-11-03",
       "edition": "Early Morning",
