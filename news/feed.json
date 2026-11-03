@@ -1,6 +1,66 @@
 {
   "entries": [
     {
+      "id": "2026-11-03-afternoon",
+      "date": "2026-11-03",
+      "edition": "Afternoon",
+      "items": [
+        {
+          "text": "The U.S. Supreme Court heard arguments on Nov. 3 in St. Mary Catholic Parish v. Roy, in which the Archdiocese of Denver and two parishes challenge their exclusion from Colorado's universal preschool program over its nondiscrimination rule. Several justices appeared sympathetic to the Catholic preschools.",
+          "links": [
+            {
+              "label": "CBS News",
+              "url": "https://www.cbsnews.com/news/supreme-court-st-mary-catholic-parish-v-roy-colorado-preschool/"
+            },
+            {
+              "label": "SCOTUSblog",
+              "url": "https://www.scotusblog.com/cases/st-mary-catholic-parish-v-roy/"
+            }
+          ]
+        },
+        {
+          "text": "Ahead of Pope Leo XIV's Nov. 6-17 journey to Uruguay, Argentina and Peru, the Holy See Press Office briefed journalists and the Vatican released Church statistics for the three countries, which together count nearly 77 million baptized Catholics. The trip includes a return to Chiclayo, where he was bishop from 2015 to 2023.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/vatican-city/news/2026-11/catholic-church-statistics-uruguay-argentina-peru-pope-leo-visit.html"
+            }
+          ]
+        },
+        {
+          "text": "Papal almoner Archbishop Luis Marin de San Martin visited Ukraine Oct. 27-30, delivering aid to 12 Catholic charitable institutions and helping distribute bread to about 2,000 people outside the cathedral in Zaporizhzhia, roughly 12 miles from the front line.",
+          "links": [
+            {
+              "label": "OSV News",
+              "url": "https://www.osvnews.com/bread-under-fire-pope-leos-envoy-witnesses-hunger-in-war-torn-ukraine/"
+            }
+          ]
+        },
+        {
+          "text": "Bishop Georg Batzing of Limburg, former chair of the German bishops' conference, publicly criticized Pope Leo XIV's September remarks on abuse, asking the Pope to acknowledge that Church structures facilitated abuse and its cover-up.",
+          "links": [
+            {
+              "label": "Catholic Herald",
+              "url": "https://thecatholicherald.com/article/bishop-batzing-pope-must-admit-systemic-abuse-in-church"
+            }
+          ]
+        },
+        {
+          "text": "Magisterium AI launched Catholic Intelligence, a platform for dioceses and parishes that keeps Mass times, ministries and pastoral letters current so the AI can steer people asking about returning to the Church, becoming Catholic or baptism toward a real parish nearby.",
+          "links": [
+            {
+              "label": "Magisterium (parishes)",
+              "url": "https://www.magisterium.com/catholic-intelligence/parish"
+            },
+            {
+              "label": "Magisterium (dioceses)",
+              "url": "https://www.magisterium.com/catholic-intelligence/diocese"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-03-morning",
       "date": "2026-11-03",
       "edition": "Morning",
