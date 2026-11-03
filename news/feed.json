@@ -1,6 +1,31 @@
 {
   "entries": [
     {
+      "id": "2026-11-03-early-morning",
+      "date": "2026-11-03",
+      "edition": "Early Morning",
+      "items": [
+        {
+          "text": "Cardinal Oswald Gracias, Archbishop Emeritus of Bombay and a former member of Pope Francis's Council of Cardinals, said in an interview that he would not favor prohibiting the spread of the Traditional Latin Mass, provided it does not signal a rejection of the Second Vatican Council, and that there is value in the present approach of greater openness. He said he had permitted the older rite in three Bombay churches but found it hard to find priests well versed in Latin.",
+          "links": [
+            {
+              "label": "AdVaticanum",
+              "url": "https://advaticanum.com/article/exclusive-interview-cardinal-gracias-on-tlm-i-would-not-be-for-prohibiting-it-provided-vatican-ii-is-respected"
+            }
+          ]
+        },
+        {
+          "text": "The Bishops' Conference of England and Wales said war and conflict \"are not inevitabilities.\" In a joint statement for UN Disarmament Week, Bishop Nicholas Hudson and Bishop William Kenney urged political leaders to pursue dialogue and meaningful disarmament and asked Catholics to stand together for peace.",
+          "links": [
+            {
+              "label": "Catholic Herald",
+              "url": "https://thecatholicherald.com/article/war-and-conflict-are-not-inevitabilities-bishops-tell-political-leaders"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-02-evening",
       "date": "2026-11-02",
       "edition": "Evening",
