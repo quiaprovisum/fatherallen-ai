@@ -1,6 +1,75 @@
 {
   "entries": [
     {
+      "id": "2026-11-04-morning",
+      "date": "2026-11-04",
+      "edition": "Morning",
+      "items": [
+        {
+          "text": "At his last general audience before the Nov. 6-17 trip to Uruguay, Argentina and Peru, Pope Leo XIV reflected on Gaudium et Spes and economic and political life. He said politics that tends the wounds of peoples and of those who suffer injustice gives hope, called unemployment, exploitation and unsafe working conditions unacceptable, and urged Christian communities to revive formation in the Church's social doctrine.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-general-audience-social-economic-life-social-doctrine.html"
+            },
+            {
+              "label": "Full text (vatican.va)",
+              "url": "https://www.vatican.va/content/leo-xiv/en/audiences/2026/documents/20261104-udienza-generale.html"
+            }
+          ]
+        },
+        {
+          "text": "Before the audience, Pope Leo received Chilean President José Antonio Kast, who then met Archbishop Paul Richard Gallagher. The Holy See said talks touched on the Church's contribution to Chilean life, migration and demographic decline.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-receives-president-of-chile-at-the-vatican.html"
+            },
+            {
+              "label": "Holy See Press Office",
+              "url": "https://press.vatican.va/content/salastampa/es/bollettino/pubblico/2026/11/04/041126d.html"
+            }
+          ]
+        },
+        {
+          "text": "Meeting L'Œuvre d'Orient and the Institut Chrétiens d'Orient, which support Eastern Christians, the Pope asked them to serve a peace that is \"unarmed and disarming, humble and persevering,\" especially in the Middle East and Eastern Europe.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-xiv-oeuvre-orient-eastern-christians-audience.html"
+            }
+          ]
+        },
+        {
+          "text": "The German-speaking bishops have opened public consultation on revising the 1975 German missal, with trial texts in selected parishes from Ash Wednesday to June 2027 and a target date of 2033. Liturgical Institute director Marius Linnenborn said the language should be as inclusive as possible; the text still needs the bishops' approval and the Vatican's recognitio.",
+          "links": [
+            {
+              "label": "katholisch.de",
+              "url": "https://www.katholisch.de/kirche-in-deutschland/das-messbuch-soll-neu-herausgegeben-werden-was-wird-sich-aendern"
+            }
+          ]
+        },
+        {
+          "text": "Cardinal Luis Antonio Tagle told Asian Church communicators in Macau that the Church supports media technology but digital evangelization must rest on real relationships and human dignity, not manipulation. Speakers also urged using AI to serve human dignity and more support for young digital evangelizers.",
+          "links": [
+            {
+              "label": "CathNews",
+              "url": "https://cathnews.com/2026/11/04/cardinal-warns-against-manipulation-in-digital-evangelisation/"
+            }
+          ]
+        },
+        {
+          "text": "The Laudato Si' Action Platform launched a Digital Atlas that maps Catholic institutions' ecological plans alongside climate and environmental data, searchable by country or diocese.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/vatican-city/news/2026-11/laudato-si-platform-5-year-report-digital-atlas-press-conference.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-04-early-morning",
       "date": "2026-11-04",
       "edition": "Early Morning",
