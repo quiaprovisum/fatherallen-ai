@@ -1,6 +1,31 @@
 {
   "entries": [
     {
+      "id": "2026-11-04-early-morning",
+      "date": "2026-11-04",
+      "edition": "Early Morning",
+      "items": [
+        {
+          "text": "Archbishop Eamon Martin of Armagh has been elected a vice president of the Council of European Bishops' Conferences (CCEE) for 2026 to 2031, alongside Archbishop Dražen Kutleša of Zagreb, at the plenary assembly in Salzburg on October 27 to 30. Archbishop Gintaras Grušas of Vilnius was re-elected president.",
+          "links": [
+            {
+              "label": "Catholic Herald",
+              "url": "https://thecatholicherald.com/article/archbishop-eamon-martin-elected-vice-president-of-european-bishops-council"
+            }
+          ]
+        },
+        {
+          "text": "The Vietnamese bishops' youth committee gathered 120 youth directors, bishops, religious, and lay leaders from 23 dioceses in Nha Trang on October 28 to 29 to plan youth ministry for the AI era. Bishop Peter Nguyen Van Vien urged leaders to listen and accompany young people, and the assembly committed to building AI ethics, media literacy, and Scripture-centered mentorship into diocesan youth ministry ahead of World Youth Day Seoul 2027.",
+          "links": [
+            {
+              "label": "Radio Veritas Asia",
+              "url": "https://www.rvasia.org/asian-news/vietnamese-church-assembles-120-youth-directors-23-dioceses-tackle-ai-pastoral-shifts"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-03-evening",
       "date": "2026-11-03",
       "edition": "Evening",
