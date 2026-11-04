@@ -1,6 +1,57 @@
 {
   "entries": [
     {
+      "id": "2026-11-03-evening",
+      "date": "2026-11-03",
+      "edition": "Evening",
+      "items": [
+        {
+          "text": "Pope Leo XIV released his November prayer video, asking Catholics to pray for the proper use of wealth, so that money, time and talents become instruments of fraternity and service to the poor rather than selfish accumulation.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-november-prayer-intention-for-the-proper-use-of-wealth.html"
+            }
+          ]
+        },
+        {
+          "text": "The Diocese of Knoxville issued an instruction on the SSPX after an unauthorized Latin Mass mission opened there. It says attachment to the Traditional Latin Mass is not itself schism, but liturgical preference cannot override communion with the Pope and bishops, invites those involved to reconcile, and notes an authorized monthly 1962 Missal Mass continues at a retreat center in Benton.",
+          "links": [
+            {
+              "label": "Diocese of Knoxville",
+              "url": "https://dioknox.org/news/instruction-to-the-faithful-about-the-sspx"
+            },
+            {
+              "label": "AdVaticanum",
+              "url": "https://advaticanum.com/article/bishop-of-knoxville-issues-seven-page-memorandum-on-sspx"
+            }
+          ]
+        },
+        {
+          "text": "In Culiacan, Mexico, Father Clemente Morales Topete is recovering after being abducted on Oct. 24 and held three days, beaten, burned and threatened for information he did not have. Bishop Jesus Jose Herrera Quinonez is pressing authorities for results amid ongoing Sinaloa violence.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/world/americas/mexican-priest-recovers-from-kidnapping-ordeal"
+            },
+            {
+              "label": "ZENIT",
+              "url": "https://zenit.org/2026/11/03/mexican-bishop-demands-justice-after-priest-is-abducted-tortured-and-threatened-with-death-in-sinaloa/"
+            }
+          ]
+        },
+        {
+          "text": "Church and AI: the Builders AI Forum meets Nov. 5-6 at the Pontifical Gregorian University in Rome, gathering technologists, investors and Church leaders to build AI tools for evangelization, Catholic education and healthcare grounded in human dignity. Last year's edition drew a message from Pope Leo.",
+          "links": [
+            {
+              "label": "Builders AI Forum",
+              "url": "https://www.baif.ai/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-03-afternoon",
       "date": "2026-11-03",
       "edition": "Afternoon",
