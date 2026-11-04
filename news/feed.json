@@ -1,6 +1,67 @@
 {
   "entries": [
     {
+      "id": "2026-11-04-afternoon",
+      "date": "2026-11-04",
+      "edition": "Afternoon",
+      "items": [
+        {
+          "text": "Pope Leo XIV received Bob Dylan in a brief private audience at the Apostolic Palace on November 4. The Pope gave the singer a rosary and Dylan gave him his memoir, Chronicles: Volume One. Leo had quoted Dylan's 1963 song Go Away You Bomb in a preface on disarmament earlier this year.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-receives-bob-dylan-at-the-vatican.html"
+            }
+          ]
+        },
+        {
+          "text": "Ahead of the November 6-17 trip to Uruguay, Argentina and Peru, the Holy See Press Office said Pope Leo is clinically fit to travel about three weeks after his lung surgery, with no schedule changes. The trip includes nine public Masses, two stadium vigils and about 36 speeches.",
+          "links": [
+            {
+              "label": "America / OSV News",
+              "url": "https://www.americamagazine.org/news/2026/11/03/pope-leo-clinically-fit-latin-america-trip/"
+            }
+          ]
+        },
+        {
+          "text": "Pope Leo named two new auxiliary bishops for the Archdiocese of Guadalajara, Mexico: Ramón Duarte Miranda and Héctor Michel Figeroa. The archdiocese will now have four auxiliaries while Cardinal José Francisco Robles Ortega, 77, remains archbishop.",
+          "links": [
+            {
+              "label": "EWTN Noticias",
+              "url": "https://www.ewtnnews.com/es/mundo/america/papa-leon-xiv-obispos-guadalajara"
+            }
+          ]
+        },
+        {
+          "text": "Syro-Malabar Major Archbishop Raphael Thattil has dissolved the special tribunal created in 2024 to discipline Ernakulam-Angamaly priests who resisted the uniform liturgy, after the Apostolic Signatura suspended its cases. Suspensions on two priests were also revoked earlier this year.",
+          "links": [
+            {
+              "label": "The Pillar",
+              "url": "https://www.pillarcatholic.com/p/syro-malabar-leader-dissolves-liturgy"
+            }
+          ]
+        },
+        {
+          "text": "A Spanish priest, Fr. Fernando Fernández de Bobadilla, described giving general absolution and helping medics at the October 28 high-speed train crash near Urda, Toledo, which killed 69 people.",
+          "links": [
+            {
+              "label": "Catholic Herald",
+              "url": "https://thecatholicherald.com/article/spanish-priest-gives-absolution-and-help-to-train-crash-victims"
+            }
+          ]
+        },
+        {
+          "text": "Chile's foreign ministry said President José Antonio Kast and Pope Leo XIV discussed the opportunities of artificial intelligence at the service of people and the common good during their Vatican meeting on November 4.",
+          "links": [
+            {
+              "label": "Chile Foreign Ministry on X",
+              "url": "https://x.com/Minrel_Chile/status/2118009270830841884"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-04-morning",
       "date": "2026-11-04",
       "edition": "Morning",
