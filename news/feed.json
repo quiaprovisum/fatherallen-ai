@@ -1,6 +1,53 @@
 {
   "entries": [
     {
+      "id": "2026-11-04-evening",
+      "date": "2026-11-04",
+      "edition": "Evening",
+      "items": [
+        {
+          "text": "Virginia's bishops responded on Nov. 4 after voters approved state constitutional amendments on abortion and same-sex marriage. Bishop Michael Burbidge of Arlington and Bishop Barry Knestout of Richmond urged Catholics to keep defending human life and marriage, and Burbidge thanked those who worked in the Catholics Vote No campaign.",
+          "links": [
+            {
+              "label": "The Catholic Herald",
+              "url": "https://thecatholicherald.com/article/virginia-bishops-respond-after-voters-approve-abortion-and-same-sex-marriage-amendments"
+            }
+          ]
+        },
+        {
+          "text": "The popemobile for Pope Leo XIV's visit to Peru was presented and blessed by Cardinal Pedro Barreto at the apostolic nunciature in Lima on Nov. 4. General Motors adapted two Chevrolet Colorado trucks in 24 days, adding a retractable stairway and a removable cabin.",
+          "links": [
+            {
+              "label": "EWTN Noticias",
+              "url": "https://www.ewtnnews.com/es/mundo/america/papamovil-papa-leon-xiv-peru"
+            }
+          ]
+        },
+        {
+          "text": "The Diocese of Rome opens the diocesan inquiry for the beatification cause of Servant of God Lorenzo Cuneo on Friday, Nov. 6, with Cardinal Vicar Baldo Reina presiding. Cuneo, a scout leader and Caritas volunteer, was killed at 28 in 1998 when a truck struck him as he stopped to help a stranded driver on the A1 motorway.",
+          "links": [
+            {
+              "label": "Diocese of Rome",
+              "url": "https://www.diocesidiroma.it/lapertura-della-causa-di-beatificazione-di-lorenzo-cuneo/"
+            },
+            {
+              "label": "Avvenire",
+              "url": "https://www.avvenire.it/chiesa/chiesa-italiana/lorenzo-cuneo-il-capo-scout-morto-sulla1-al-via-la-causa-di-beatificazione_115007"
+            }
+          ]
+        },
+        {
+          "text": "The Museum of the Bible in Washington has opened an exhibit on Blessed Stanley Rother, the Oklahoma missionary priest martyred in Guatemala in 1981, including belongings he had the night he was killed. It runs through Oct. 1, 2027, and an EWTN Studios film on his life is due next summer.",
+          "links": [
+            {
+              "label": "National Catholic Register",
+              "url": "https://www.ncregister.com/news/museum-of-the-bible-opens-rother-exhibit"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-04-afternoon",
       "date": "2026-11-04",
       "edition": "Afternoon",
