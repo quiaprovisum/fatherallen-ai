@@ -1,6 +1,62 @@
 {
   "entries": [
     {
+      "id": "2026-11-05-morning",
+      "date": "2026-11-05",
+      "edition": "Morning",
+      "items": [
+        {
+          "text": "Pope Leo XIV celebrated Mass in St. Peter's Basilica for the seven cardinals and 136 bishops who died over the past year, saying that praying for the dead is to celebrate life and that in Christ death does not dissolve our bonds. Afterward he prayed at the tombs of his predecessors in the Vatican Grottoes, including Pius XII, St. Paul VI and Benedict XVI.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-recalls-how-in-christ-life-has-been-redeemed.html"
+            },
+            {
+              "label": "Homily text (vatican.va)",
+              "url": "https://www.vatican.va/content/leo-xiv/en/homilies/2026/documents/20261105-messa-cardinali-defunti.html"
+            }
+          ]
+        },
+        {
+          "text": "The theme for the 2027 World Day of the Sick, to be marked on February 11, is \"They lowered him on the stretcher in front of Jesus: The role of the community in caring for every person,\" calling parishes and civil society to care for the lonely, the elderly and the suffering.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-theme-world-day-sick-2027-caring-for-every-person.html"
+            }
+          ]
+        },
+        {
+          "text": "Ahead of the Pope's November 6-17 journey to Uruguay, Argentina and Peru, Cardinal Secretary of State Pietro Parolin described the visit as a witness to unity and reconciliation that will be filled with memories, affection and gratitude.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/vatican-city/news/2026-11/cardinal-parolin-pope-leo-xiv-interview-latin-america-visit.html"
+            }
+          ]
+        },
+        {
+          "text": "The Priestly Fraternity of Saint Peter, dedicated to the traditional Latin Mass, reported a record 25 ordinations in 2026 and now counts more than 600 members, according to its annual All Saints' Day statistics.",
+          "links": [
+            {
+              "label": "Catholic Herald",
+              "url": "https://thecatholicherald.com/article/fssp-sees-record-ordinations-as-latin-mass-order-steadily-grows"
+            }
+          ]
+        },
+        {
+          "text": "A 2.3 million pound restoration of Nottingham Cathedral's Pugin decorations is nearing completion, with three chapels and three ambulatories restored and Gothic decoration uncovered beneath layers of grey paint.",
+          "links": [
+            {
+              "label": "Catholic Herald",
+              "url": "https://thecatholicherald.com/article/2-3m-project-to-restore-nottingham-cathedral-s-pugin-decorations-nears-completion"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-05-early-morning",
       "date": "2026-11-05",
       "edition": "Early Morning",
