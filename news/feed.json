@@ -1,6 +1,40 @@
 {
   "entries": [
     {
+      "id": "2026-11-05-early-morning",
+      "date": "2026-11-05",
+      "edition": "Early Morning",
+      "items": [
+        {
+          "text": "Fr Bashar Fawadleh, parish priest of Taybeh, the last Christian village in the West Bank, told UK parliamentarians and journalists about settler attacks on homes, cars and olive groves, and said 16 families have left the village in the past three years. His visit was hosted by the Equestrian Order of the Holy Sepulchre.",
+          "links": [
+            {
+              "label": "Catholic Herald",
+              "url": "https://thecatholicherald.com/article/taybeh-priest-tells-uk-mps-of-attacks-driving-christians-from-west-bank-village"
+            }
+          ]
+        },
+        {
+          "text": "Cardinal Oswald Gracias, archbishop emeritus of Bombay, said in an interview published November 2 that he would not favor prohibiting the Traditional Latin Mass as long as it does not signal a rejection of the Second Vatican Council. He noted he had allowed it in three Bombay parishes and said there is value in the present approach of greater openness.",
+          "links": [
+            {
+              "label": "LifeSiteNews",
+              "url": "https://www.lifesitenews.com/news/indian-cardinal-opposes-ban-on-latin-mass-if-vatican-ii-is-not-rejected/"
+            }
+          ]
+        },
+        {
+          "text": "The Catholic University of Uruguay will host Pope Leo XIV's meeting with the world of education on Saturday, November 7. Its Jesuit rector, Fr Julio Fernández Techera, said the university has spent three years studying artificial intelligence in education, drawing on the encyclical Magnifica humanitas, and that the key message is the centrality of the human person and using the technology ethically.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/es/iglesia/news/2026-11/universidad-catolica-uruguay-rector-encuentro-papa-educacion.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-04-evening",
       "date": "2026-11-04",
       "edition": "Evening",
