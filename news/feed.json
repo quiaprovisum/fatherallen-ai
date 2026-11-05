@@ -1,6 +1,62 @@
 {
   "entries": [
     {
+      "id": "2026-11-05-afternoon",
+      "date": "2026-11-05",
+      "edition": "Afternoon",
+      "items": [
+        {
+          "text": "Pope Leo XIV sent a video message to a Rome conference marking 100 years since the consecration of the first Chinese bishops, urging Catholics to preserve unity in diversity rather than uniformity and recalling that the Church’s mission is not colonialism. On the sidelines, Cardinal Pietro Parolin said the 2018 Vatican-China agreement is imperfect but that the Holy See is “moving forward, seeking to perfect what is imperfect.”",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-xiv-conference-church-china-unity-diversity.html"
+            },
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/vatican/pope-leo-xiv-praises-chinese-catholics-for-unity-100-years-after-consecration-of-their-first"
+            }
+          ]
+        },
+        {
+          "text": "Pope Leo XIV appointed Jesuit Fr. Avelino Chicoma Bundo Chico and Professor Claudia Leal Luna as undersecretaries of the Dicastery for Promoting Integral Human Development.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/vatican-city/news/2026-11/pope-appoints-undersecretaries-dicastery-integral-development.html"
+            }
+          ]
+        },
+        {
+          "text": "Ahead of the Nov. 6–17 Apostolic Journey to Uruguay, Argentina, and Peru, Vatican News editorial director Andrea Tornielli framed the trip as a homecoming to the continent where Leo served as a missionary and bishop, with a call to unity, evangelization, and care for the poor and vulnerable.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-xiv-apostolic-journey-peru-argentina-uruguay-editorial.html"
+            }
+          ]
+        },
+        {
+          "text": "In a Clarion Herald column for Vocations Awareness Week, Archbishop James Checchio of New Orleans thanked the archdiocese’s priests, noted the Catholic Community Foundation’s Saint John Paul II Award to all priests of the archdiocese at its 50th-anniversary dinner, and asked the faithful to pray for priestly vocations.",
+          "links": [
+            {
+              "label": "Clarion Herald",
+              "url": "https://clarionherald.org/news/in-thanksgiving-for-the-gift-of-the-priesthood"
+            }
+          ]
+        },
+        {
+          "text": "The Clarion Herald profiled Archdiocese of New Orleans priests serving as military chaplains, including Fr. Kurt Young (Navy/Marine Forces Reserve), Fr. Matthew Johnston (Louisiana Army National Guard), and Fr. Andrew Sanchez (Navy, Camp Pendleton), marking more than 250 years of U.S. military chaplaincy.",
+          "links": [
+            {
+              "label": "Clarion Herald",
+              "url": "https://clarionherald.org/news/military-chaplains-bring-christ-to-the-field"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-05-morning",
       "date": "2026-11-05",
       "edition": "Morning",
