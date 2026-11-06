@@ -1,6 +1,43 @@
 {
   "entries": [
     {
+      "id": "2026-11-06-afternoon",
+      "date": "2026-11-06",
+      "edition": "Afternoon",
+      "items": [
+        {
+          "text": "Pope Leo XIV landed in Montevideo, Uruguay, at about 4:19 p.m. local time on November 6, beginning his 12-day apostolic journey to Uruguay, Argentina, and Peru about three weeks after lung-cancer surgery. President Yamandú Orsi greeted him at Carrasco International Airport; the day’s program continues with a Plaza Independencia welcome, a meeting with the president, and Vespers at the Metropolitan Cathedral.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-departs-for-apostolic-journey-to-latin-america.html"
+            },
+            {
+              "label": "OSV News",
+              "url": "https://www.osvnews.com/pope-leo-arrives-in-uruguay-saying-he-had-no-doubt-he-would-make-the-trip-after-cancer-surgery/"
+            },
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/world/americas/pope-leo-xiv-arrives-in-south-america"
+            }
+          ]
+        },
+        {
+          "text": "Aboard the flight from Rome, Pope Leo told journalists he “had no doubt” the South America trip should go ahead and said he was in “fairly good shape,” advising people facing cancer not to be afraid and to seek early detection. He formally introduced Maria Montserrat Alvarado as the new prefect of the Dicastery for Communication and said he is “proud to be American and to exercise the right to vote.”",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-xiv-was-confident-south-america-trip-would-go-ahead.html"
+            },
+            {
+              "label": "OSV News",
+              "url": "https://www.osvnews.com/pope-leo-arrives-in-uruguay-saying-he-had-no-doubt-he-would-make-the-trip-after-cancer-surgery/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-06-morning",
       "date": "2026-11-06",
       "edition": "Morning",
