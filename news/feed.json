@@ -1,6 +1,26 @@
 {
   "entries": [
     {
+      "id": "2026-11-06-early-morning",
+      "date": "2026-11-06",
+      "edition": "Early Morning",
+      "items": [
+        {
+          "text": "Pope Leo XIV departed Rome on Friday morning for a 12-day apostolic journey to Uruguay, Argentina, and Peru, his first return to Latin America as pope and about three weeks after lung-cancer surgery. The ITA Airways flight left Fiumicino at 7:05 a.m. Rome time; Uruguay is the first stop, with Peru the longest homecoming leg, including Chiclayo where he once served as bishop.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-departs-for-apostolic-journey-to-latin-america.html"
+            },
+            {
+              "label": "OSV News",
+              "url": "https://www.osvnews.com/pope-leo-xiv-departs-for-12-day-tour-of-south-america/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-05-evening",
       "date": "2026-11-05",
       "edition": "Evening",
