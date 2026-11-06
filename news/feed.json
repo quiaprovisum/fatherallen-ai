@@ -1,6 +1,48 @@
 {
   "entries": [
     {
+      "id": "2026-11-06-morning",
+      "date": "2026-11-06",
+      "edition": "Morning",
+      "items": [
+        {
+          "text": "Pope Leo XIV chose the theme for the 35th World Day of the Sick on Feb. 11, 2027: \"They lowered him on the stretcher in front of Jesus: The role of the community in caring for every person,\" drawn from Luke 5:19. The Dicastery for Promoting Integral Human Development said Christian communities and civil society are called to care for the sick, the elderly, and those who suffer, creating spaces of closeness and hope.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-theme-world-day-sick-2027-caring-for-every-person.html"
+            },
+            {
+              "label": "Holy See Press Office",
+              "url": "https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2026/11/05/261105e.html"
+            }
+          ]
+        },
+        {
+          "text": "As Pope Leo XIV flew toward Uruguay to open his 12-day Latin America journey, Montevideo prepared a full day-one welcome: arrival at Carrasco Airport about 4:30 p.m. local time, a ceremony in Plaza Independencia, a meeting with President Yamandú Orsi, and Vespers at the Metropolitan Cathedral. Organizers expect about 60,000 people at Saturday's youth prayer vigil in Centenario Stadium, with an outside screen for overflow; Uruguay's visit motto is \"I bring you good news of great joy.\"",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/uruguay-prepares-to-welcome-pope-leo-xiv.html"
+            },
+            {
+              "label": "Vatican News (departure)",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-departs-for-apostolic-journey-to-latin-america.html"
+            }
+          ]
+        },
+        {
+          "text": "In New Orleans, the Archdiocese's Black Saints Celebration is set for Saturday, Nov. 7, with a 10 a.m. parade from Brother Martin High School to St. Martin de Porres Church for an 11:30 a.m. prayer service. Archbishop James Checchio will preside under the theme \"Honoring Our Roots, Celebrating Our Faith: Many Tribes, One Spirit.\"",
+          "links": [
+            {
+              "label": "Archdiocese of New Orleans",
+              "url": "https://arch-no.org/events/black-saints-celebration"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-06-early-morning",
       "date": "2026-11-06",
       "edition": "Early Morning",
