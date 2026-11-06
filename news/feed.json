@@ -1,6 +1,49 @@
 {
   "entries": [
     {
+      "id": "2026-11-05-evening",
+      "date": "2026-11-05",
+      "edition": "Evening",
+      "items": [
+        {
+          "text": "California Gov. Gavin Newsom, who identifies as Catholic, commuted all 548 death sentences in the state to life without parole. Catholic Mobilizing Network called the move a historic witness for life and human dignity, citing the Catechism's teaching that the death penalty is inadmissible.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/world/us/catholic-group-praises-california-for-largest-commutation-in-history-as-hundreds-spared"
+            }
+          ]
+        },
+        {
+          "text": "After the Nov. 5 execution of Jeffrey Weisheit in his diocese, Bishop Robert McClory of Gary said Church teaching upholds the dignity of every human life, including those who commit grave crimes. He had prayed outside Indiana State Prison and pointed to the Catechism and recent papal teaching.",
+          "links": [
+            {
+              "label": "OSV News",
+              "url": "https://www.osvnews.com/bishop-church-upholds-value-of-every-human-life-even-those-who-have-committed-horrible-crimes/"
+            }
+          ]
+        },
+        {
+          "text": "OSV News reports growing parish use of AI for flyers and promotions. Catholic technologists and the Diocese of Little Rock see real promise when tools are used carefully with disclosure, while others warn against generic or misleading images and urge human care in parish outreach.",
+          "links": [
+            {
+              "label": "OSV News",
+              "url": "https://www.osvnews.com/experts-see-promise-in-ai-as-tool-for-parish-flyers-promotions-but-warn-against-its-misuse/"
+            }
+          ]
+        },
+        {
+          "text": "The Dicastery for the Doctrine of the Faith upheld Bishop Douglas Deshotel's 2024 excommunication of former permanent deacon Scott Peyton of Lafayette, Louisiana, after he left for an Anglican congregation following his son's abuse by a priest. Peyton plans to appeal further; the priest's prison release is set for Nov. 14.",
+          "links": [
+            {
+              "label": "OSV News",
+              "url": "https://www.osvnews.com/vatican-upholds-excommunication-of-former-deacon-who-plans-to-appeal/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-05-afternoon",
       "date": "2026-11-05",
       "edition": "Afternoon",
