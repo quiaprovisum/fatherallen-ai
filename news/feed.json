@@ -1,6 +1,35 @@
 {
   "entries": [
     {
+      "id": "2026-11-07-morning",
+      "date": "2026-11-07",
+      "edition": "Morning",
+      "items": [
+        {
+          "text": "On Saturday morning in Paysandú, Pope Leo XIV celebrated his first Mass in South America at Parque París Londres before tens of thousands. In the homily he urged Uruguayans to be bridges so others meet Jesus, a fraternal community that shares life with those in need, and a community of prayer. He thanked God for Blessed Jacinto Vera, the gaucho bishop of Montevideo, and used local images of the border bridge, palm trees, and mate. Afternoon stops in Montevideo still ahead: Casavalle, the Catholic University, and the Centenario stadium vigil.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/pt/papa/news/2026-11/papa-leao-xiv-missa-paysandu-uruguai-viagem-apostolica-07-11-26.html"
+            },
+            {
+              "label": "Reuters",
+              "url": "https://www.thestar.com.my/news/world/2026/11/07/pope-leo-urges-south-america-to-bridge-divides-on-uruguay-argentina-border"
+            }
+          ]
+        },
+        {
+          "text": "At the Builders AI Forum (Nov. 5–6) at Rome’s Pontifical Gregorian University, Cardinal Michael Czerny said everyone is impacted by AI but people are not listening to one another. New Communications prefect Montse Alvarado stressed that AI is a tool, not a person: the Gospel message is communicated through AI, not by it. Bishop Stephen Wang pointed to Magisterium AI in priestly formation; Hallow’s Erich Kerekes said prayer is a relationship AI cannot invent.",
+          "links": [
+            {
+              "label": "EWTN Vatican",
+              "url": "https://ewtnvatican.com/articles/we-are-all-impacted-by-ai-but-nobodys-listening-to-one-another-cardinal-warns-at-conference"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-07-early-morning",
       "date": "2026-11-07",
       "edition": "Early Morning",
