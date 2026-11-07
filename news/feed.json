@@ -1,6 +1,48 @@
 {
   "entries": [
     {
+      "id": "2026-11-07-early-morning",
+      "date": "2026-11-07",
+      "edition": "Early Morning",
+      "items": [
+        {
+          "text": "The Archdiocese of New Orleans added 27 deceased clergy to its list of priests credibly accused of child sexual abuse on Nov. 6, the largest update since the list was first published in 2018. Ten served as archdiocesan priests and 17 belonged to religious orders or other dioceses but were accused of abuse in the area. The list now holds 106 names. Archbishop James Checchio said the release is part of the $300 million bankruptcy settlement, which also provides for a public archive of clergy-abuse records at LSU, and that no clergy with a credible claim remain in ministry.",
+          "links": [
+            {
+              "label": "WWL-TV",
+              "url": "https://www.wwltv.com/article/news/investigations/losing-faith/27-priests-added-to-new-orleans-archdioceses-list-of-clergy-accused-of-abuse/289-3acc2837-efe6-4b17-a979-83e622f99867"
+            },
+            {
+              "label": "NOLA.com",
+              "url": "https://www.nola.com/news/business/archdiocese-new-orleans-priest-abuse/article_d38cab45-f082-4218-83c1-6809a6e4ed6c.html"
+            }
+          ]
+        },
+        {
+          "text": "Pope Leo XIV closed his first day in Uruguay by greeting a crowd, many of them young people, outside the Apostolic Nunciature in Montevideo. In his Vespers homily with the country's bishops, clergy and religious, he held up Blessed Jacinto Vera, Montevideo's first bishop, as a defender of religious freedom. Saturday's program includes an evening vigil at Centenario Stadium.",
+          "links": [
+            {
+              "label": "Vatican News on X (nunciature)",
+              "url": "https://x.com/VaticanNews/status/2118948566018236529"
+            },
+            {
+              "label": "Vatican News on X (Vespers)",
+              "url": "https://x.com/VaticanNews/status/2118996630104056261"
+            }
+          ]
+        },
+        {
+          "text": "The Archdiocese of Portland in Oregon's Office of Divine Worship, in its November newsletter, asked lay faithful and deacons not to extend their hands in the orans posture or hold hands during the Our Father at Mass, citing the General Instruction of the Roman Missal and canon law that reserve the gesture to the priest.",
+          "links": [
+            {
+              "label": "Archdiocese of Portland",
+              "url": "https://archdpdx.org/news/divine-worship-office-says-laity-should-refrain-from-raising-hands-during-our-father"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-06-evening",
       "date": "2026-11-06",
       "edition": "Evening",
