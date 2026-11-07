@@ -1,6 +1,52 @@
 {
   "entries": [
     {
+      "id": "2026-11-06-evening",
+      "date": "2026-11-06",
+      "edition": "Evening",
+      "items": [
+        {
+          "text": "Pope Leo XIV completed his first day in Uruguay with a welcome at Plaza Independencia in Montevideo, an address to authorities, civil society, and the diplomatic corps, a meeting with President Yamandú Orsi, and Vespers at the Metropolitan Cathedral. In the Plaza address he spoke on the common good: protection of the unborn and support for families, care for children and the elderly, accessible health care, and a secular state that leaves room for believers and non-believers to live together without confining religion to the private sphere. Local authorities estimated about 30,000 people along the route and in the square.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/flags-and-painted-faces-welcome-pope-leo-to-montevideo.html"
+            },
+            {
+              "label": "Holy See text",
+              "url": "https://www.vatican.va/content/leo-xiv/en/speeches/2026/november/documents/20261106-uruguay-autorita.html"
+            },
+            {
+              "label": "Vatican News (Plaza)",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-in-uruguay-the-church-offers-jesus-christ.html"
+            }
+          ]
+        },
+        {
+          "text": "At Vespers with bishops, clergy, religious, and seminarians in Montevideo’s cathedral, Pope Leo invited bishops worldwide to promote days of prayer and fasting for vocations to the priesthood and consecrated life. He pointed to Uruguay’s example after the interdiocesan seminary received no new candidates in 2024 and thanked those who have since begun formation. He praised long service with the line that hands grown old doing good are beautiful, and recalled Blessed Jacinto Vera, Uruguay’s first bishop, whose body rests in the cathedral.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-xiv-vespers-montevideo-uruguay-clergy-religious.html"
+            },
+            {
+              "label": "Holy See bulletin",
+              "url": "https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2026/11/06/261106c.html"
+            }
+          ]
+        },
+        {
+          "text": "In the same Plaza Independencia address, Pope Leo briefly addressed technology and artificial intelligence in light of work and human dignity. Citing Saint John Paul II’s Laborem Exercens, he said work is for man and not man for work, and that the development of these technologies ought to expand human capabilities, facilitate tasks, and create new possibilities while ensuring the laborer is not reduced to a mere expendable cog in the production process.",
+          "links": [
+            {
+              "label": "Holy See text",
+              "url": "https://www.vatican.va/content/leo-xiv/en/speeches/2026/november/documents/20261106-uruguay-autorita.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-06-afternoon",
       "date": "2026-11-06",
       "edition": "Afternoon",
