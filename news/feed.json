@@ -1,6 +1,35 @@
 {
   "entries": [
     {
+      "id": "2026-11-07-afternoon",
+      "date": "2026-11-07",
+      "edition": "Afternoon",
+      "items": [
+        {
+          "text": "After the Paysandú Mass, Pope Leo XIV visited the Cathedral Basilica of Our Lady of the Rosary and St. Benedict of Palermo, unveiled a commemorative plaque, and greeted the faithful outside. He urged Uruguayans to build bridges that unite people in faith and peace, saying peace is possible and they want to build it, then returned by air to Montevideo.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-xiv-prays-our-lady-rosary-paysandu-uruguay.html"
+            }
+          ]
+        },
+        {
+          "text": "In Montevideo on Saturday afternoon, Pope Leo XIV reached the Parish of Our Lady of Guadalupe in Casavalle, a marginalized neighborhood on the capital’s outskirts, accompanied by Cardinal Daniel Sturla. After a brief off-agenda stop at a priests’ residence, he was to meet the local social community, hear testimonies, and bless twelve homes in the parish’s Familias de Guadalupe housing project. Catholic University and the Estadio Centenario prayer vigil remain later in the day.",
+          "links": [
+            {
+              "label": "El País Uruguay",
+              "url": "https://www.elpais.com.uy/informacion/sociedad/papa-leon-xiv-en-vivo-uruguay-sabado-7-noviembre-2026"
+            },
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/church/news/2026-11/pope-leo-to-bless-homes-for-families-in-montevideo-s-casavalle.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-07-morning",
       "date": "2026-11-07",
       "edition": "Morning",
