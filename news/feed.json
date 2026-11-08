@@ -1,6 +1,44 @@
 {
   "entries": [
     {
+      "id": "2026-11-08-morning",
+      "date": "2026-11-08",
+      "edition": "Morning",
+      "items": [
+        {
+          "text": "On his last day in Uruguay, Pope Leo XIV celebrated Mass at the National Shrine of Our Lady of the Thirty-Three in Florida. He recalled that those fighting for independence in 1825 entrusted the country's future to Mary before her image, and he renewed Uruguay's consecration to her, offering a Golden Rose. He thanked mothers and grandmothers who pass on the faith even when their children no longer practice it, asked fathers and grandfathers to let their children see that faith has a real place in a man's life, and told Uruguayans to go out again, enter people's homes, listen to their questions, and bring them to Christ.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-reconsecrates-uruguay-to-mary-on-feast-of-country-patroness.html"
+            }
+          ]
+        },
+        {
+          "text": "Earlier Sunday morning he stopped at Saint Therese Parish in Juanico, the first parish in Uruguay dedicated to her after her canonization, and greeted about 2,000 people in the courtyard after praying inside the church. He said his family, especially his father, had a great devotion to Saint Therese, and he asked them not to be afraid to say, \"I am a Christian, I am Catholic, I believe in Jesus Christ.\"",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-xiv-the-love-of-god-is-always-with-us.html"
+            }
+          ]
+        },
+        {
+          "text": "A gunman killed six people and wounded fifteen in Krakow's Main Market Square on Saturday, near St. Mary's Basilica. Cardinal Grzegorz Rys said the Church must stand together and that hatred cannot have the last word, and he invited the faithful to a Mass for the victims and the wounded. Archbishop Tadeusz Wojda, president of the Polish bishops' conference, said he stood in prayer with all who suffered.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/es/iglesia/news/2026-11/masacre-cracovia-la-iglesia-el-odio-no-tendra-la-ultima-palabra.html"
+            },
+            {
+              "label": "OSV News",
+              "url": "https://www.osvnews.com/church-and-poland-mourn-after-mass-shooting-in-krakows-historic-main-market-square/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-08-early-morning",
       "date": "2026-11-08",
       "edition": "Early Morning",
