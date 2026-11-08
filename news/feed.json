@@ -1,6 +1,44 @@
 {
   "entries": [
     {
+      "id": "2026-11-07-evening",
+      "date": "2026-11-07",
+      "edition": "Evening",
+      "items": [
+        {
+          "text": "At the Catholic University of Uruguay in Montevideo, Pope Leo XIV told educators that other people are a blessing, not a threat, and asked Catholic schools to help students recover their full dignity as persons. He urged schools and universities to make judicious use of technologies and AI, placing the person before the algorithm and harmonizing technical, emotional, social, spiritual and ecological intelligence.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-xiv-education-community-uruguay-montevideo.html"
+            }
+          ]
+        },
+        {
+          "text": "At the evening prayer vigil in Centenario Stadium on his last night in Uruguay, the Pope told the faithful not to settle for a merely decent life or habitual faith. He urged young people to dare to marry and start families, couples to welcome children, and those called to the priesthood or consecrated life to answer without fear, and pointed them to prayer, Mass, Confession, the Gospel and Eucharistic adoration.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-at-uruguay-prayer-vigil-07-november-2026.html"
+            }
+          ]
+        },
+        {
+          "text": "In the poor Casavalle neighborhood of Montevideo, Leo said Christians cannot turn a blind eye to injustice, naming children out of school, hungry families and violent crime, and asked the Church and civil authorities to work together to protect human dignity. Earlier he stopped at the Bishop Jacinto Vera Home for retired priests and thanked about 20 elderly priests for their years of ministry.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-xiv-meets-with-casavalle-community-in-uruguay.html"
+            },
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/vatican/in-uruguay-pope-leo-xiv-deplores-the-social-costs-of-violent-crime"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-07-afternoon",
       "date": "2026-11-07",
       "edition": "Afternoon",
