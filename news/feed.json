@@ -1,6 +1,44 @@
 {
   "entries": [
     {
+      "id": "2026-11-08-afternoon",
+      "date": "2026-11-08",
+      "edition": "Afternoon",
+      "items": [
+        {
+          "text": "Pope Leo XIV left Uruguay on Sunday afternoon, telling Uruguayans he carries them in his heart, and landed at Buenos Aires' Aeroparque Jorge Newbery at 4:33 p.m. local time, where President Javier Milei greeted him at the foot of the plane. The evening schedule includes a tribute to General San Martín, a welcome ceremony and meeting with Milei at the Casa Rosada, and a visit to the Palacio Libertad. He remains in Argentina through Wednesday, Nov. 11, with stops in Córdoba and Luján, before leaving for Lima.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://x.com/VaticanNews/status/2119522972264259916"
+            },
+            {
+              "label": "La Nación",
+              "url": "https://www.lanacion.com.ar/politica/asi-fue-el-saludo-entre-javier-milei-y-el-papa-leon-xiv-en-aeroparque-tras-la-llegada-a-la-argentina-nid08112026/"
+            }
+          ]
+        },
+        {
+          "text": "In Brazil, Bishop Canísio Klaus of Sinop issued a Nov. 3 pastoral letter stating that no public Mass according to the 1962 Roman Missal is authorized in his diocese under Traditionis custodes. He asks the faithful not to organize or attend unauthorized celebrations, calling them illicit though not necessarily invalid, and says simple attendance does not automatically incur excommunication, while formal adherence to a break with Rome can amount to schism.",
+          "links": [
+            {
+              "label": "ACI Digital",
+              "url": "https://www.acidigital.com/noticia/70765/diocese-de-sinop-reitera-proibicao-de-missa-tradicional-em-seu-territorio"
+            }
+          ]
+        },
+        {
+          "text": "Bishop Barry Knestout of Richmond, a member of the U.S. bishops' task force on human dignity in the age of artificial intelligence, wrote that the bishops \"do not engage in fear mongering\" but that human dignity must guide AI development. Drawing on Pope Leo XIV's encyclical Magnifica humanitas, he said the task force aims to offer moral and ethical guidance to the technology field and to advocate for legislation that keeps the human person at the center.",
+          "links": [
+            {
+              "label": "The Catholic Virginian",
+              "url": "https://catholicvirginian.org/slider/christ-our-hope-bishop-knestouts-column-human-dignity-must-guide-ai-developments/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-08-morning",
       "date": "2026-11-08",
       "edition": "Morning",
