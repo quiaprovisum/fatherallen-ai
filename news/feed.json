@@ -1,6 +1,52 @@
 {
   "entries": [
     {
+      "id": "2026-11-08-early-morning",
+      "date": "2026-11-08",
+      "edition": "Early Morning",
+      "items": [
+        {
+          "text": "Argentina's State Intelligence Secretariat (SIDE) said Saturday it had detained a person over death threats against Pope Leo XIV, on the eve of the Pope's arrival in the country. The arrest was ordered by a federal court in Campana.",
+          "links": [
+            {
+              "label": "Infobae on X",
+              "url": "https://x.com/infobae/status/2119244755271881076"
+            },
+            {
+              "label": "La Nación",
+              "url": "https://www.lanacion.com.ar/sociedad/visita-del-papa-leon-xiv-en-vivo-su-llegada-a-la-argentina-y-las-ultimas-noticias-de-su-agenda-en-nid08112026/"
+            }
+          ]
+        },
+        {
+          "text": "Pope Leo XIV leaves Uruguay for Argentina today, the first papal visit there since 1987. He is due at Buenos Aires' Aeroparque at 4:30 p.m. local time, then visits the San Martín monument, is welcomed at the Casa Rosada and meets President Javier Milei. The Argentina stage runs through Nov. 11 with stops in Córdoba and Luján under the motto \"Welcome everyone. Go and proclaim.\"",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/church/news/2026-11/pope-leo-xiv-argentina-preview-apostolic-visit.html"
+            },
+            {
+              "label": "La Nación",
+              "url": "https://www.lanacion.com.ar/sociedad/visita-del-papa-leon-xiv-en-vivo-su-llegada-a-la-argentina-y-las-ultimas-noticias-de-su-agenda-en-nid08112026/"
+            }
+          ]
+        },
+        {
+          "text": "About 70,000 people filled Montevideo's Estadio Centenario for Saturday night's prayer vigil, where the Pope told Uruguay's Catholics not to fear being a minority and said Christ did not call them to mediocrity. One couple got engaged during the event.",
+          "links": [
+            {
+              "label": "EWTN News Español on X",
+              "url": "https://x.com/aciprensa/status/2119288034331881695"
+            },
+            {
+              "label": "EWTN News Español on X",
+              "url": "https://x.com/aciprensa/status/2119261460589166761"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-07-evening",
       "date": "2026-11-07",
       "edition": "Evening",
