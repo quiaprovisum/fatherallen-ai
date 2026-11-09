@@ -1,6 +1,53 @@
 {
   "entries": [
     {
+      "id": "2026-11-09-afternoon",
+      "date": "2026-11-09",
+      "edition": "Afternoon",
+      "items": [
+        {
+          "text": "Pope Leo XIV met privately for more than an hour in Buenos Aires with five survivors of abuse by clergy and Church institutions in Argentina. According to the Holy See Press Office, he listened to each one individually, heard their proposals for healing, and expressed his desire to strengthen pathways of protection, welcome and accompaniment in the Church.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-abuse-victims-argentina-church-healing-protection-closeness.html"
+            }
+          ]
+        },
+        {
+          "text": "Addressing unions, employers and social movements at the Pontifical Catholic University of Argentina, the Pope said the economy must serve the human person, called unemployment a genuine tragedy that wounds dignity, and recalled that private property carries a social mortgage. He warned that artificial intelligence and unregulated automation can put countless jobs at risk and said technology must always be subject to ethics. He also held up Venerable Enrique Shaw, an Argentine Catholic businessman, as an example.",
+          "links": [
+            {
+              "label": "Vatican News on X",
+              "url": "https://x.com/VaticanNews/status/2119876608014025083"
+            },
+            {
+              "label": "Vatican News on X (AI remarks)",
+              "url": "https://x.com/VaticanNews/status/2119886636834234754"
+            }
+          ]
+        },
+        {
+          "text": "AP estimated about 2.5 million people attended the Pope's first Mass in Argentina on Monday, held near the Monumento de los Españoles in Buenos Aires.",
+          "links": [
+            {
+              "label": "AP",
+              "url": "https://apnews.com/article/pope-argentina-milei-labor-unemployment-disabilities-2ad4ba74d0cff90fb49569df400ac582"
+            }
+          ]
+        },
+        {
+          "text": "As more parishes use AI to make event flyers, OSV News reports mixed views: some Catholics find the images off-putting, while others see a useful tool for overworked staff. The Diocese of Little Rock has adopted guidelines asking church employees to use AI judiciously, never to alter images of minors or vulnerable adults, and always to disclose AI use in public content.",
+          "links": [
+            {
+              "label": "America Magazine / OSV News",
+              "url": "https://www.americamagazine.org/news/2026/11/06/artificial-intelligence-ai-church-flyer-bulletin/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-09-morning",
       "date": "2026-11-09",
       "edition": "Morning",
