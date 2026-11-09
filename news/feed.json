@@ -1,6 +1,35 @@
 {
   "entries": [
     {
+      "id": "2026-11-08-evening",
+      "date": "2026-11-08",
+      "edition": "Evening",
+      "items": [
+        {
+          "text": "In his first address in Argentina, given to authorities, civil society and the diplomatic corps at the Palacio Libertad in Buenos Aires, Pope Leo XIV honored Pope Francis and urged leaders to treat authority as service and put the common good above immediate interests. He called for dialogue across political differences, stronger institutions against corruption and organized crime, economic growth that reaches the poor, the unemployed and the elderly, and asked why so many young Argentines feel they must leave. He also spoke for the unborn and the sick, care for natural resources, and the ethical responsibilities raised by new technology, especially artificial intelligence. President Javier Milei welcomed him with remarks recalling Pope Francis and the value of faith.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-xiv-argentina-address-authorities-civil-society-diploma.html"
+            },
+            {
+              "label": "OSV News",
+              "url": "https://www.osvnews.com/pope-leo-xiv-arrives-in-argentina-meets-president-milei-while-urging-respectful-dialogue/"
+            }
+          ]
+        },
+        {
+          "text": "Pope Leo XIV sent a telegram, signed by Cardinal Pietro Parolin, to Cardinal Grzegorz Ryś of Kraków expressing his spiritual closeness to all affected by the Nov. 7 Main Market Square shooting that killed six and wounded fifteen. Cardinal Ryś celebrated a Sunday Mass for the victims at St. Anne's Church, moved from St. Mary's Basilica while the square was sealed, saying the final word cannot belong to hatred.",
+          "links": [
+            {
+              "label": "OSV News",
+              "url": "https://www.osvnews.com/pope-leo-joins-with-church-and-poland-in-mourning-krakow-mass-shooting/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-08-afternoon",
       "date": "2026-11-08",
       "edition": "Afternoon",
