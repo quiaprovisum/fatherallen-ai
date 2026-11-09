@@ -1,6 +1,26 @@
 {
   "entries": [
     {
+      "id": "2026-11-09-morning",
+      "date": "2026-11-09",
+      "edition": "Morning",
+      "items": [
+        {
+          "text": "On his second day in Argentina, Pope Leo XIV visited the Pequeño Cottolengo Don Orione in Claypole, south of Buenos Aires, a center founded by St. Luigi Orione in 1935 that is home to more than 400 people with disabilities. About 100,000 people lined the route. He prayed before the relic of Don Orione's heart, heard testimonies from two residents, and said people with disabilities are not a burden on society but a blessing, adding that a nation's progress is also measured by how it welcomes them. He said charity will save the world because God is love, and asked that the love of Christ triumph over individualism and exclusion. He then left for Mass at the Monumento de los Españoles.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-visits-don-orione-cottolengo-in-argentina.html"
+            },
+            {
+              "label": "Holy See Press Office",
+              "url": "https://press.vatican.va/content/salastampa/it/bollettino/pubblico/2026/11/09/0887/01649.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-08-evening",
       "date": "2026-11-08",
       "edition": "Evening",
