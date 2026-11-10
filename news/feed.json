@@ -1,6 +1,44 @@
 {
   "entries": [
     {
+      "id": "2026-11-10-morning",
+      "date": "2026-11-10",
+      "edition": "Morning",
+      "items": [
+        {
+          "text": "France's bishops have told Catholic hospitals and care institutions to update their charters, statutes, and internal rules now so they can refuse euthanasia and assisted suicide under a new law expected to take effect in January 2027. France's Constitutional Council has allowed institutions to decline when it conflicts with their statutes or mission, and the bishops pointed to Belgium, where a similar protection was removed in 2020. A doctrinal and pastoral document for health care leaders and chaplains is promised for 2027.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/world/europe/french-bishops-urge-catholic-hospitals-to-prepare-to-refuse-euthanasia"
+            }
+          ]
+        },
+        {
+          "text": "Restoration of the Pauline Chapel at the Basilica of St. Mary Major in Rome, home of the Marian icon Salus Populi Romani, begins Nov. 16. The 90-day project focuses on the Baroque dome and surrounding frescoes as part of a wider conservation campaign at the basilica.",
+          "links": [
+            {
+              "label": "EWTN Vatican on X",
+              "url": "https://x.com/EWTNVatican/status/2120124328368816214"
+            }
+          ]
+        },
+        {
+          "text": "Vatican AI adviser Fr. Paolo Benanti and Bishop Paul Tighe of the Dicastery for Culture and Education appear today at Web Summit in Lisbon in a session titled Putting humanity before AI: A Catholic vision. On Nov. 11, Bishop Tighe joins Council of Europe human rights commissioner Michael O'Flaherty for a discussion on keeping the human person at the center of AI development.",
+          "links": [
+            {
+              "label": "Web Summit",
+              "url": "https://websummit.com/sessions/lis26/384e1944-c84e-49b8-8e2b-c26367a29ae4/putting-humanity-before-ai-a-catholic-vision/"
+            },
+            {
+              "label": "Council of Europe",
+              "url": "https://www.coe.int/en/web/commissioner/-/media-advisory-web-summit-2026-europe-human-rights-chief-and-vatican-ai-ethicist-on-re-centering-humanity-at-the-core-of-ai-development"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-10-early-morning",
       "date": "2026-11-10",
       "edition": "Early Morning",
