@@ -1,6 +1,62 @@
 {
   "entries": [
     {
+      "id": "2026-11-09-evening",
+      "date": "2026-11-09",
+      "edition": "Evening",
+      "items": [
+        {
+          "text": "Pope Leo XIV closed his second day in Argentina by praying Vespers with the country's bishops and synodal teams at the Cathedral of the Holy Trinity in Buenos Aires. He urged them to preserve unity, foster vocations, care for the poor and unemployed, and rejoice in whatever promotes the life of their people, citing Blesseds Mamerto Esquiú, Enrique Angelelli and Eduardo Pironio.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-xiv-argentina-vespers-bishops-synodal-teams.html"
+            }
+          ]
+        },
+        {
+          "text": "Earlier, meeting Christian and other religious leaders at the Palacio San Martín, the Pope called religions guardians of human dignity, expressions of freedom and places of hope, and said dialogue does not require relativism or blending beliefs.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-xiv-argentina-meeting-religious-leaders-peace.html"
+            }
+          ]
+        },
+        {
+          "text": "In a bipartisan letter to Speaker Mike Johnson and Democratic Leader Hakeem Jeffries, 91 members of Congress urged a formal invitation for Pope Leo XIV to address a joint session early in the 120th Congress. No U.S. papal visit is scheduled yet.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/world/us/more-than-90-members-of-congress-urge-leaders-to-invite-pope-leo-xiv"
+            }
+          ]
+        },
+        {
+          "text": "Archbishop emeritus Héctor Aguer of La Plata, 83 and too ill to meet the Pope during the visit, told AdVaticanum that the traditional Mass in Argentina faces restrictions and scarce authorizations, and called for restoring Summorum Pontificum and repealing Traditionis custodes for the sake of liturgical peace.",
+          "links": [
+            {
+              "label": "InfoVaticana",
+              "url": "https://infovaticana.com/en/2026/11/09/archbishop-aguer-calls-for-the-repeal-of-traditionis-custodes-during-pope-leo-xivs-visit-to-argentina/"
+            }
+          ]
+        },
+        {
+          "text": "In the Archdiocese of New Orleans, the St. Tammany Parish Sheriff's Office arrested Fr. Daniel Okafor, pastor of St. Jane de Chantal in Abita Springs, on charges that he diverted about 21,000 dollars in parish checks over more than two and a half years. Parishioners flagged the discrepancies to the archdiocese, which reported them in August and says it is cooperating; deputies say no minors are involved, and the charges are allegations.",
+          "links": [
+            {
+              "label": "WWL Louisiana",
+              "url": "https://www.wwltv.com/article/news/crime/abita-springs-priest-accused-of-stealing-around-21000-from-church-crime-investigation-jail-police-money-fraud-theft/289-a7cf434b-1537-46e9-a18e-7af643399fc4"
+            },
+            {
+              "label": "WDSU",
+              "url": "https://www.wdsu.com/article/abita-springs-priest-arrested-theft-church-funds/74376963"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-09-afternoon",
       "date": "2026-11-09",
       "edition": "Afternoon",
