@@ -1,6 +1,44 @@
 {
   "entries": [
     {
+      "id": "2026-11-10-early-morning",
+      "date": "2026-11-10",
+      "edition": "Early Morning",
+      "items": [
+        {
+          "text": "In a video message released Nov. 10 to the International Catholic Migration Commission, meeting in Rome Nov. 10-12 for its 75th anniversary, Pope Leo XIV urged the Church to keep welcoming, protecting, promoting and integrating migrants and refugees, asked for new ways to care for displaced children, and noted falling funding for international aid. Quoting Dilexi Te, he said that in every rejected migrant it is Christ who knocks at the door.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-international-catholic-migration-commission-refugees.html"
+            }
+          ]
+        },
+        {
+          "text": "Outside Buenos Aires cathedral before Pope Leo's Vespers with the Argentine bishops on Nov. 9, young people held banners reading \"Libertad para la Misa Tradicional\" and \"Los jóvenes queremos Misa Tradicional,\" asking for an easing of restrictions on the traditional Latin Mass. Argentine outlet Infobae interviewed members of the group.",
+          "links": [
+            {
+              "label": "Secretum Meum Mihi",
+              "url": "https://secretum-meum-mihi.blogspot.com/2026/11/libertad-para-la-misa-tradicional-los.html"
+            },
+            {
+              "label": "Video on X",
+              "url": "https://x.com/andrescatholic/status/2119923242131481044"
+            }
+          ]
+        },
+        {
+          "text": "More than 400 international teachers from Catholic schools across Thailand joined a Nov. 7 online seminar of the Catholic Education Council of Thailand on peace education, teacher well-being and artificial intelligence. Redemptorist Fr. Jittapol Plangklang urged teachers to make sure technology serves human development rather than setting the direction of education.",
+          "links": [
+            {
+              "label": "Herald Malaysia / LiCAS News",
+              "url": "https://www.heraldmalaysia.com/news/catholic-educators-in-thailand-discuss-ai-peace-and-human-dignity-in-national-seminar/93049/1/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-09-evening",
       "date": "2026-11-09",
       "edition": "Evening",
