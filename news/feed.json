@@ -1,6 +1,44 @@
 {
   "entries": [
     {
+      "id": "2026-11-10-afternoon",
+      "date": "2026-11-10",
+      "edition": "Afternoon",
+      "items": [
+        {
+          "text": "Pope Leo XIV celebrated Mass in Córdoba, Argentina, calling holiness a joyful and inherently missionary vocation. Meeting clergy, religious and seminarians at the cathedral afterward, he warned that \"we work hard for God yet spend less and less time with him,\" urged a return to the Eucharist, Scripture and prayer, and closed with \"Let us not give up!\"",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-argentina-cordoba-meeting-clergy-pastoral-workers.html"
+            }
+          ]
+        },
+        {
+          "text": "At the same Córdoba meeting, Fr. Martín Carranza, a priest left with multiple disabilities after a surgery 11 years ago, addressed the Pope using an AI app that recreates his pre-surgery voice from old recordings, a project of his pastor, family, friends and Radio María that lets him deliver his homilies and meditations. The Pope rose to embrace and bless him and said technology can also help the Church proclaim the Gospel.",
+          "links": [
+            {
+              "label": "Infobae",
+              "url": "https://www.infobae.com/sociedad/2026/11/10/el-crudo-testimonio-de-un-sacerdote-con-paralisis-que-utiliza-la-ia-para-dar-misa-y-que-emociono-al-papa-leon-xiv/"
+            },
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-argentina-cordoba-meeting-clergy-pastoral-workers.html"
+            }
+          ]
+        },
+        {
+          "text": "Archbishop Héctor Aguer, archbishop emeritus of La Plata and a prominent supporter of the traditional Latin Mass, died November 10 at 83, days after publicly asking Pope Leo to repeal Traditionis custodes. His funeral Mass will be celebrated Friday, November 13, at La Plata cathedral by Archbishop Gustavo Carrara.",
+          "links": [
+            {
+              "label": "AICA",
+              "url": "https://www.aica.org/noticia-fallecio-monsenor-hector-aguer-arzobispo-emerito-de-la-plata-a-los-83-anos"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-10-morning",
       "date": "2026-11-10",
       "edition": "Morning",
