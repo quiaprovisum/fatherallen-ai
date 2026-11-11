@@ -1,6 +1,44 @@
 {
   "entries": [
     {
+      "id": "2026-11-11-morning",
+      "date": "2026-11-11",
+      "edition": "Morning",
+      "items": [
+        {
+          "text": "On his final day in Argentina, Pope Leo XIV visited the Villa Devoto federal penitentiary in Buenos Aires, telling inmates that human beings do not flourish in spite of their limitations but often through them, and urging guards not to believe nothing can change. He then celebrated Mass at the Basilica of Our Lady of Lujan, proposing a path of reconciliation, communion and mission and asking Argentines to build bridges of charity and networks of solidarity.",
+          "links": [
+            {
+              "label": "Vatican News (prison visit)",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-xiv-federal-prison-argentina-buenos-aires.html"
+            },
+            {
+              "label": "Vatican News (Lujan Mass)",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-proposes-journey-during-mass-in-lujan.html"
+            }
+          ]
+        },
+        {
+          "text": "Pope Leo XIV named Bishop Octavi Vila of Girona, a Cistercian monk, as the new Archbishop of Barcelona, succeeding Cardinal Juan Jose Omella, who turned 80 in April.",
+          "links": [
+            {
+              "label": "EWTN News (Spanish)",
+              "url": "https://www.ewtnnews.com/es/mundo/espana/leon-xiv-arzobispo-barcelona-omella"
+            }
+          ]
+        },
+        {
+          "text": "Archbishop Timothy Broglio of the Military Services, former president of the US bishops' conference, called for wider availability of the traditional Latin Mass in an interview with Tribune Chretienne, saying it is not necessary to stifle the desire to worship that way and that everyone should be given a little liturgical freedom.",
+          "links": [
+            {
+              "label": "The Catholic Herald",
+              "url": "https://thecatholicherald.com/article/archbishop-broglio-it-s-not-necessary-to-stifle-the-latin-mass"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-11-early-morning",
       "date": "2026-11-11",
       "edition": "Early Morning",
