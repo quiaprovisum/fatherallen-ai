@@ -1,6 +1,57 @@
 {
   "entries": [
     {
+      "id": "2026-11-11-afternoon",
+      "date": "2026-11-11",
+      "edition": "Afternoon",
+      "items": [
+        {
+          "text": "Pope Leo XIV left Buenos Aires for Lima at 2:38 p.m. local time, beginning the third and final leg of his Latin America journey after a closing Mass at the Basilica of Our Lady of Luján. The Archbishop of Buenos Aires and the president of the Argentine bishops' conference gave a very positive assessment of the visit.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://x.com/VaticanNews/status/2120579828823048666"
+            },
+            {
+              "label": "Vatican News",
+              "url": "https://x.com/VaticanNews/status/2120595414579900428"
+            }
+          ]
+        },
+        {
+          "text": "Cardinal Claudio Gugerotti, prefect of the Dicastery for the Eastern Churches, will visit Israel and Palestine Nov. 16 to 21 on the Pope's behalf, meeting Catholic communities, celebrating Mass in Jerusalem, Bethlehem and Galilee, and visiting the Greek Orthodox and Armenian patriarchs of Jerusalem.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/vatican/vatican-official-to-visit-holy-land-to-bring-closeness-of-pope-leo-xiv"
+            }
+          ]
+        },
+        {
+          "text": "More than 60 people at a Nov. 7 hackathon at the Pontifical University of the Holy Cross in Rome, inspired by Magnifica Humanitas, built over 15 projects for Church life, including a digitized Roman Martyrology, a searchable archive of Dominican documents, and AI-governance tools for parishes. Organizers plan to bring the event to four U.S. dioceses in early 2027.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/vatican/from-the-virtual-to-the-sacramental-hackathon-in-rome-reimagines-parish-life-in-age-of-ai"
+            }
+          ]
+        },
+        {
+          "text": "New Orleans attorney Richard Trahant, fined more than $400,000 for violating a confidentiality order when he warned Brother Martin High School about the late Fr. Paul Hart, said the penalty was worth it after the Archdiocese of New Orleans added Hart to its credibly accused list on Nov. 6. The fine still stands.",
+          "links": [
+            {
+              "label": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/nov/11/new-orleans-lawyer-abusive-priest"
+            },
+            {
+              "label": "WDSU",
+              "url": "https://www.wdsu.com/article/attorney-fined-warning-school-priest-name-archdiocese-abuse-list/74369203"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-11-morning",
       "date": "2026-11-11",
       "edition": "Morning",
