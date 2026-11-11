@@ -1,6 +1,31 @@
 {
   "entries": [
     {
+      "id": "2026-11-10-evening",
+      "date": "2026-11-10",
+      "edition": "Evening",
+      "items": [
+        {
+          "text": "Pope Leo XIV led a prayer vigil with around 1 million young people in Buenos Aires on Tuesday evening. Drawing on the three young men in Daniel's furnace, he urged them not to bow before today's idols of success, money, appearance, popularity and pleasure, and told them it is never too late to return to Christ: no one has fallen so low that Christ cannot raise them up.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-xiv-prayer-vigil-argentina-young-people.html"
+            }
+          ]
+        },
+        {
+          "text": "The Tribunal of the Roman Rota, the Church's highest appeals court, has condemned publishing online lists of clerics 'credibly accused' of abuse without a trial or conviction. In a June 2025 defamation ruling, newly available in English, it found a U.S. religious congregation guilty of defaming a former member, citing canon 220, and wrote that past injustice toward children cannot be repaired by committing injustice toward others.",
+          "links": [
+            {
+              "label": "EWTN Vatican",
+              "url": "https://ewtnvatican.com/articles/vaticans-highest-appeals-court-criticizes-publishing-lists-of-credibly-accused-clerics"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-10-afternoon",
       "date": "2026-11-10",
       "edition": "Afternoon",
