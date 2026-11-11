@@ -1,6 +1,49 @@
 {
   "entries": [
     {
+      "id": "2026-11-11-early-morning",
+      "date": "2026-11-11",
+      "edition": "Early Morning",
+      "items": [
+        {
+          "text": "Pope Leo XIV begins the Peru leg of his Latin America journey on Wednesday, Nov. 11, with a welcome from President Keiko Fujimori, an audience at the Government Palace, and an address to authorities and the diplomatic corps at the Gran Teatro Nacional. On the eve of his arrival, Callao unveiled a 14-meter statue of the Pope (12 meters on a 2-meter pedestal), the tallest dedicated to a pontiff in Peru, honoring his time as apostolic administrator of Callao in 2020-2021.",
+          "links": [
+            {
+              "label": "EWTN News (Spanish)",
+              "url": "https://www.ewtnnews.com/es/mundo/america/callao-estatua-papa-leon-xiv"
+            }
+          ]
+        },
+        {
+          "text": "On his last full day in Argentina, Pope Leo recalled 11 Argentine saints and blesseds who shaped the country's spiritual heritage, among them St. José Gabriel Brochero, St. Mama Antula, and St. Artemide Zatti.",
+          "links": [
+            {
+              "label": "Vatican News on X",
+              "url": "https://x.com/VaticanNews/status/2120445683081560420"
+            }
+          ]
+        },
+        {
+          "text": "More than 400 students from 22 Catholic high schools across the Archdiocese of New Orleans gathered to mark Black Catholic History Month with a focus on faith and history, according to Catholic schools superintendent Dr. RaeNell Houston.",
+          "links": [
+            {
+              "label": "EWTN News Nightly on X",
+              "url": "https://x.com/EWTNNewsNightly/status/2120358352492388502"
+            }
+          ]
+        },
+        {
+          "text": "The Argentine university students behind the traditional Mass banners during the papal visit have published a written petition to Pope Leo. Citing canon 212, it gives five reasons (love of God, strengthened faith, God at the center, the richness of the prayers, and Latin) and asks that priests be free to celebrate the 1962 Missal wherever the faithful request it. A rosary in Plaza de Mayo accompanied the campaign. The restrictions of Traditionis custodes and the 2023 rescript remain in force.",
+          "links": [
+            {
+              "label": "InfoVaticana",
+              "url": "https://infovaticana.com/2026/11/10/hablan-los-jovenes-tras-el-cartel-a-leon-xiv-un-documento-un-rosario-y-5-razones-para-liberar-la-misa-tradicional/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-10-evening",
       "date": "2026-11-10",
       "edition": "Evening",
