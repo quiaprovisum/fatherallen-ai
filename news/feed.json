@@ -1,6 +1,44 @@
 {
   "entries": [
     {
+      "id": "2026-11-12-early-morning",
+      "date": "2026-11-12",
+      "edition": "Early Morning",
+      "items": [
+        {
+          "text": "In his first public address in Peru, at Lima's Gran Teatro Nacional with President Keiko Fujimori present, Pope Leo urged leaders to protect the \"everyday peace\" of families: going to work without fear, caring for children and returning home safely. He called for listening, democratic dialogue and integrity, and said \"to love a people is to desire that everyone may live with dignity among them.\" On Thursday he addresses representatives of Peru's Church and leads Midday Prayer at Lima's cathedral.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-distance-does-not-necessarily-diminish-love-homeland-peru.html"
+            },
+            {
+              "label": "America",
+              "url": "https://www.americamagazine.org/vatican-dispatch/2026/11/11/pope-leo-to-public-officials-to-love-a-people-is-to-desire-that-everyone-may-live-with-dignity/"
+            }
+          ]
+        },
+        {
+          "text": "Cardinal Michael Czerny, who helped lead work on the Pope's AI encyclical, told Die Welt that the Holy Father explicitly acknowledges AI as an achievement of human ingenuity. He urged avoiding the mistakes of industrialization, noting that today's technological revolution moves far faster.",
+          "links": [
+            {
+              "label": "Die Welt",
+              "url": "https://www.welt.de/wirtschaft/plus6ac4e563967e8c06339d2bc1/kardinal-michael-czerny-der-heilige-vater-wuerdigt-ki-ausdruecklich-als-eine-leistung-menschlicher-genialitaet.html"
+            }
+          ]
+        },
+        {
+          "text": "The Tablet reports on a new OpenAI study finding about 70 million religion-related requests to ChatGPT each week. About a third concern Christianity, and roughly half of those are about Scripture passages. The report cites a Catholic Health Association survey finding 21 percent of U.S. Catholic health-care organizations offering spiritual support use AI, and states that AI should not become an arbiter of religious truth or a replacement for spiritual guidance.",
+          "links": [
+            {
+              "label": "The Tablet",
+              "url": "https://www.thetablet.co.uk/news/seventy-million-people-consult-ai-on-religion-every-week/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-11-evening",
       "date": "2026-11-11",
       "edition": "Evening",
