@@ -1,6 +1,40 @@
 {
   "entries": [
     {
+      "id": "2026-11-12-morning",
+      "date": "2026-11-12",
+      "edition": "Morning",
+      "items": [
+        {
+          "text": "Archbishop Eamon Martin of Armagh told the 20th anniversary conference of Act to Prevent Trafficking in Dublin that human trafficking remains one of the great scandals of the world, warning that fast-moving online criminal networks are making exploitation harder to combat.",
+          "links": [
+            {
+              "label": "The Catholic Herald",
+              "url": "https://thecatholicherald.com/article/archbishop-martin-warns-digital-technology-is-worsening-human-trafficking"
+            }
+          ]
+        },
+        {
+          "text": "Synderesis, an independent Polish platform, says it has built the first publicly available AI model retrained around Catholic values such as human dignity, privacy and human responsibility, aimed at helping parishes, schools and charities with everyday work. It stresses that people review the answers and make the decisions, and that it has no official Church endorsement.",
+          "links": [
+            {
+              "label": "Indian Catholic Matters",
+              "url": "https://www.indiancatholicmatters.org/from-poland-to-india-can-a-catholic-ai-model-serve-the-church-wisely/"
+            }
+          ]
+        },
+        {
+          "text": "Cardinal Robert McElroy, speaking at Fairfield University, said that disarming AI does not mean rejecting technology but preventing it from dominating humanity, adding that human limitations are not defects but the ground where compassion grows.",
+          "links": [
+            {
+              "label": "Diocese of Bridgeport",
+              "url": "https://www.bridgeportdiocese.org/cardinal-mcelroy-prevent-ai-from-dominating-humanity/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-12-early-morning",
       "date": "2026-11-12",
       "edition": "Early Morning",
