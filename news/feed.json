@@ -1,6 +1,66 @@
 {
   "entries": [
     {
+      "id": "2026-11-12-afternoon",
+      "date": "2026-11-12",
+      "edition": "Afternoon",
+      "items": [
+        {
+          "text": "In Lima, Pope Leo XIV met Peru's bishops, urging them to stay close to their people and calling the bishop an instrument of comfort, unity and hope. At a gathering outside Lima's cathedral on the challenges and hopes of Peru, he decried machismo and violence against women, appealed \"Let us value women! Let us protect and respect girls!\", and called for just structures and honest hearts to overcome corruption and violence.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-xiv-lima-apostolic-journey-challenges-hopes-society.html"
+            },
+            {
+              "label": "OSV News",
+              "url": "https://www.osvnews.com/pope-leo-defies-machismo-culture-in-peru-calls-for-respect-and-protection-of-women-families/"
+            },
+            {
+              "label": "Vatican News on X",
+              "url": "https://x.com/VaticanNews/status/2120911917682205159"
+            }
+          ]
+        },
+        {
+          "text": "Sociologist Stephen Bullivant, after discussing new research with Pope Leo XIV, argues in a Catholic Herald interview that restrictions on the traditional Latin Mass may be deepening divisions rather than healing them, and that traditionalist Catholics are among those most eager to belong to the Church.",
+          "links": [
+            {
+              "label": "The Catholic Herald",
+              "url": "https://thecatholicherald.com/article/if-only-rome-knew-us-new-study-challenges-vatican-latin-mass-restrictions"
+            }
+          ]
+        },
+        {
+          "text": "Tech industry workers, community members and people of many faiths have been gathering for public readings of Pope Leo XIV's AI encyclical Magnifica Humanitas, in Oakland, Honolulu and at Homeboy Industries in Los Angeles. Organizers say many in the industry are looking for wiser voices on AI.",
+          "links": [
+            {
+              "label": "America Magazine",
+              "url": "https://www.americamagazine.org/vatican-dispatch/2026/11/11/magnifica-humanitas-reading-group-tech-industry-artificial-intelligence-ai-pope-leo/"
+            }
+          ]
+        },
+        {
+          "text": "A National Catholic Register commentary urges religious schools to go slowly on classroom AI, citing an Institute for Family Studies survey in which 79 percent of religious-school parents favor pausing its introduction, and early research suggesting heavy AI use can hurt learning.",
+          "links": [
+            {
+              "label": "National Catholic Register",
+              "url": "https://www.ncregister.com/commentaries/burchfiel-schools-ai-integration"
+            }
+          ]
+        },
+        {
+          "text": "Dale Weiner, longtime football coach at Catholic High School in Baton Rouge and a Louisiana Sports Hall of Famer, died Nov. 11 at 74. He led the Bears for 30 years, including the 2015 5A state title. Catholic High will host a visitation Monday, Nov. 16, from 4 to 7 p.m.",
+          "links": [
+            {
+              "label": "WBRZ",
+              "url": "https://www.wbrz.com/news/baton-rouge-high-school-legend-dale-weiner-dies-at-age-74"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-12-morning",
       "date": "2026-11-12",
       "edition": "Morning",
