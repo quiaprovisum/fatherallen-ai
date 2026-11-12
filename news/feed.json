@@ -1,6 +1,53 @@
 {
   "entries": [
     {
+      "id": "2026-11-11-evening",
+      "date": "2026-11-11",
+      "edition": "Evening",
+      "items": [
+        {
+          "text": "Pope Leo XIV landed at Callao Air Base on Wednesday, opening the third and final leg of his South America journey after Uruguay and Argentina. President Keiko Fujimori and Foreign Minister Carlos Espá welcomed him. Young people gather with him for a prayer vigil at Peru's National Stadium on Thursday, Nov. 12.",
+          "links": [
+            {
+              "label": "Vatican News on X",
+              "url": "https://x.com/VaticanNews/status/2120656819336962312"
+            },
+            {
+              "label": "Vatican News on X (youth vigil)",
+              "url": "https://x.com/VaticanNews/status/2120615044551671826"
+            }
+          ]
+        },
+        {
+          "text": "Peru's government has officially named St. Turibius of Mogrovejo, the 16th-century second archbishop of Lima who defended Indigenous people and slaves, patron of human rights in the country. The decree calls for April 27 commemorations and promotion of his legacy abroad. Pope Leo is set to close the jubilee for the 300th anniversary of his canonization in Zaña, where the saint died.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/world/americas/peru-recognizes-st-turibius-of-mogrovejo-as-patron-of-human-rights"
+            }
+          ]
+        },
+        {
+          "text": "Vatican theologians voted unanimously to advance the sainthood cause of Servant of God Fr. Joseph Walijewski of the Diocese of La Crosse, Wisconsin, a missionary who built a parish in Bolivia and served the poor and ran an orphanage in Peru. The cause now goes to the cardinals and bishops of the Dicastery for the Causes of Saints.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/world/us/theologians-advance-walijewski-cause"
+            }
+          ]
+        },
+        {
+          "text": "Marian University in Fond du Lac, Wisconsin, founded by the Sisters of St. Agnes in 1936, will become a campus of Alvernia University in Reading, Pennsylvania, with the Bernardine Franciscan Sisters assuming sponsorship.",
+          "links": [
+            {
+              "label": "The Catholic Herald",
+              "url": "https://thecatholicherald.com/article/two-catholic-universities-announce-merger-under-shared-mission"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-11-afternoon",
       "date": "2026-11-11",
       "edition": "Afternoon",
