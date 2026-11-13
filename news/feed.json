@@ -1,6 +1,49 @@
 {
   "entries": [
     {
+      "id": "2026-11-13-early-morning",
+      "date": "2026-11-13",
+      "edition": "Early Morning",
+      "items": [
+        {
+          "text": "Pope Leo XIV met privately for more than an hour with six survivors of abuse by clergy and Church institutions at the apostolic nunciature in Lima on Nov. 12, some of them former members of groups linked to the suppressed Sodalitium Christianae Vitae. Earlier he told Peru's bishops the Church must respond with truth, justice and making amends. He travels today to Chiclayo, his former diocese.",
+          "links": [
+            {
+              "label": "OSV News",
+              "url": "https://www.osvnews.com/pope-leo-meets-with-abuse-survivors-in-peru/"
+            }
+          ]
+        },
+        {
+          "text": "The canonization cause of Servant of God Fr. Willie Doyle SJ, the Irish World War I chaplain killed while anointing the wounded at Langemarck in 1917, has entered its Roman phase. It is the first Irish cause in more than 40 years to close its diocesan phase.",
+          "links": [
+            {
+              "label": "Catholic Herald",
+              "url": "https://thecatholicherald.com/article/fr-willie-doyle-s-canonisation-cause-reaches-major-milestone-in-rome"
+            }
+          ]
+        },
+        {
+          "text": "Austria's bishops, closing their autumn plenary in Salzburg on Nov. 12, adopted their first binding framework for AI in Church institutions. AI may be used in sacraments, preaching, liturgy and pastoral care only in a supporting role, never to replace human relationships or pastoral conversations, and every diocese must name a person responsible for AI.",
+          "links": [
+            {
+              "label": "Austrian Bishops' Conference",
+              "url": "https://www.bischofskonferenz.at/160033/bischoefe-regeln-einsatz-von-ki-im-kirchlichen-bereich"
+            }
+          ]
+        },
+        {
+          "text": "The National Catholic Register reports on a study estimating that 63% of religious books added to Amazon in the past year are likely AI-written, including copycats of real Catholic titles. Catholic publishers advise buying from Catholic retailers or directly from authors.",
+          "links": [
+            {
+              "label": "National Catholic Register",
+              "url": "https://www.ncregister.com/news/the-catholic-ai-slop-problem"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-12-evening",
       "date": "2026-11-12",
       "edition": "Evening",
