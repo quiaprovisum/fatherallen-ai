@@ -1,6 +1,39 @@
 {
   "entries": [
     {
+      "id": "2026-11-13-morning",
+      "date": "2026-11-13",
+      "edition": "Morning",
+      "items": [
+        {
+          "text": "Pope Leo XIV left Lima on Friday morning for Chiclayo, the northern Peruvian city where he served as bishop from 2015 to 2023. Before leaving he told the crowd outside the apostolic nunciature, \"I am going to Chiclayo. We want to continue with that same spirit of joy.\" He is celebrating an open-air Mass at the Pampas de Pimentel, where officials estimated up to a million people could attend, and will stay in the area until Sunday for eight events, including a private dinner with the priests who served under him. He returns to Lima on November 15 and departs Peru on November 16.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-apostolic-nunciature-lima-chiclayo-blessings-peru.html"
+            },
+            {
+              "label": "Reuters via The Star",
+              "url": "https://www.thestar.com.my/news/world/2026/11/13/peruvians-flock-to-see-pope-leo-in-city-he-served-as-bishop"
+            }
+          ]
+        },
+        {
+          "text": "The U.S. Archdiocese for the Military Services held its first Catholic Military Conference, \"Living and Serving Justly,\" November 9 to 11 in Chantilly, Virginia. About 280 service members, chaplains, and military families attended talks on the just war tradition and Catholic social teaching, and the apostolic nuncio, Archbishop Gabriele Caccia, celebrated Mass. Archbishop Timothy Broglio said he had long wanted to gather the faithful of his worldwide archdiocese.",
+          "links": [
+            {
+              "label": "OSV News",
+              "url": "https://www.osvnews.com/inaugural-catholic-military-conference-prompts-reflection-on-living-and-serving-justly/"
+            },
+            {
+              "label": "Arlington Catholic Herald",
+              "url": "https://catholicherald.com/article/local/catholic-military-conference-unites-faith-and-service-in-chantilly/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-13-early-morning",
       "date": "2026-11-13",
       "edition": "Early Morning",
