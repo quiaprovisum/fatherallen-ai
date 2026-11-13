@@ -1,6 +1,49 @@
 {
   "entries": [
     {
+      "id": "2026-11-13-afternoon",
+      "date": "2026-11-13",
+      "edition": "Afternoon",
+      "items": [
+        {
+          "text": "Pope Leo XIV celebrated Mass for about 500,000 people at Pampas de Pimentel near Chiclayo, the Peruvian diocese he led from 2015 to 2023. He thanked the faithful for their prayers for his health one month after lung surgery and told them every baptized person has an urgent duty to proclaim the Gospel.",
+          "links": [
+            {
+              "label": "OSV News",
+              "url": "https://www.osvnews.com/pope-leo-xivs-mass-in-chiclayo-an-emotional-reunion-with-his-beloved-diocese/"
+            }
+          ]
+        },
+        {
+          "text": "The Vatican will mark the 10th World Day of the Poor with a Mass in St. Peter's Basilica on Nov. 15, celebrated by Archbishop Luis Marin de San Martin while the pope is in South America. Pope Leo will share lunch with about 1,300 people in need on Nov. 22, and the Vatican's free clinics are extending their hours this week.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/vatican/vatican-to-mark-10th-world-day-of-the-poor-with-mass-lunch-and-donated-hygiene-kits"
+            }
+          ]
+        },
+        {
+          "text": "Cardinal Stephen Chow of Hong Kong asked every parish to offer a Mass on Nov. 26 for the 168 victims of last year's Wang Fuk Court fire in Tai Po, after police questioned at least two priests about planned anniversary liturgies.",
+          "links": [
+            {
+              "label": "The Pillar",
+              "url": "https://www.pillarcatholic.com/p/cardinal-chow-calls-for-hk-fire-memorial"
+            }
+          ]
+        },
+        {
+          "text": "Catholic journalist Alejandro Bermudez explained why he will not sign Catholic Culture's pledge against AI-generated Catholic content. He agrees with its view of the human person but argues for ongoing prudent discernment rather than fixed prohibitions, citing the abbot Trithemius and the arrival of the printing press.",
+          "links": [
+            {
+              "label": "Imago Dei (Substack)",
+              "url": "https://www.theimagoproject.com/p/why-i-dont-sign-the-pledge-against"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-13-morning",
       "date": "2026-11-13",
       "edition": "Morning",
