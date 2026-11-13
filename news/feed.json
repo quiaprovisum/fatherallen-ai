@@ -1,6 +1,40 @@
 {
   "entries": [
     {
+      "id": "2026-11-12-evening",
+      "date": "2026-11-12",
+      "edition": "Evening",
+      "items": [
+        {
+          "text": "Pope Leo XIV closed his first full day in Peru with a prayer vigil for young people and university students at Lima's National Stadium, which more than 60,000 filled. He told them it is never too late to begin again: \"Look to Jesus. He knows your story and continues to invite you to walk with Him.\" He urged silence before the Blessed Sacrament and quoted Benedict XVI: \"Evil always poisons.\"",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-young-people-prayer-vigil-12-november-2026.html"
+            }
+          ]
+        },
+        {
+          "text": "Bishop Oscar Cantú of San Jose, who chairs the U.S. bishops' task force on human dignity in the age of artificial intelligence, discussed the Church's approach to AI on America Media's Jesuitical podcast, including how Catholics should use the technology, the role of the poor in shaping it, and what the bishops are doing. The task force is due to report at the bishops' Baltimore plenary next week.",
+          "links": [
+            {
+              "label": "America Magazine",
+              "url": "https://www.americamagazine.org/podcasts/2026/11/12/bishop-cantu-silicon-valley-artificial-intelligence-jesuitical/"
+            }
+          ]
+        },
+        {
+          "text": "Jennifer Hudson will headline the seventh Concert with the Poor in the Vatican's Paul VI Hall on Dec. 5, with Pope Leo XIV expected to attend. About 3,000 of the roughly 8,000 guests will be people in poverty served by Rome charities; free registration opens Nov. 19.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/vatican/jennifer-hudson-to-headline-vatican-christmas-concert-for-the-poor"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-12-afternoon",
       "date": "2026-11-12",
       "edition": "Afternoon",
