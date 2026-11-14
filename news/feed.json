@@ -1,6 +1,31 @@
 {
   "entries": [
     {
+      "id": "2026-11-14-early-morning",
+      "date": "2026-11-14",
+      "edition": "Early Morning",
+      "items": [
+        {
+          "text": "Nicaragua's bishops elected new conference leadership for the rest of 2025-2027: Bishop Jorge Solórzano Pérez of Granada is president and Cardinal Leopoldo Brenes of Managua vice president. Only the five bishops still in the country appeared in the announcement; four bishops remain in exile, including the previous president, Bishop Carlos Herrera, and it was not said whether they took part.",
+          "links": [
+            {
+              "label": "EWTN News Español",
+              "url": "https://www.ewtnnews.com/es/mundo/america/obispos-de-nicaragua-eligen-a-su-nuevo-presidente-mons-jorge-solorzano"
+            }
+          ]
+        },
+        {
+          "text": "A line spreading widely online, \"There is only man and woman. Nothing else,\" is not a direct quote from Pope Leo XIV. In his Nov. 12 address to Peruvian civil society in Lima he said \"God created the human person male and female\" and that this union alone expresses reciprocity and complementarity. In the same passage he said male and female identity does not justify an unequal sharing of household duties or the subordination of one spouse to the other, and he called the family a natural society that comes before any written law.",
+          "links": [
+            {
+              "label": "Advaticanum",
+              "url": "https://advaticanum.com/article/pope-leo-xiv-reaffirms-that-god-created-humanity-male-and-female"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-13-evening",
       "date": "2026-11-13",
       "edition": "Evening",
