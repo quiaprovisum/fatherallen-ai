@@ -1,6 +1,57 @@
 {
   "entries": [
     {
+      "id": "2026-11-14-morning",
+      "date": "2026-11-14",
+      "edition": "Morning",
+      "items": [
+        {
+          "text": "Pope Leo XIV crowned the image of the Immaculate Virgin in the Cathedral of St. Mary in Chiclayo, Peru, where he began his ministry as bishop in 2015, and entrusted his life and ministry as Successor of Peter to the Immaculate Heart of Mary. Later today he is scheduled to celebrate Mass in Santa Cruz de Succhabamba, Cajamarca, and visit Zaña for the close of the Jubilee Year of St. Toribio de Mogrovejo.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-xiv-santa-cruz-peru-incoronation-virgin-mary.html"
+            },
+            {
+              "label": "EWTN News Español",
+              "url": "https://www.ewtnnews.com/es/vaticano/cuarto-dia-leon-xiv-peru"
+            }
+          ]
+        },
+        {
+          "text": "Peru's government, by supreme decree published Nov. 14, declared the country \"Land of Pope Leo XIV\" and the city of Chiclayo \"Faithful People,\" citing his decades of pastoral work there since 1985 and his 2015 choice of Peruvian citizenship.",
+          "links": [
+            {
+              "label": "EWTN News Español",
+              "url": "https://www.ewtnnews.com/es/vaticano/gobierno-declara-peru-tierra-del-papa-leon-xiv-y-chiclayo-pueblo-fiel"
+            }
+          ]
+        },
+        {
+          "text": "Pope Leo XIV erected the new ecclesiastical province of Eldoret, Kenya, with Lodwar, Kitale, Kericho and Kapsabet as suffragan dioceses, and named Bishop Joseph Obanyi Sagwe of Kakamega its first metropolitan archbishop. Archbishop Waldemar Sommertag was also named apostolic nuncio to India.",
+          "links": [
+            {
+              "label": "Holy See Press Office",
+              "url": "https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2026/11/14/261114a.html"
+            },
+            {
+              "label": "KBC Digital",
+              "url": "https://www.kbc.co.ke/he-was-appointed-by-pope/"
+            }
+          ]
+        },
+        {
+          "text": "Fr. Benoît de Giacomoni, superior of the French district of the Priestly Fraternity of St. Peter, spoke with Pope Leo XIV after the Oct. 28 general audience in what the Fraternity called a warm exchange, and the pope blessed its French province. Per Mariam reports the superior gave the pope the district's June letter distinguishing the Fraternity from the SSPX, while the Holy See has given no update on the SSPX appeal.",
+          "links": [
+            {
+              "label": "Per Mariam",
+              "url": "https://www.permariam.com/p/fssp-superior-tells-pope-leo-the"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-14-early-morning",
       "date": "2026-11-14",
       "edition": "Early Morning",
