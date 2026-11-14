@@ -1,6 +1,44 @@
 {
   "entries": [
     {
+      "id": "2026-11-14-afternoon",
+      "date": "2026-11-14",
+      "edition": "Afternoon",
+      "items": [
+        {
+          "text": "Pope Leo XIV flew by helicopter to Santa Cruz de Succhabamba in the Andes of his former Diocese of Chiclayo and celebrated Mass for more than 20,000 people, according to local authorities. He honored the missionaries who evangelized the Andes and said discouragement, resentment and violence never lead to progress and peace; injustice is overcome by prayer, patience and perseverance in working for change. A prayer meeting in Zaña followed, and on Sunday he travels to Cusco.",
+          "links": [
+            {
+              "label": "EWTN News Español",
+              "url": "https://www.ewtnnews.com/es/vaticano/leon-xiv-misioneros-andes-violencia"
+            },
+            {
+              "label": "Vatican News on X",
+              "url": "https://x.com/VaticanNews/status/2121687107840184523"
+            }
+          ]
+        },
+        {
+          "text": "In America magazine, Notre Dame philosopher Meghan Sullivan argues that the debate over whether AI could be conscious misses the deeper question of human dignity: embodied life, love, conscience and minds that grasp truth. She credits Magnifica Humanitas with putting the Church at the center of AI ethics and urges Catholics to engage.",
+          "links": [
+            {
+              "label": "America",
+              "url": "https://www.americamagazine.org/faith-and-reason/2026/11/12/dignity-consciousness-artificial-intelligence-catholic/"
+            }
+          ]
+        },
+        {
+          "text": "Fr. Issa Thaljieh, parish priest at the Church of the Nativity in Bethlehem, was denied a US visa on security grounds ahead of a Nov. 16 ecumenical gathering in Washington; his sister is to speak in his place. The State Department said every visa decision is a national security decision.",
+          "links": [
+            {
+              "label": "Middle East Eye",
+              "url": "https://www.middleeasteye.net/news/bethlehem-church-nativity-priest-denied-us-visa-speak-washington-dc-event"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-14-morning",
       "date": "2026-11-14",
       "edition": "Morning",
