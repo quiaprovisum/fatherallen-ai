@@ -1,6 +1,44 @@
 {
   "entries": [
     {
+      "id": "2026-11-13-evening",
+      "date": "2026-11-13",
+      "edition": "Evening",
+      "items": [
+        {
+          "text": "A tanker struck the American Cruise Lines river boat American Heritage on the Mississippi River at New Orleans around 12:30 p.m. Nov. 13. All of the roughly 200 passengers and crew were accounted for, with 32 hospitalized for noncritical injuries. The Archdiocese of New Orleans asked for prayers through Our Lady, Star of the Sea, and Archbishop James F. Checchio said he had offered the archdiocese's help to state and city leaders.",
+          "links": [
+            {
+              "label": "OSV News",
+              "url": "https://www.osvnews.com/all-passengers-accounted-for-after-tanker-strikes-river-boat-near-new-orleans/"
+            }
+          ]
+        },
+        {
+          "text": "In Chiclayo, Pope Leo XIV told clergy, religious and lay leaders that synodality must become practice, beginning with pastors, and that lay participation is an expression of baptismal dignity, not a concession. At Santo Toribio de Mogrovejo Catholic University he said science without a conscience ruins everyone's life and technology without a soul does not truly improve life, and urged students and professors to use scientific innovation to bridge social divides and serve the poor.",
+          "links": [
+            {
+              "label": "OSV News",
+              "url": "https://www.osvnews.com/in-chiclayo-pope-calls-on-local-clergy-to-reject-clericalism-warns-students-against-soulless-tech/"
+            },
+            {
+              "label": "America",
+              "url": "https://www.americamagazine.org/vatican-dispatch/2026/11/13/pope-leo-chiclayo-catholic-university-transhumanism/"
+            }
+          ]
+        },
+        {
+          "text": "The theological congress of the Dicastery for the Causes of Saints voted unanimously in favor of the cause of Father Joseph Walijewski, a La Crosse, Wisconsin, priest who served for decades as a missionary in Bolivia and Peru and founded the Casa Hogar Juan Pablo II orphanage. The cause now goes to the dicastery's cardinal and bishop members.",
+          "links": [
+            {
+              "label": "OSV News",
+              "url": "https://www.osvnews.com/missionary-priest-father-joe-one-step-further-on-path-to-possible-sainthood/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-13-afternoon",
       "date": "2026-11-13",
       "edition": "Afternoon",
