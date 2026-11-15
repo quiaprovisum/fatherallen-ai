@@ -1,6 +1,48 @@
 {
   "entries": [
     {
+      "id": "2026-11-15-early-morning",
+      "date": "2026-11-15",
+      "edition": "Early Morning",
+      "items": [
+        {
+          "text": "Pope Leo XIV spends Sunday in Cusco and Pucallpa. In Cusco, 41 years after St. John Paul II's visit, he is to meet representatives of popular devotion at Saqsayhuaman and pray the Angelus in the main square; in Pucallpa, in the Peruvian Amazon, he is to meet missionaries.",
+          "links": [
+            {
+              "label": "Vatican News (Cusco)",
+              "url": "https://x.com/VaticanNews/status/2121875399227445417"
+            },
+            {
+              "label": "Vatican News (Pucallpa)",
+              "url": "https://x.com/VaticanNews/status/2121898249246384380"
+            }
+          ]
+        },
+        {
+          "text": "Bishop Jose Elmer Mangalinao of Bayombong, Philippines, issued a pastoral statement opposing the US-led Pax Silica industrial project and large-scale mining, saying development must not sacrifice farmers, Indigenous peoples and rural communities. He asked parishes, schools and households to hang banners on November 16.",
+          "links": [
+            {
+              "label": "Politiko",
+              "url": "https://politiko.com.ph/hang-the-banners-bishop-tells-filipinos-to-reject-pax-silica-large-scale-mining/"
+            },
+            {
+              "label": "Philippine Star",
+              "url": "https://x.com/PhilippineStar/status/2121808108993523757"
+            }
+          ]
+        },
+        {
+          "text": "Pope Leo XIV named Father Oswaldo Enrique Mendez Marchena, vicar general of the Archdiocese of Barquisimeto, Venezuela, as auxiliary bishop of Barquisimeto.",
+          "links": [
+            {
+              "label": "EWTN News Espanol",
+              "url": "https://www.ewtnnews.com/es/mundo/america/papa-leon-xiv-obispo-barquisimeto"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-14-evening",
       "date": "2026-11-14",
       "edition": "Evening",
