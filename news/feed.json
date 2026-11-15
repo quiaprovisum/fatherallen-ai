@@ -1,6 +1,35 @@
 {
   "entries": [
     {
+      "id": "2026-11-15-morning",
+      "date": "2026-11-15",
+      "edition": "Morning",
+      "items": [
+        {
+          "text": "Pope Leo XIV said goodbye to Chiclayo, the Peruvian diocese he led as bishop from 2015 to 2023, asking that it remain a capital of friendship and also a land of faith, devotion and fidelity. The papal plane left Chiclayo at 8:00 a.m. local time for Cusco and Pucallpa, with popular piety, Indigenous peoples and Mass on the Sunday program before a return to Lima in the evening.",
+          "links": [
+            {
+              "label": "Vatican News (X)",
+              "url": "https://x.com/VaticanNews/status/2121968620020392081"
+            },
+            {
+              "label": "Vatican News Español (X)",
+              "url": "https://x.com/vaticannews_es/status/2121946762437136831"
+            }
+          ]
+        },
+        {
+          "text": "A Latinobarómetro study of 17 Latin American countries finds the share of people identifying as Catholic fell from 80 percent in 1995 to 55 percent today. Panama saw the sharpest drop, from 89 to 46 percent, while Mexico fell least, from 77 to 69 percent; Paraguay is now the most Catholic country at 82 percent.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/world/americas/number-of-catholics-in-ibero-america-fell-by-25-over-the-last-30-years-study-indicates"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-15-early-morning",
       "date": "2026-11-15",
       "edition": "Early Morning",
