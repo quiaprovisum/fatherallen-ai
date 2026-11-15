@@ -1,6 +1,52 @@
 {
   "entries": [
     {
+      "id": "2026-11-14-evening",
+      "date": "2026-11-14",
+      "edition": "Evening",
+      "items": [
+        {
+          "text": "Pope Leo XIV closed the Jubilee Year of St. Turibius of Mogrovejo at the saint's shrine in Zaña, Peru, where Turibius died in 1606. About 10,000 people attended and more than 300,000 lined the route. He expressed affection and closeness to Afro-Peruvians, recalling the Africans enslaved there, voiced sorrow for victims of crime and extortion, and urged people never to grow accustomed to the suffering of others. He leaves early Sunday for Cusco and Pucallpa.",
+          "links": [
+            {
+              "label": "Holy See Press Office",
+              "url": "https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2026/11/14/261114d.html"
+            },
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-in-zana-continue-passing-on-the-faith-to-your-children.html"
+            },
+            {
+              "label": "AP",
+              "url": "https://apnews.com/article/pope-leo-peru-slavery-afro-peruvians-b8ffccb8ddb63afaa45cdd0bfd69cea8"
+            },
+            {
+              "label": "Andina",
+              "url": "https://andina.pe/ingles/noticia-pope-leo-xiv-in-zana-thank-you-for-welcoming-me-with-joy-and-hospitality-1100018.aspx"
+            }
+          ]
+        },
+        {
+          "text": "Eight teams from Ukrainian Greek Catholic and Roman Catholic monastic and religious communities began a practical AI training program on Nov. 10, building tools for reports, internal documents, and charitable work. Organizers require human oversight, keep pastoral and personal data out of AI tools, and leave spiritual guidance and decisions to people.",
+          "links": [
+            {
+              "label": "Ukrainian Greek Catholic Church",
+              "url": "https://ugcc.ua/en/data/monastic-communities-of-the-ukrainian-greek-catholic-church-begin-practical-training-in-the-use-of-artificial-intelligence-2534/"
+            }
+          ]
+        },
+        {
+          "text": "At St. Joseph Oratory in Portland, Maine, which has offered the traditional Latin Mass exclusively for just over a year, about 250 people attend regularly and the average age is 35, according to The Maine Monitor.",
+          "links": [
+            {
+              "label": "The Maine Monitor via NEWS CENTER Maine",
+              "url": "https://www.newscentermaine.com/article/news/regional/the-maine-monitor/maines-young-catholics-are-flocking-to-the-churchs-latin-mass/97-ac5ada3c-2628-445d-96ac-a768a1efe7e8"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-14-afternoon",
       "date": "2026-11-14",
       "edition": "Afternoon",
