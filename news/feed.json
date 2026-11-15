@@ -1,6 +1,39 @@
 {
   "entries": [
     {
+      "id": "2026-11-15-afternoon",
+      "date": "2026-11-15",
+      "edition": "Afternoon",
+      "items": [
+        {
+          "text": "Pope Leo XIV spent Sunday in Cusco, Peru. At Saqsaywaman, before a crowd EWTN News put at about 100,000, he met representatives of popular piety and gave a Golden Rose to the Virgin of Belén, the city's patroness, his second Golden Rose of the Peru visit. At the Angelus outside Cusco's cathedral he called the idea that illness diminishes a person's worth 'a great lie' of the throwaway culture, offered a shroud for the image of the Lord of the Earthquakes, remembered the late Archbishop Richard Alarcón, and greeted the new archbishop, Lizardo Estrada. He then flew to Pucallpa in the Peruvian Amazon to meet missionaries and representatives of Amazonian peoples, followed by Mass.",
+          "links": [
+            {
+              "label": "EWTN News (Angelus text, Spanish)",
+              "url": "https://www.ewtnnews.com/es/vaticano/papa-leon-xiv-angelus-cusco"
+            },
+            {
+              "label": "EWTN News Español on X (Golden Rose)",
+              "url": "https://x.com/aciprensa/status/2122005628545564881"
+            },
+            {
+              "label": "Vatican News on X",
+              "url": "https://x.com/VaticanNews/status/2122033799274106935"
+            }
+          ]
+        },
+        {
+          "text": "At St. Peter's Basilica, the Mass for the 10th World Day of the Poor was celebrated in the Pope's name by Archbishop Luis Marín de San Martín, identified by EWTN News as prefect of the Dicastery for the Service of Charity. Preaching on the parable of the talents, he said the Eucharist cannot be celebrated while remaining indifferent to hunger, loneliness and injustice. About 1,500 food parcels were distributed afterward, and Pope Leo is scheduled to lunch with 1,300 people in need in the Paul VI Hall on November 22.",
+          "links": [
+            {
+              "label": "EWTN News (Spanish)",
+              "url": "https://www.ewtnnews.com/es/vaticano/misa-vaticano-jornada-mundial-de-los-pobres"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-15-morning",
       "date": "2026-11-15",
       "edition": "Morning",
