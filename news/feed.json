@@ -1,6 +1,44 @@
 {
   "entries": [
     {
+      "id": "2026-11-15-evening",
+      "date": "2026-11-15",
+      "edition": "Evening",
+      "items": [
+        {
+          "text": "In Pucallpa, in the Peruvian Amazon, Pope Leo XIV met missionaries and representatives of Amazonian peoples. He said protecting the rainforest cannot be separated from care for the people who live there, condemned the murders of Indigenous leaders, illegal mining, oil spills and drug trafficking, voiced concern for women and girls facing violence and abuse, and noted that the local vicariate, as large as entire countries, has only 25 priests.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-in-heart-of-peruvian-amazon-decries-human-rights-abuses.html"
+            }
+          ]
+        },
+        {
+          "text": "At the closing Mass in Pucallpa, Pope Leo urged young people especially to cultivate the grandeur of humanity, saying that doing good means combating violence with charity and corruption with honesty. Afterward he prayed before the image of the Immaculate Conception, whom he called Mother of the Amazon.",
+          "links": [
+            {
+              "label": "Vatican News on X",
+              "url": "https://x.com/VaticanNews/status/2122103923225841843"
+            },
+            {
+              "label": "EWTN News on X",
+              "url": "https://x.com/EWTNews/status/2122114498043478115"
+            }
+          ]
+        },
+        {
+          "text": "Lithuanian police identified a British citizen born in 1989 as the suspect after a golden figure of Christ was taken from a cross in the courtyard of the Divine Mercy Shrine in Vilnius on November 11 and smashed in the street. His identity document was seized and prosecutors are investigating it as desecration of a place of public reverence.",
+          "links": [
+            {
+              "label": "Daily Baltic",
+              "url": "https://www.dailybaltic.com/44689/british-suspect-in-vilnius-jesus-statue-damage-cannot-leave-lithuania/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-15-afternoon",
       "date": "2026-11-15",
       "edition": "Afternoon",
