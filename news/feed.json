@@ -1,6 +1,52 @@
 {
   "entries": [
     {
+      "id": "2026-11-16-afternoon",
+      "date": "2026-11-16",
+      "edition": "Afternoon",
+      "items": [
+        {
+          "text": "Pope Leo XIV closed his South America journey with Mass at Las Palmas Air Base in Lima, attended by about 1.5 million people by local estimates. \"My journey is coming to an end, but the mission continues,\" he said, sending the faithful to proclaim the true God. During the popemobile tour a small rosary thrown from the crowd struck him; Vatican News said he was unharmed.",
+          "links": [
+            {
+              "label": "Holy See Press Office",
+              "url": "https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2026/11/16/261116c.html"
+            },
+            {
+              "label": "America Magazine",
+              "url": "https://www.americamagazine.org/vatican-dispatch/2026/11/16/pope-leo-final-mass-peru-goodbye/"
+            },
+            {
+              "label": "Vatican News on X",
+              "url": "https://x.com/VaticanNews/status/2122393631655104566"
+            }
+          ]
+        },
+        {
+          "text": "After a farewell ceremony, the papal plane left Callao at 2:28 p.m. local time, ending the Nov. 6-16 visit to Uruguay, Argentina and Peru. It is due at Rome's Fiumicino airport Tuesday at 10:25 a.m. Rome time.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-to-peru-words-canno-express-my-gratitude-graces-of-visit.html"
+            }
+          ]
+        },
+        {
+          "text": "The U.S. bishops opened their fall plenary assembly in Baltimore with prayer and a Mass celebrated by USCCB president Archbishop Paul S. Coakley at the Baltimore Basilica. Public sessions on Nov. 17-18 will include an update from the new Task Force on Preserving Human Dignity in the Age of Artificial Intelligence, an immigration update, elections, and a vote on a new edition of the Lectionary.",
+          "links": [
+            {
+              "label": "USCCB on X",
+              "url": "https://x.com/USCCB/status/2122410318521331726"
+            },
+            {
+              "label": "USCCB",
+              "url": "https://www.usccb.org/news/2026/us-bishops-meet-november-16-19-baltimore-assembly-be-livestreamed"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-16-morning",
       "date": "2026-11-16",
       "edition": "Morning",
