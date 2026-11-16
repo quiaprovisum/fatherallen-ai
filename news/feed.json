@@ -1,6 +1,44 @@
 {
   "entries": [
     {
+      "id": "2026-11-16-early-morning",
+      "date": "2026-11-16",
+      "edition": "Early Morning",
+      "items": [
+        {
+          "text": "Pope Leo XIV ends his 12-day South America journey on Monday. Back in Lima late Sunday after Cusco and Pucallpa, he greeted crowds from the apostolic nunciature balcony. Monday he visits elderly residents cared for by the Little Sisters of the Abandoned Elderly in Callao, celebrates the closing Mass at Las Palmas Air Base, where more than a million people are expected, and departs for Rome at 1:45 p.m. Lima time, landing at Fiumicino Tuesday morning.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/vatican/live-updates-pope-leo-xiv-in-south-america"
+            },
+            {
+              "label": "DIRE",
+              "url": "https://www.dire.it/16-11-2026/1289558-ultimo-giorno-in-sud-america-per-papa-leone-xiv-messa-nella-base-aerea-poi-il-rientro-a-roma/"
+            }
+          ]
+        },
+        {
+          "text": "Thirty-six bishops of Ecuador begin their ad limina visit to Rome, November 16 to 20, opening with Mass at St. John Lateran and meetings with Vatican dicasteries and the Pontifical Commission for the Protection of Minors. They meet Pope Leo XIV on Friday, November 20.",
+          "links": [
+            {
+              "label": "EWTN News Español",
+              "url": "https://www.ewtnnews.com/es/mundo/america/obispos-ecuador-visita-ad-limina"
+            }
+          ]
+        },
+        {
+          "text": "Ateneo de Davao University, a Jesuit Catholic university in the Philippines, issued a University Policy on the Ethical, Humane, and Responsible Use of Artificial Intelligence (Circular 2026-0008, dated November 11). President Fr. Karel San Juan, SJ, wrote that, guided by Ignatian discernment, AI use must strengthen intellectual effort, conscience, creativity, and relationships, with human purpose and judgment guiding it at every stage.",
+          "links": [
+            {
+              "label": "Atenews",
+              "url": "https://x.com/atenews/status/2122238251641524411"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-15-evening",
       "date": "2026-11-15",
       "edition": "Evening",
