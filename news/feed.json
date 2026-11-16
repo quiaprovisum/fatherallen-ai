@@ -1,6 +1,44 @@
 {
   "entries": [
     {
+      "id": "2026-11-16-morning",
+      "date": "2026-11-16",
+      "edition": "Morning",
+      "items": [
+        {
+          "text": "The Archdiocese of New Orleans has come out against Mayor Helena Moreno's proposed parcel fee on tax-exempt properties to fund drainage, roads and other infrastructure. Spokesperson Sarah McDonald said any fee on archdiocesan properties would hurt parishes, schools and ministries; the city hopes to bring a plan to voters in 2027, raising $10 million to $15 million in its first year.",
+          "links": [
+            {
+              "label": "NOLA.com",
+              "url": "https://www.nola.com/news/new-orleans-archdiocese-mayor-helena-moreno/article_412a1e93-2db1-4758-893f-3c284a292e9a.html"
+            }
+          ]
+        },
+        {
+          "text": "Bishop Renauld de Dinechin of Luçon, France, has asked Father Jean Cuchet of the Institute of the Good Shepherd to stop celebrating the Traditional Latin Mass at the private Ramberge chapel in La Gaubretière, Vendée, where it had been offered since 1983. In an Oct. 25 letter he cited Traditionis custodes, declined canonical recognition, and pointed the 150 to 300 weekly faithful to four approved sites nearby.",
+          "links": [
+            {
+              "label": "AdVaticanum",
+              "url": "https://advaticanum.com/article/i-ask-him-to-cease-french-bishop-ends-more-than-40-years-of-the-traditional-latin-mass-at-private-chapel"
+            },
+            {
+              "label": "Ouest-France",
+              "url": "https://www.ouest-france.fr/pays-de-la-loire/vendee/je-ne-peux-accepter-que-cette-situation-se-prolonge-leveque-de-vendee-stoppe-la-messe-en-latin-dans-cette-chapelle-8455db80-dd2b-11f1-a62b-776e3051b0df"
+            }
+          ]
+        },
+        {
+          "text": "A study in Sociological Inquiry found 28.8 percent of 1,049 U.S. Catholics believe the bread and wine truly become the Body and Blood of Christ, essentially unchanged from 2019 and 1992 polls despite the bishops' Eucharistic Revival. Belief was about 60 percent among weekly Mass-goers. The U.S. bishops meet in Baltimore Nov. 17-18.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/world/us/study-only-29-of-u-s-catholics-believe-christ-is-present-in-the-eucharist-despite-bishops"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-16-early-morning",
       "date": "2026-11-16",
       "edition": "Early Morning",
