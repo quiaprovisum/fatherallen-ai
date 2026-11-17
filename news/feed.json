@@ -1,6 +1,49 @@
 {
   "entries": [
     {
+      "id": "2026-11-17-afternoon",
+      "date": "2026-11-17",
+      "edition": "Afternoon",
+      "items": [
+        {
+          "text": "The U.S. bishops opened the public sessions of their fall plenary assembly in Baltimore with a message to Pope Leo XIV. In his first presidential address, Archbishop Paul Coakley urged bishops not to read Church life through political or ideological lenses, saying the Church thinks in terms of mission, and pointed to a shared hope rooted in human dignity amid the challenges and opportunities of artificial intelligence.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/world/us/archbishop-coakley-says-church-must-focus-on-mission-not-political-divisions"
+            }
+          ]
+        },
+        {
+          "text": "The bishops elected Bishop Kevin Rhoades of Fort Wayne-South Bend as conference secretary (157-59 over Bishop Earl Fernandes) and Fr. Paul Hartmann of Milwaukee as general secretary. Chairmen-elect: Bishop James Conley (Catholic Education), Bishop Louis Tylka (Communications), Bishop Michael Pham (Cultural Diversity), Bishop William Joensen (Doctrine), Bishop Gerald Vincke (National Collections) and Bishop Donald Hying (Pro-Life Activities, 113-104 over Bishop John Folda).",
+          "links": [
+            {
+              "label": "The Pillar",
+              "url": "https://www.pillarcatholic.com/p/bishops-elect-rhoades-as-conference"
+            }
+          ]
+        },
+        {
+          "text": "At a press conference, Archbishop Coakley said the bishops are ready to work with the new Democratic-controlled Congress on the common good, while Vice President Bishop Daniel Flores said concerns about a de facto mass deportation policy and due process for migrants remain real.",
+          "links": [
+            {
+              "label": "National Catholic Reporter",
+              "url": "https://www.ncronline.org/news/us-bishops-stress-annual-meeting-theyre-ready-work-next-congress"
+            }
+          ]
+        },
+        {
+          "text": "Austria's bishops adopted their first comprehensive guidelines for artificial intelligence in Church life at their Salzburg plenary. AI may assist with tasks such as homily preparation and administration, but in sacraments, preaching, liturgy and pastoral care it may only be supportive and may not replace personal relationships. Every diocese will name a person responsible for AI, coordinated by a national working group.",
+          "links": [
+            {
+              "label": "ZENIT",
+              "url": "https://zenit.org/2026/11/16/austrian-bishops-publish-guidelines-for-the-use-of-ai-in-the-countrys-church/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-17-morning",
       "date": "2026-11-17",
       "edition": "Morning",
