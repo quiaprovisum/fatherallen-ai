@@ -1,6 +1,39 @@
 {
   "entries": [
     {
+      "id": "2026-11-17-early-morning",
+      "date": "2026-11-17",
+      "edition": "Early Morning",
+      "items": [
+        {
+          "text": "On the flight from Lima to Rome after his 12-day journey to Uruguay, Argentina and Peru, Pope Leo XIV told journalists that Traditionis Custodes, Pope Francis' 2021 restriction on the pre-conciliar Latin Mass, will stay in force: \"we will continue to follow that.\" He noted that it allows dispensations for the Vetus Ordo and that \"there is an avenue available for those who wish to apply.\" Asked by Le Figaro, he said a document on spiritual abuse is being studied but none is imminent, and he had no comment on new cardinals.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-xiv-press-conference-latin-america-journey.html"
+            },
+            {
+              "label": "OSV News",
+              "url": "https://www.osvnews.com/for-the-unity-of-the-church-during-in-flight-presser-pope-leo-says-ordaining-married-priests-could-cause-division/"
+            }
+          ]
+        },
+        {
+          "text": "In the same press conference, the Pope said ordaining married men, proposed at the 2019 Amazon synod, is \"not the only solution\" and could cause division, adding that some things may change in the future. He said he is \"not at 100 percent\" but doing well a month after his October 13 surgery, and called for dialogue and less polarization after the US midterm elections.",
+          "links": [
+            {
+              "label": "OSV News",
+              "url": "https://www.osvnews.com/for-the-unity-of-the-church-during-in-flight-presser-pope-leo-says-ordaining-married-priests-could-cause-division/"
+            },
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-xiv-press-conference-latin-america-journey.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-16-evening",
       "date": "2026-11-16",
       "edition": "Evening",
