@@ -1,6 +1,40 @@
 {
   "entries": [
     {
+      "id": "2026-11-16-evening",
+      "date": "2026-11-16",
+      "edition": "Evening",
+      "items": [
+        {
+          "text": "Archbishop Nelson Perez of Philadelphia has received a formal petition to open a sainthood cause for Maria Middleton, a Doylestown teenager who died of brain cancer in 2020 at age 18. On Nov. 16 he issued an edict asking for her writings and any information about her reputation for holiness, and the U.S. bishops will be consulted on the cause at their Baltimore assembly this week.",
+          "links": [
+            {
+              "label": "The Pillar",
+              "url": "https://www.pillarcatholic.com/p/bishops-to-consider-philadelphia"
+            }
+          ]
+        },
+        {
+          "text": "In the Diocese of Lafayette, Louisiana, former parish priest Michael Guidry, 83, was released from state prison over the weekend after completing a seven-year sentence for molesting a teenage altar server at St. Peter's in Morrow. The diocese has restricted him from public ministry; the victim's father, former deacon Scott Peyton, lost a Vatican appeal of his excommunication in October.",
+          "links": [
+            {
+              "label": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/nov/16/louisiana-catholic-priest-prison-sexual-abuse"
+            }
+          ]
+        },
+        {
+          "text": "ZENIT reports OpenAI data showing about 70 million religion-related ChatGPT requests a week, with roughly half of Christianity-related questions about understanding biblical passages. ZENIT's analysis calls it neither cause for automatic enthusiasm nor blanket rejection, but an opportunity for the Church to lead people from the screen toward Scripture, community and pastoral guidance.",
+          "links": [
+            {
+              "label": "ZENIT",
+              "url": "https://zenit.org/iawx"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-16-afternoon",
       "date": "2026-11-16",
       "edition": "Afternoon",
