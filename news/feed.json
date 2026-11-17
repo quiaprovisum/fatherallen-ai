@@ -1,6 +1,22 @@
 {
   "entries": [
     {
+      "id": "2026-11-17-morning",
+      "date": "2026-11-17",
+      "edition": "Morning",
+      "items": [
+        {
+          "text": "In an interview with Crux, Matthew Harvey Sanders, CEO of Longbeard, which builds Magisterium AI and Vulgate, called AI potentially \"one of the greatest vehicles for evangelization in history.\" He said skepticism is healthy as discernment but \"becomes costly when it turns into absence,\" named false affection, dependence on systems with a different worldview, and forgery as the main risks, and proposed a Vatican-backed benchmark of how faithful AI models are to Church teaching. Magisterium AI answers from Church documents with a citation on every point. Crux notes Longbeard has long sponsored the outlet.",
+          "links": [
+            {
+              "label": "Crux",
+              "url": "https://cruxnow.com/tech/2026/11/catholic-ai-leader-likes-new-techs-chances-to-serve-evangelization/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-17-early-morning",
       "date": "2026-11-17",
       "edition": "Early Morning",
