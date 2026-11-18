@@ -1,6 +1,40 @@
 {
   "entries": [
     {
+      "id": "2026-11-17-evening",
+      "date": "2026-11-17",
+      "edition": "Evening",
+      "items": [
+        {
+          "text": "Meeting in Baltimore, the U.S. bishops voted to advance the cause of beatification and canonization of Maria Middleton, a Bucks County, Pennsylvania, teenager who died of an inoperable brain tumor in 2020 at age 18. Bishop Thomas Paprocki said reports of intercessory graces have come from the U.S., Italy, Poland and Uganda. The Archdiocese of Philadelphia now opens the diocesan phase of the inquiry.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/world/us/usccb-votes-to-advance-cause-of-beatification-and-canonization-for-pennsylvania-teen-maria"
+            }
+          ]
+        },
+        {
+          "text": "Apostolic nuncio Archbishop Gabriele Caccia told the bishops to prepare for their 2027 ad limina visits to Rome in the spirit of Blessed Fulton Sheen, with the humility to examine their ministry honestly and openness to renewed love for the Church, and to bring signs of hope such as the number of adult catechumens. He noted they will meet the first pope 'speaking with an American accent.'",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/world/us/apostolic-nuncio-invokes-blessed-fulton-sheen-in-speech-to-u-s-bishops"
+            }
+          ]
+        },
+        {
+          "text": "Speaking for Pope Leo XIV at the COP31 climate conference in Antalya, Turkey, Cardinal Secretary of State Pietro Parolin urged delegates to keep the people most affected by climate change at the center, calling it a matter of justice, and proposed an educational pact putting human dignity and the common good at the heart of the climate agenda.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/vatican-city/news/2026-11/cardinal-pietro-parolin-holy-see-cop31-antalya-turkiye.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-17-afternoon",
       "date": "2026-11-17",
       "edition": "Afternoon",
