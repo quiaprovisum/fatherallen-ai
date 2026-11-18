@@ -1,6 +1,44 @@
 {
   "entries": [
     {
+      "id": "2026-11-18-morning",
+      "date": "2026-11-18",
+      "edition": "Morning",
+      "items": [
+        {
+          "text": "Cardinal Michael Czerny, presenting Pope Leo XIV's encyclical Magnifica humanitas in Sofia, said decisions to use lethal force must stay in human hands, with a traceable chain of responsibility, time for human judgment, and protection of civilians.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/vatican-city/news/2026-11/cardinal-michael-czerny-magnifica-humanitas-just-war-ai.html"
+            }
+          ]
+        },
+        {
+          "text": "At the USCCB meeting in Baltimore, Archbishop Paul Coakley said waiting for pre-marriage classes is too late and backed the Vatican's marriage catechumenate starting in youth ministry; Bishop Daniel Flores said young people need renewed hope that love lasts.",
+          "links": [
+            {
+              "label": "OSV News",
+              "url": "https://www.osvnews.com/start-at-home-revive-young-peoples-hope-in-love-to-foster-marriage-say-2-us-bishops/"
+            }
+          ]
+        },
+        {
+          "text": "At his first General Audience since returning from Uruguay, Argentina and Peru, Pope Leo XIV said he felt at home in Chiclayo, and in his appeals marked Italy's Day of Prayer for Victims and Survivors of Abuse, calling prevention a way of living out evangelical conversion.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-at-general-audience-recalls-fruits-journey-to-latin-america.html"
+            },
+            {
+              "label": "Vatican News (appeals)",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-xiv-appeals-general-audience-18-november-2026.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-18-early-morning",
       "date": "2026-11-18",
       "edition": "Early Morning",
