@@ -1,6 +1,53 @@
 {
   "entries": [
     {
+      "id": "2026-11-18-early-morning",
+      "date": "2026-11-18",
+      "edition": "Early Morning",
+      "items": [
+        {
+          "text": "Pope Leo XIV presides at Mass in St. Peter's Basilica today, Nov. 18, at 5 p.m. Rome time, marking 400 years since Pope Urban VIII dedicated the current basilica in 1626.",
+          "links": [
+            {
+              "label": "Vatican.va",
+              "url": "https://www.vatican.va/content/leo-xiv/en/events/event.dir.html/content/vaticanevents/en/2026/11/18/messa-anniversario-sanpietro.html"
+            }
+          ]
+        },
+        {
+          "text": "At the U.S. bishops' fall assembly in Baltimore, Bishop Daniel Flores of Brownsville presented the U.S. Church's part in the Intercontinental Guadalupan Novena, the multi-year preparation for the 500th anniversary of the apparitions of Our Lady of Guadalupe in 2031, along with the 'One Tilma, One Heart' initiative.",
+          "links": [
+            {
+              "label": "OSV News",
+              "url": "https://www.osvnews.com/us-bishops-promote-intercontinental-guadalupe-novena-and-one-tilma-one-heart-initiative/"
+            }
+          ]
+        },
+        {
+          "text": "The patriarchs and heads of churches in Syria, including Melkite Greek Catholic Patriarch Youssef Absi, issued a joint statement on Nov. 17 condemning continuing attacks, kidnappings and intimidation against Christians and asking the authorities to protect citizens and investigate.",
+          "links": [
+            {
+              "label": "Orthodox Times",
+              "url": "https://orthodoxtimes.com/patriarchs-of-syria-condemn-attacks-on-christians-and-call-for-protection-of-religious-communities/"
+            }
+          ]
+        },
+        {
+          "text": "In France, Bishop Renauld de Dinechin of Luçon has told a priest of the Institute of the Good Shepherd to stop celebrating the Traditional Latin Mass and holding catechism at the private Chapel of the Holy Family at the Château de Ramberge in the Vendée, where the old Mass had been offered since 1983 for up to 300 people each Sunday. His Oct. 25 letter was made public on Nov. 17.",
+          "links": [
+            {
+              "label": "Ouest-France",
+              "url": "https://www.ouest-france.fr/pays-de-la-loire/vendee/je-ne-peux-accepter-que-cette-situation-se-prolonge-leveque-de-vendee-stoppe-la-messe-en-latin-dans-cette-chapelle-8455db80-dd2b-11f1-a62b-776e3051b0df"
+            },
+            {
+              "label": "LifeSiteNews",
+              "url": "https://www.lifesitenews.com/news/french-bishop-bans-latin-mass-at-private-chapel-after-43-years/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-17-evening",
       "date": "2026-11-17",
       "edition": "Evening",
