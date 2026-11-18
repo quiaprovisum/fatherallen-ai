@@ -1,6 +1,61 @@
 {
   "entries": [
     {
+      "id": "2026-11-18-afternoon",
+      "date": "2026-11-18",
+      "edition": "Afternoon",
+      "items": [
+        {
+          "text": "Bishop Oscar Cantú of San Jose updated the U.S. bishops in Baltimore on their new Task Force on Preserving Human Dignity in the Age of Artificial Intelligence, telling them the Church can have neither naive enthusiasm nor unfounded fear about AI and asking for their ideas on the task force's work. The task force, which met in person for the first time on Nov. 15, has met engineers from Anthropic, OpenAI, Meta and Google and plans internal AI guidelines for Catholic institutions and webinars for bishops, church leaders and parishes.",
+          "links": [
+            {
+              "label": "JD Flynn on X",
+              "url": "https://x.com/jdflynn/status/2123149189278560349"
+            },
+            {
+              "label": "The New York Times via DNYUZ",
+              "url": "https://dnyuz.com/2026/11/18/u-s-bishops-seek-to-engage-a-i-companies-on-moral-issues/"
+            }
+          ]
+        },
+        {
+          "text": "The U.S. bishops approved a new Lectionary for Mass and Book of the Gospels aligned with the forthcoming Catholic American Bible; it still needs confirmation from the Vatican's Dicastery for Divine Worship. They also renewed the Resolution on Diocesan Financial Reporting through 2031 by a vote of 205-2-1.",
+          "links": [
+            {
+              "label": "Gretchen Crowe (OSV News) on X",
+              "url": "https://x.com/GretchenOSV/status/2123090041152864718"
+            },
+            {
+              "label": "JD Flynn on X",
+              "url": "https://x.com/jdflynn/status/2123089000680317140"
+            }
+          ]
+        },
+        {
+          "text": "Pope Leo XIV celebrated Mass for the 400th anniversary of the dedication of St. Peter's Basilica, saying its doors open to the world with the invitation \"Come, enter, taste!\" and that war, misery, error and despair do not prevail so long as the Church proclaims peace, charity, truth and salvation.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-celebrates-mass-on-400th-anniversary-of-st-peter-s-basilica.html"
+            }
+          ]
+        },
+        {
+          "text": "A Russian drone exploded in front of the Roman Catholic Cathedral of the Assumption in central Odesa, Ukraine, on Nov. 18, breaking about half of its large windows and damaging its doors and the diocesan curia next door. Cathedral and curia staff were unhurt; four people died and about ten were injured in the city's attacks that morning.",
+          "links": [
+            {
+              "label": "Vatican News (Spanish)",
+              "url": "https://www.vaticannews.va/es/iglesia/news/2026-11/la-catedral-catolicade-odesa-alcanzada-en-un-ataque-ruso.html"
+            },
+            {
+              "label": "RISU",
+              "url": "https://risu.ua/v-odesi-rosijskij-dron-poshkodiv-rimo-katolicku-katedru_n167770"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-18-morning",
       "date": "2026-11-18",
       "edition": "Morning",
