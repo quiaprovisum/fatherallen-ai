@@ -1,6 +1,44 @@
 {
   "entries": [
     {
+      "id": "2026-11-19-early-morning",
+      "date": "2026-11-19",
+      "edition": "Early Morning",
+      "items": [
+        {
+          "text": "Soulton Hall, an English country house built during the Reformation, hosted the first public Mass in its history on Nov. 14. Prior Matthew Jarvis OP celebrated it in the Dominican Rite on the feast of the Translation of St Erkenwald.",
+          "links": [
+            {
+              "label": "Catholic Herald",
+              "url": "https://thecatholicherald.com/article/soulton-hall-hosts-first-mass-since-its-construction-in-1560"
+            }
+          ]
+        },
+        {
+          "text": "Joseph Liu Hengping, 54, was ordained Bishop of Xiamen in Fujian, China, on Nov. 18 under the Holy See-China agreement, after Pope Leo appointed him on Oct. 15. The diocese had been without its own bishop for nearly two years.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/vatican-city/news/2026-11/china-consecration-bishop-xiamen-joseph-liu-hengping.html"
+            },
+            {
+              "label": "UCA News",
+              "url": "https://www.ucanews.com/news/chinas-xiamen-gains-bishop-under-sino-vatican-deal/116297"
+            }
+          ]
+        },
+        {
+          "text": "New Orleans Archbishop Gregory Checchio calls Advent a season of hope amid darkness and urges extra time for prayer so Christmas busyness does not crowd out Christ. His column also reprints his letter on the abuse crisis and the coming records archive with Louisiana State University.",
+          "links": [
+            {
+              "label": "Clarion Herald",
+              "url": "https://clarionherald.org/news/advent-a-season-of-hope-amidst-darkness"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-18-evening",
       "date": "2026-11-18",
       "edition": "Evening",
