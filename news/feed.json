@@ -1,6 +1,53 @@
 {
   "entries": [
     {
+      "id": "2026-11-18-evening",
+      "date": "2026-11-18",
+      "edition": "Evening",
+      "items": [
+        {
+          "text": "The U.S. bishops voted 205-0 to rewrite their 2001 pastoral plan for pro-life activities, citing the end of Roe, abortion pills, assisted suicide and IVF. Papal nuncio Archbishop Gabriele Caccia urged the new plan to push for a ban on surrogacy.",
+          "links": [
+            {
+              "label": "OSV News",
+              "url": "https://www.osvnews.com/young-adults-ai-migrants-racial-justice-and-updated-pro-life-plan-round-out-bishops-meeting/"
+            },
+            {
+              "label": "The Catholic Herald",
+              "url": "https://thecatholicherald.com/article/archbishop-caccia-calls-for-global-surrogacy-ban-in-appeal-to-us-bishops"
+            }
+          ]
+        },
+        {
+          "text": "The bishops also voted 180-15, with 7 abstentions, to make the last Sunday of October an annual day of prayer for racial justice.",
+          "links": [
+            {
+              "label": "OSV News",
+              "url": "https://www.osvnews.com/us-catholic-bishops-approve-annual-day-of-prayer-for-racial-justice/"
+            }
+          ]
+        },
+        {
+          "text": "The Vatican's worship dicastery upheld Charlotte Bishop Michael Martin's ban on altar rails and kneelers at Communion, while noting the faithful may still kneel to receive and may not be refused Communion for it.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/world/us/vatican-upholds-charlotte-bishop-s-ban-of-the-use-of-altar-rails-kneelers-during-communion"
+            }
+          ]
+        },
+        {
+          "text": "Bishop Oscar Cantu said the Church must become a school of discernment in the digital age, noted there are responsible ways to use AI in Church offices, and said the Holy See has asked for internal AI policies; the firm rule is no private information in chatbots.",
+          "links": [
+            {
+              "label": "OSV News",
+              "url": "https://www.osvnews.com/humans-must-remain-in-control-of-ai-says-bishop/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-18-afternoon",
       "date": "2026-11-18",
       "edition": "Afternoon",
