@@ -1,6 +1,40 @@
 {
   "entries": [
     {
+      "id": "2026-11-19-morning",
+      "date": "2026-11-19",
+      "edition": "Morning",
+      "items": [
+        {
+          "text": "The U.S. bishops voted at their Baltimore meeting to update the conference's investment guidelines. The new rules bar investment in private prisons and detention facilities and add an AI section: no investing in companies making autonomous weapons or targeting systems without meaningful human oversight, AI designed to be addictive or manipulative or to harm the mental health of young or vulnerable people, or surveillance that violates dignity and privacy. The guidelines also lean on shareholder advocacy to press AI firms on deepfakes, pornography, privacy and workers' rights, and flag concerns about cryptocurrency and prediction markets. Bishop Oscar Cantú said his AI task force will prioritize opening the public conversation, with webinars where bishops hear directly from engineers about both benefits and risks.",
+          "links": [
+            {
+              "label": "Religion News Service",
+              "url": "https://religionnews.com/2026/11/18/catholic-bishops-vote-to-divest-from-private-prisons-pass-guidelines-on-ai-investment/"
+            }
+          ]
+        },
+        {
+          "text": "Pope Leo XIV received participants in a Caritas Internationalis meeting marking 25 years of COATnet, a network of more than 30 Christian organizations fighting human trafficking. Recalling his years in Peru, he urged them not to lose the joy of being God's hands and instruments of a peace that is unarmed and disarming, and said it is faith that distinguishes their mission.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-to-caritas-internationalis-leo-19-november-2026.html"
+            }
+          ]
+        },
+        {
+          "text": "Organizers of World Youth Day 2027 in Seoul released four sign-language versions of the official theme song to make the gathering more accessible to young people with disabilities.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/church/news/2026-11/world-youth-day-2027-sign-language-theme-song.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-19-early-morning",
       "date": "2026-11-19",
       "edition": "Early Morning",
