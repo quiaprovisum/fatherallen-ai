@@ -1,6 +1,57 @@
 {
   "entries": [
     {
+      "id": "2026-11-19-afternoon",
+      "date": "2026-11-19",
+      "edition": "Afternoon",
+      "items": [
+        {
+          "text": "St. Peter's Basilica has opened a Living Archive that uses artificial intelligence to let scholars, pilgrims and visitors explore twenty years of archival research on more than 200 painters, mosaicists and illuminators who worked there between 1503 and 1667. Built with Microsoft on the basilica's digital twin, the tool does not generate content but retrieves and connects material verified by the Fabric of St. Peter, always citing sources. Archbishop Vittorio Francesco Viola said discernment and evaluation remain human responsibilities and that AI should encourage critical thinking.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/vatican-city/news/2026-11/artists-records-become-a-living-archive-in-st-peters-basilica.html"
+            },
+            {
+              "label": "Rome Reports",
+              "url": "https://www.romereports.com/en/2026/11/19/an-ai-chatbot-to-explore-st-peters-heres-how-the-vatican-is-embracing-the-digital-age/"
+            }
+          ]
+        },
+        {
+          "text": "The Vatican's Dicastery for Communication will host a free Zoom webinar, open to everyone, on Nov. 26 from 2:30 to 4:30 p.m. Rome time, titled Using AI as a human amplifier. Prof. Antonio Cisternino of the University of Pisa will present, and registration is required.",
+          "links": [
+            {
+              "label": "Dicastery for Communication",
+              "url": "https://www.comunicazione.va/en/notizie/notizie-2026/using-ai-as-a-human-amplifier.html"
+            }
+          ]
+        },
+        {
+          "text": "Pope Leo XIV received about 3,000 members of the Shalom Catholic Community, founded in Brazil, for its 45th anniversary on Nov. 19. He said their peace is rooted in an encounter with the Risen Christ and urged them to accompany young people, who still seek genuine love, authentic beauty and God, toward an encounter with Jesus, in communion with the Church's pastors.",
+          "links": [
+            {
+              "label": "Holy See Press Office",
+              "url": "https://press.vatican.va/content/salastampa/en/bollettino/pubblico/2026/11/19/261119c.html"
+            },
+            {
+              "label": "Rome Reports",
+              "url": "https://www.romereports.com/en/2026/11/19/pope-leo-xiv-welcomed-around-3000-members-of-the-shalom-catholic-community/"
+            }
+          ]
+        },
+        {
+          "text": "Jesuit High School in New Orleans is marking what it believes is the 100th year of its Thanksgiving Drive. Students, faculty, alumni and parents are preparing food baskets for about 640 families, which will be blessed at a prayer service and delivered the day before Thanksgiving.",
+          "links": [
+            {
+              "label": "Clarion Herald",
+              "url": "https://clarionherald.org/news/putting-a-man-for-others-into-action-for-100-thanksgivings"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-19-morning",
       "date": "2026-11-19",
       "edition": "Morning",
