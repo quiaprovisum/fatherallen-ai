@@ -1,6 +1,40 @@
 {
   "entries": [
     {
+      "id": "2026-11-20-morning",
+      "date": "2026-11-20",
+      "edition": "Morning",
+      "items": [
+        {
+          "text": "The Holy See submitted a working paper on lethal autonomous weapons to the Seventh Review Conference of the Convention on Certain Conventional Weapons in Geneva (Nov. 16-20). It calls for a moratorium and a legally binding framework, arguing that machines calculate while humans judge, so life-and-death decisions cannot be handed to algorithms, and that responsibility can never be shifted to the machine.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/vatican-city/news/2026-11/holy-see-position-paper-lethal-autonomous-weapons-systems.html"
+            }
+          ]
+        },
+        {
+          "text": "More than 6,000 young people from the dioceses of Lazio will meet Pope Leo XIV in the Paul VI Hall on Saturday, Nov. 21, for a regional World Youth Day under the Seoul 2027 theme, \"Take courage! I have overcome the world.\" The Pope will answer five questions from the young people.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-xiv-to-meet-6-000-young-people-from-lazio-21-november.html"
+            }
+          ]
+        },
+        {
+          "text": "Cardinal Pierbattista Pizzaballa, Latin Patriarch of Jerusalem, told Vatican media that the Church in the Holy Land brings hope where politics does not reach. He said the humanitarian situation in Gaza remains dramatic and that Cardinal Claudio Gugerotti's visit expresses Pope Leo's closeness to Christians there.",
+          "links": [
+            {
+              "label": "Vatican News (Italian)",
+              "url": "https://www.vaticannews.va/it/vaticano/news/2026-11/medioriente-terrasanta-israele-palestina-guerra-chiesa-pace.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-20-early-morning",
       "date": "2026-11-20",
       "edition": "Early Morning",
