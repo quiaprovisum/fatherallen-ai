@@ -1,6 +1,40 @@
 {
   "entries": [
     {
+      "id": "2026-11-20-afternoon",
+      "date": "2026-11-20",
+      "edition": "Afternoon",
+      "items": [
+        {
+          "text": "After Wednesday's general audience, Pope Leo XIV prayed with relatives of people who were abducted, killed and secretly buried during the Troubles in Northern Ireland. Archbishop Eamon Martin brought them to Rome and asked anyone with information to come forward so the remaining families can give their loved ones a Christian burial. Thirteen of the disappeared have been recovered since 1998.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/vatican/pope-leo-xiv-prays-with-families-of-the-disappeared-from-northern-ireland-conflict"
+            }
+          ]
+        },
+        {
+          "text": "On Nov. 14, three men tied up Melkite Archbishop Jean-Abdo Arbach in his office in Homs, Syria, and stole his pectoral cross and money. He is safe. The Greek Orthodox, Syriac Orthodox and Melkite patriarchs in Damascus issued a joint statement condemning repeated attacks and ransom kidnappings and the authorities' failure to protect people, while affirming their commitment to living with their Muslim neighbors as equal citizens.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/church/news/2026-11/news-from-the-orient-melkite-archbishop-syria-attack.html"
+            }
+          ]
+        },
+        {
+          "text": "Msgr. Pablo Colino, the Spanish priest who directed St. Peter's Cappella Giulia choir from 1980 to 2006, died Nov. 18 at 92, the same day as the basilica's 400th anniversary.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/vatican/farewell-to-pablo-colino-choir-director-at-st-peter-s-basilica-dies-at-92"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-20-morning",
       "date": "2026-11-20",
       "edition": "Morning",
