@@ -1,6 +1,62 @@
 {
   "entries": [
     {
+      "id": "2026-11-19-evening",
+      "date": "2026-11-19",
+      "edition": "Evening",
+      "items": [
+        {
+          "text": "In an interview with America, Matthew Harvey Sanders, founder and CEO of Longbeard, the company behind Magisterium AI and the Vulgate digitization project with pontifical universities in Rome, said moving ahead with AI is absolutely worth the risk, citing the hope of curing disease and helping the world's poor escape scarcity. He said his confidence rests not in the tool but in people learning to use it well, adding: I'm a Christian; that's why I'm hopeful. He also called the rush to deploy poorly understood AI into critical systems a mistake and said the greater risk is an economy that leaves little place for human work.",
+          "links": [
+            {
+              "label": "America",
+              "url": "https://www.americamagazine.org/interviews/2026/11/19/matthew-harvey-sanders-longbeard-ai-risk-tech-outages/"
+            }
+          ]
+        },
+        {
+          "text": "Cardinal Fabio Baggio joined Microsoft Vice Chair and President Brad Smith on the Tools and Weapons podcast to discuss Pope Leo XIV's encyclical Magnifica humanitas and the Church's response to AI, including human dignity, the future of work, equitable access and the risk of new forms of servitude. The conversation centers on how to ensure technology serves humanity rather than the other way around.",
+          "links": [
+            {
+              "label": "Apple Podcasts",
+              "url": "https://podcasts.apple.com/us/podcast/cardinal-fabio-baggio-ai-faith-humanity/id1632459165?i=1000802898561"
+            },
+            {
+              "label": "Brad Smith on X",
+              "url": "https://x.com/BradSmi/status/2123463555030876601"
+            }
+          ]
+        },
+        {
+          "text": "A Gallup survey for The Catholic University of America, presented to the U.S. bishops in Baltimore, found that nearly two-thirds of young adult Catholics say religion has become more important to them in the last five years, and 82 percent of those cite an encounter with beauty in religious spaces or rituals as an important factor. Practice lags behind: only about a quarter of young adult Catholics attend Mass weekly, and for every adult convert, 8.4 adults raised Catholic leave the Church.",
+          "links": [
+            {
+              "label": "The Pillar",
+              "url": "https://www.pillarcatholic.com/p/survey-beauty-is-drawing-young-people"
+            }
+          ]
+        },
+        {
+          "text": "The Nebraska-based Catholic Mutual Relief Society of America has asked a federal court to declare that it has no remaining obligation to cover sexual abuse claims against several Louisiana dioceses, including Baton Rouge and Lafayette, saying earlier limited coverage has been exhausted and that it ended its Louisiana contracts in 2024. The Diocese of Alexandria, now in bankruptcy, is excluded from the suit.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/world/us/in-federal-lawsuit-catholic-aid-company-says-it-has-no-obligations-in-louisiana-sex-abuse-suits"
+            }
+          ]
+        },
+        {
+          "text": "By a Vatican decree, the Archdiocese of Miami will assume pastoral and canonical care of the roughly 9,000 Catholics of the Cayman Islands, which the Archdiocese of Detroit has overseen as a mission sui iuris since 2000. The community includes a parish, a parochial school and two mission communities.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/world/us/miami-archdiocese-will-assume-oversight-of-catholics-in-cayman-islands"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-19-afternoon",
       "date": "2026-11-19",
       "edition": "Afternoon",
