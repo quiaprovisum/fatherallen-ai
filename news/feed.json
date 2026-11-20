@@ -1,6 +1,35 @@
 {
   "entries": [
     {
+      "id": "2026-11-20-early-morning",
+      "date": "2026-11-20",
+      "edition": "Early Morning",
+      "items": [
+        {
+          "text": "Pope Leo XIV received the Catholic Near East Welfare Association (CNEWA) on Nov. 20 for its 100th anniversary. Founded by Pius XI in 1926, the agency supports the Eastern Churches of the Middle East, northeast Africa, India and Eastern Europe. The Pope said accompanying Eastern Christians in their homelands is an essential work of hope: when a Christian family is forced to leave, a community is weakened and a living tradition is put at risk, but suffering and uncertainty do not have the last word.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/it/papa/news/2026-11/papa-catholic-near-east-welfare-association-solidarieta.html"
+            }
+          ]
+        },
+        {
+          "text": "This year's Christmas tree for St. Peter's Square, a 24-meter (about 78-foot) silver fir from the Cugno dell'Acero forest in Italy's Pollino National Park, arrived at the Vatican on Nov. 19 as a gift from Terranova di Pollino. Children receiving cancer treatment in Italian hospitals will light it on Dec. 7 at 5:30 p.m. Rome time, while a tree is lit at the same moment in Gubbio for the 800th anniversary of the death of St. Francis.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/vatican-city/news/2026-11/vatican-christmas-tree-gubbio-st-francis-children-nativity-scene.html"
+            },
+            {
+              "label": "ANSA",
+              "url": "https://www.ansa.it/basilicata/notizie/2026/11/19/natale-in-vaticano-labete-di-terranova-del-pollino_03ecd6e5-738e-475a-a5e9-dc958546064e.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-19-evening",
       "date": "2026-11-19",
       "edition": "Evening",
