@@ -1,6 +1,40 @@
 {
   "entries": [
     {
+      "id": "2026-11-21-afternoon",
+      "date": "2026-11-21",
+      "edition": "Afternoon",
+      "items": [
+        {
+          "text": "Pope Leo XIV told more than 6,000 young people from Italy's Lazio region in the Paul VI Hall that Christ knows each of them by name and that holiness is a gift, not a performance that causes stress. Answering their questions at an event on the theme of World Youth Day Seoul 2027, he urged them to read the Gospel daily and walk with the Church community.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-xiv-meets-6-000-young-people-of-lazio-italy.html"
+            }
+          ]
+        },
+        {
+          "text": "Meeting members of the Vienna Philharmonic, in Rome for the 25th International Festival of Music and Sacred Art (November 21 to 25), Pope Leo said that in an age of wars and mistrust, music teaches people to listen to one another and that human beings are not destined to remain locked in competitive opposition.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-xiv-music-vienna-philharmonic-orchestra-harmony-peace.html"
+            }
+          ]
+        },
+        {
+          "text": "The Catholic University of America hosted the 2026 Symposium for the Advancement of Catholic Health Care on November 21, on Magnifica humanitas, artificial intelligence and Catholic health care. Sessions included Charles Camosy and Velatura's chief AI officer Prashant Natarajan on whether Catholic health systems should build their own AI, and OpenAI's James Hairston on bridging AI, health care and Catholic teaching.",
+          "links": [
+            {
+              "label": "Catholic Health Care Leadership Alliance",
+              "url": "https://catholichealthcareleadershipalliance.wildapricot.org/event-6825015"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-21-morning",
       "date": "2026-11-21",
       "edition": "Morning",
