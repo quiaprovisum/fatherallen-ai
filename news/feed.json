@@ -1,6 +1,53 @@
 {
   "entries": [
     {
+      "id": "2026-11-21-early-morning",
+      "date": "2026-11-21",
+      "edition": "Early Morning",
+      "items": [
+        {
+          "text": "Pope Leo XIV will have lunch on Sunday, Nov. 22, with about 1,300 poor and vulnerable people in the Paul VI Hall for the tenth World Day of the Poor. The lunch was moved back a week because of his Latin America trip. This year Rome's soup kitchens and shelters will also serve a meal 'in communion' with the Pope. Donors include a Spanish company that gave turkeys for about 2,000 people and a town in Poland that sent hams.",
+          "links": [
+            {
+              "label": "Vatican News (Italian)",
+              "url": "https://www.vaticannews.va/it/vaticano/news/2026-11/pranzo-poveri-elemosineria-papa-leone-xiv-mense-roma.html"
+            }
+          ]
+        },
+        {
+          "text": "At the U.S. bishops' Nov. 18 session on how young adults seek faith, Archbishop Thomas Wenski of Miami said that if secularism brought disenchantment, the young may be on 'a search for re-enchantment,' which he sees in those who kneel for Communion and 'insist on going to Latin Mass.' CUA sociologist Brandon Vaidyanathan replied that Gen Z, unlike millennials, is asking whether the Church was 'too hasty' to abandon some traditional forms. A clip of the exchange circulated widely overnight.",
+          "links": [
+            {
+              "label": "OSV News",
+              "url": "https://www.osvnews.com/catholic-experts-inform-bishops-on-how-a-new-generation-of-young-adults-is-seeking-faith/"
+            }
+          ]
+        },
+        {
+          "text": "The 13 Discalced Carmelite nuns of the Monastery of St. Teresa in Florence use AI to draw MonachIA, an anime-style cartoon nun. On Instagram she shares the Gospel, the saints and daily cloistered life with more than 18,000 followers. The project began as a way to support the monastery's handmade-goods shop and now brings in hundreds of prayer requests. The sisters say the name makes the use of AI clear.",
+          "links": [
+            {
+              "label": "Vatican News (Italian)",
+              "url": "https://www.vaticannews.va/it/chiesa/news/2026-11/firenze-monache-intelligenzaartificiale.html"
+            }
+          ]
+        },
+        {
+          "text": "UEFA fined England's Football Association 15,000 euros and gave it a one-match away-ticket ban, suspended for two years, after anti-Catholic chants by England fans at the Nov. 15 Nations League match in Madrid. The FA called the chanting 'unacceptable and deeply offensive.'",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/world/europe/english-soccer-team-sanctioned-following-anti-catholic-chants"
+            },
+            {
+              "label": "BBC Sport",
+              "url": "https://www.bbc.com/sport/football/articles/cmlye2n7p7d9o"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-20-evening",
       "date": "2026-11-20",
       "edition": "Evening",
