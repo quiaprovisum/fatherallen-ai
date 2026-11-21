@@ -1,6 +1,31 @@
 {
   "entries": [
     {
+      "id": "2026-11-20-evening",
+      "date": "2026-11-20",
+      "edition": "Evening",
+      "items": [
+        {
+          "text": "Clergy abuse survivors in the Archdiocese of New Orleans have begun receiving payments from the $305 million bankruptcy settlement. Settlement trustee Don Massey confirmed on Nov. 20 that $180 million has reached 450 of roughly 740 survivors, and said the trust aims to pay the rest by year's end while it waits on hundreds of distribution forms. The archdiocese filed for bankruptcy in May 2020.",
+          "links": [
+            {
+              "label": "WWL Louisiana",
+              "url": "https://www.wwltv.com/article/news/investigations/losing-faith/first-180m-paid-to-clergy-abuse-survivors-after-years-of-bankruptcy-proceedings/289-31167559-a5e0-42a6-b63a-886aa92e619d"
+            }
+          ]
+        },
+        {
+          "text": "Pope Leo XIV will meet about 100 figures from the cycling world at the Vatican on Monday, Nov. 23, including Eddy Merckx, Greg LeMond, Chris Froome and 20-year-old Paul Seixas. The event is organized by the Dicastery for Culture and Education with the Union Cycliste Internationale, which will donate bicycles to Caritas Rome.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-to-meet-with-former-current-cycling-champions-at-vatica.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-20-afternoon",
       "date": "2026-11-20",
       "edition": "Afternoon",
