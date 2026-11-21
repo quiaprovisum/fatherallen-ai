@@ -31,15 +31,6 @@
   --gold-honey: #fff3c4;
   --gold-shadow: #c98f06;
 
-  --plate-base: #120b22;
-  --iris-indigo: #282270;
-  --iris-deep: #381556;
-  --iris: #4a1562;
-  --iris-sheen: #7868b4;
-  --iris-leaf: #2c4a32;
-  --plate-ink: #f5f1fa;
-  --plate-shade: rgba(10, 6, 22, 0.58);
-
   --display: "Newsreader", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
   --text: "Crimson Text", "Iowan Old Style", "Palatino Linotype", Georgia, serif;
   --ui: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
@@ -214,43 +205,6 @@ main {
 }
 .textlink:hover { color: var(--navy-hover); text-decoration-color: var(--navy-hover); }
 
-/* Iris plate */
-.plate { width: min(100%, var(--col-wide)); margin: 0; }
-.plate__field { position: relative; aspect-ratio: 16 / 9; max-width: 100%; overflow: hidden; isolation: isolate; background: var(--plate-base); }
-@media (max-width: 560px) { .plate__field { aspect-ratio: 4 / 5; } }
-.blob { position: absolute; border-radius: 50%; filter: blur(42px); will-change: transform; }
-.blob--indigo { width: 96%; aspect-ratio: 1; left: -30%; bottom: -52%; background: radial-gradient(circle, var(--iris-indigo) 0%, transparent 64%); opacity: 0.95; animation: drift-c 50s ease-in-out infinite alternate-reverse; }
-.blob--indigo-high { width: 64%; aspect-ratio: 1; right: -14%; top: -30%; background: radial-gradient(circle, var(--iris-indigo) 0%, transparent 64%); opacity: 0.8; animation: drift-b 58s ease-in-out infinite alternate-reverse; }
-.blob--deep { width: 100%; aspect-ratio: 1; left: -10%; top: -34%; background: radial-gradient(circle, var(--iris-deep) 0%, transparent 62%); animation: drift-a 44s ease-in-out infinite alternate; }
-.blob--core { width: 58%; aspect-ratio: 1; left: 24%; top: 4%; background: radial-gradient(circle, var(--iris) 0%, var(--iris-deep) 36%, transparent 66%); opacity: 0.85; animation: drift-b 38s ease-in-out infinite alternate; }
-.blob--leaf { width: 66%; aspect-ratio: 1; right: -24%; bottom: -46%; background: radial-gradient(circle, var(--iris-leaf) 0%, transparent 64%); opacity: 0.7; animation: drift-c 56s ease-in-out infinite alternate; }
-.blob--sheen { width: 34%; aspect-ratio: 1; right: 8%; top: -8%; background: radial-gradient(circle, var(--iris-sheen) 0%, transparent 62%); opacity: 0.45; animation: drift-light 30s ease-in-out infinite alternate; }
-.plate__field::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: 1;
-  pointer-events: none;
-  background: linear-gradient(to top, var(--plate-shade) 0%, transparent 58%), radial-gradient(ellipse at 50% 42%, transparent 38%, var(--plate-shade) 100%);
-}
-@keyframes drift-a { to { transform: translate(14%, 10%) scale(1.14); } }
-@keyframes drift-b { to { transform: translate(-10%, -8%) scale(1.1); } }
-@keyframes drift-c { to { transform: translate(-16%, -12%) scale(1.18); } }
-@keyframes drift-light { to { transform: translate(-22%, 14%) scale(0.86); opacity: 0.65; } }
-.plate blockquote {
-  position: absolute;
-  z-index: 2;
-  left: clamp(1.25rem, 4.5vw, 3rem);
-  right: clamp(1.25rem, 4.5vw, 3rem);
-  bottom: clamp(1.25rem, 4.5vw, 2.75rem);
-  margin: 0;
-  max-width: 16ch;
-  font: italic 400 clamp(1.5rem, 0.9rem + 2.4vw, 2.625rem)/1.2 var(--display);
-  color: var(--plate-ink);
-  text-wrap: balance;
-}
-.plate figcaption { display: flex; justify-content: flex-end; margin-top: 0.5rem; font: italic 400 0.75rem/1.5 var(--ui); color: var(--ink-soft); }
-
 /* About: heading beside the prose on wide screens */
 .about {
   width: min(100%, var(--col-wide));
@@ -317,7 +271,7 @@ main {
 .footer ul a, .footer small { font: 500 0.75rem/1.5 var(--ui); letter-spacing: 0.08em; text-transform: uppercase; text-decoration: none; color: var(--ink-soft); }
 .footer ul a:hover { color: var(--navy-hover); }
 
-@media (prefers-reduced-motion: reduce) { .glow, .blob { animation: none; } }
+@media (prefers-reduced-motion: reduce) { .glow { animation: none; } }
 
 /* ---------- Shared: current page in the menu ---------- */
 .nav a[aria-current="page"] {

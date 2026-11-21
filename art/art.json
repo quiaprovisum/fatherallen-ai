@@ -1,0 +1,912 @@
+{
+  "calendar": "roman",
+  "fallback": "pantocrator",
+  "works": {
+    "annunciation-angelico": {
+      "title": "The Annunciation",
+      "artist": "Fra Angelico",
+      "year": "c. 1440–1445",
+      "image": "art/img/annunciation-angelico.jpg",
+      "width": 1600,
+      "height": 1161,
+      "alt": "The angel Gabriel kneels before Mary in a quiet cloister, both with halos, his colored wings folded, her hands crossed.",
+      "credit": "Convent of San Marco, Florence. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fra_Angelico_-_Annunciation.jpg"
+    },
+    "annunciation-martini": {
+      "title": "The Annunciation",
+      "artist": "Simone Martini and Lippo Memmi",
+      "year": "1333",
+      "image": "art/img/annunciation-martini.jpg",
+      "width": 500,
+      "height": 427,
+      "alt": "Gabriel kneels on a gold ground and speaks to Mary, who draws back, a vase of lilies between them.",
+      "credit": "Gallerie degli Uffizi, Florence. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Simone_Martini_and_Lippo_Memmi_-_The_Annunciation_and_Two_Saints_-_WGA15010.jpg"
+    },
+    "immaculate-murillo": {
+      "title": "The Immaculate Conception of the Venerables",
+      "artist": "Bartolomé Esteban Murillo",
+      "year": "c. 1678",
+      "image": "art/img/immaculate-murillo.jpg",
+      "width": 1091,
+      "height": 1600,
+      "alt": "Mary stands on a cloud in a white gown and blue mantle, hands crossed, cherubs gathered around her.",
+      "credit": "Museo del Prado, Madrid. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Inmaculada_de_los_Venerables_o_de_Soult.jpg"
+    },
+    "guadalupe": {
+      "title": "The Virgin of Guadalupe",
+      "artist": "Anonymous, New Spain",
+      "year": "1725",
+      "image": "art/img/guadalupe.jpg",
+      "width": 960,
+      "height": 1485,
+      "alt": "Our Lady of Guadalupe, crowned, hands joined, standing on a crescent held by an angel, rays of shell inlay around her.",
+      "credit": "Enconchado, Museo Franz Mayer, Mexico City. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Virgen_de_Guadalupe_(enconchado)_-_1725_-_Museo_Franz_Mayer.jpg"
+    },
+    "nativity-giotto": {
+      "title": "The Nativity",
+      "artist": "Giotto di Bondone",
+      "year": "c. 1304–1306",
+      "image": "art/img/nativity-giotto.jpg",
+      "width": 500,
+      "height": 508,
+      "alt": "Mary lies under a wooden shelter beside the child, angels above, Joseph seated in front, shepherds and sheep to the right.",
+      "credit": "Cappella degli Scrovegni, Padua. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giotto_di_Bondone_-_No._17_Scenes_from_the_Life_of_Christ_-_1._Nativity_-_Birth_of_Jesus_-_WGA09193.jpg"
+    },
+    "holy-family-murillo": {
+      "title": "The Holy Family with the Little Bird",
+      "artist": "Bartolomé Esteban Murillo",
+      "year": "c. 1650",
+      "image": "art/img/holy-family-murillo.jpg",
+      "width": 1400,
+      "height": 1028,
+      "alt": "The child Jesus stands between Mary, who holds a spindle, and Joseph, a small white dog at their feet.",
+      "credit": "Museo del Prado, Madrid. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bartolom%C3%A9_Esteban_Perez_Murillo_-_The_Holy_Family_with_a_Bird_-_WGA16356.jpg"
+    },
+    "madonna-duccio": {
+      "title": "Madonna and Child",
+      "artist": "Duccio di Buoninsegna",
+      "year": "c. 1290–1300",
+      "image": "art/img/madonna-duccio.jpg",
+      "width": 1207,
+      "height": 1600,
+      "alt": "Mary in a deep blue mantle holds the child, who reaches up to touch her face, on a worn gold ground.",
+      "credit": "The Metropolitan Museum of Art, New York. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Duccio_Di_Buoninsegna_-_Madonna_col_Bambino.jpg"
+    },
+    "magi-gentile": {
+      "title": "Adoration of the Magi",
+      "artist": "Gentile da Fabriano",
+      "year": "1423",
+      "image": "art/img/magi-gentile.jpg",
+      "width": 1600,
+      "height": 1013,
+      "alt": "The three kings and their retinue approach Mary and the child, horses and attendants crowded into a gold landscape.",
+      "credit": "Gallerie degli Uffizi, Florence. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gentile_da_fabriano,_adorazione_dei_magi.jpg"
+    },
+    "baptism-giotto": {
+      "title": "The Baptism of Christ",
+      "artist": "Giotto di Bondone",
+      "year": "c. 1304–1306",
+      "image": "art/img/baptism-giotto.jpg",
+      "width": 960,
+      "height": 892,
+      "alt": "Christ stands in the Jordan while John baptizes him and angels wait on the bank.",
+      "credit": "Cappella degli Scrovegni, Padua. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giotto_di_Bondone_-_No._23_Scenes_from_the_Life_of_Christ_-_7._Baptism_of_Christ_-_WGA09201.jpg"
+    },
+    "presentation-lord-giotto": {
+      "title": "The Presentation of Christ in the Temple",
+      "artist": "Giotto di Bondone",
+      "year": "c. 1304–1306",
+      "image": "art/img/presentation-lord-giotto.jpg",
+      "width": 950,
+      "height": 960,
+      "alt": "Mary hands the child to Simeon at the temple altar, Joseph and a prophetess beside them.",
+      "credit": "Cappella degli Scrovegni, Padua. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giotto_di_Bondone_-_No._19_Scenes_from_the_Life_of_Christ_-_3._Presentation_of_Christ_at_the_Temple_-_WGA09197.jpg"
+    },
+    "presentation-mary-giotto": {
+      "title": "The Presentation of the Virgin",
+      "artist": "Giotto di Bondone",
+      "year": "c. 1304–1306",
+      "image": "art/img/presentation-mary-giotto.jpg",
+      "width": 866,
+      "height": 832,
+      "alt": "The young Mary climbs the temple steps toward the priest, her parents and onlookers below.",
+      "credit": "Cappella degli Scrovegni, Padua. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giotto_-_Scrovegni_-_-08-_-_Presentation_of_the_Virgin_in_the_Temple.jpg"
+    },
+    "joseph-latour": {
+      "title": "Saint Joseph the Carpenter",
+      "artist": "Georges de La Tour",
+      "year": "c. 1642",
+      "image": "art/img/joseph-latour.jpg",
+      "width": 1159,
+      "height": 1600,
+      "alt": "Joseph bends over his work by candlelight while the child Jesus holds the light.",
+      "credit": "Musée du Louvre, Paris. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Georges_de_La_Tour._St._Joseph,_the_Carpenter.JPG"
+    },
+    "wilderness-kramskoi": {
+      "title": "Christ in the Wilderness",
+      "artist": "Ivan Kramskoi",
+      "year": "1872",
+      "image": "art/img/wilderness-kramskoi.jpg",
+      "width": 1600,
+      "height": 1403,
+      "alt": "Christ sits alone on a stone in a barren landscape, hands clasped, at the beginning of the forty days.",
+      "credit": "Tretyakov Gallery, Moscow. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ivan_Kramskoy_-_%D0%A5%D1%80%D0%B8%D1%81%D1%82%D0%BE%D1%81_%D0%B2_%D0%BF%D1%83%D1%81%D1%82%D1%8B%D0%BD%D0%B5_-_Google_Art_Project.jpg"
+    },
+    "transfiguration-raphael": {
+      "title": "The Transfiguration",
+      "artist": "Raphael",
+      "year": "1516–1520",
+      "image": "art/img/transfiguration-raphael.jpg",
+      "width": 1062,
+      "height": 1600,
+      "alt": "Christ is lifted in light between Moses and Elijah, while the apostles below struggle with a possessed boy.",
+      "credit": "Pinacoteca Vaticana. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Transfiguration_Raphael.jpg"
+    },
+    "entry-giotto": {
+      "title": "Entry into Jerusalem",
+      "artist": "Giotto di Bondone",
+      "year": "c. 1304–1306",
+      "image": "art/img/entry-giotto.jpg",
+      "width": 1000,
+      "height": 941,
+      "alt": "Christ rides a donkey toward the city gate as people spread cloaks and cut branches.",
+      "credit": "Cappella degli Scrovegni, Padua. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giotto_di_Bondone_-_No._26_Scenes_from_the_Life_of_Christ_-_10._Entry_into_Jerusalem_-_WGA09206.jpg"
+    },
+    "washing-giotto": {
+      "title": "The Washing of the Feet",
+      "artist": "Giotto di Bondone",
+      "year": "c. 1304–1306",
+      "image": "art/img/washing-giotto.jpg",
+      "width": 960,
+      "height": 929,
+      "alt": "Christ kneels and washes Peter's feet while the other apostles sit in a row.",
+      "credit": "Cappella degli Scrovegni, Padua. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giotto_di_Bondone_-_No._30_Scenes_from_the_Life_of_Christ_-_14._Washing_of_Feet_-_WGA09215.jpg"
+    },
+    "crucifix-velazquez": {
+      "title": "Christ Crucified",
+      "artist": "Diego Velázquez",
+      "year": "c. 1632",
+      "image": "art/img/crucifix-velazquez.jpg",
+      "width": 1073,
+      "height": 1600,
+      "alt": "Christ hangs on the cross against a dark ground, head fallen, a quiet and uncrowded crucifixion.",
+      "credit": "Museo del Prado, Madrid. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Cristo_crucificado.jpg"
+    },
+    "entombment-caravaggio": {
+      "title": "The Entombment of Christ",
+      "artist": "Caravaggio",
+      "year": "c. 1603–1604",
+      "image": "art/img/entombment-caravaggio.jpg",
+      "width": 1077,
+      "height": 1600,
+      "alt": "Nicodemus and John lower Christ's body toward the stone, Mary and the Magdalene behind them.",
+      "credit": "Pinacoteca Vaticana. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Entombment_of_Christ-Caravaggio_(c.1602-3).jpg"
+    },
+    "resurrection-piero": {
+      "title": "The Resurrection",
+      "artist": "Piero della Francesca",
+      "year": "c. 1460",
+      "image": "art/img/resurrection-piero.jpg",
+      "width": 863,
+      "height": 960,
+      "alt": "Christ steps from the tomb with a banner, four soldiers asleep at his feet, trees behind him.",
+      "credit": "Museo Civico, Sansepolcro. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Resurrection_(Piero_della_Francesca).jpeg"
+    },
+    "thomas-caravaggio": {
+      "title": "The Incredulity of Saint Thomas",
+      "artist": "Caravaggio",
+      "year": "c. 1601–1602",
+      "image": "art/img/thomas-caravaggio.jpg",
+      "width": 1600,
+      "height": 1183,
+      "alt": "Thomas leans in and touches the wound in Christ's side, two apostles crowded close.",
+      "credit": "Sanssouci, Potsdam. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Incredulity_of_Saint_Thomas-Caravaggio_(1601-2).jpg"
+    },
+    "emmaus-caravaggio": {
+      "title": "Supper at Emmaus",
+      "artist": "Caravaggio",
+      "year": "1601",
+      "image": "art/img/emmaus-caravaggio.jpg",
+      "width": 1600,
+      "height": 1138,
+      "alt": "The risen Christ blesses the bread at table while the two disciples start back in recognition.",
+      "credit": "National Gallery, London. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Supper_at_Emmaus-Caravaggio_(1601).jpg"
+    },
+    "shepherd-murillo": {
+      "title": "The Good Shepherd",
+      "artist": "Bartolomé Esteban Murillo",
+      "year": "c. 1660",
+      "image": "art/img/shepherd-murillo.jpg",
+      "width": 1284,
+      "height": 1600,
+      "alt": "The child Christ sits with a shepherd's staff, one hand on a lamb, the flock in the distance.",
+      "credit": "Museo del Prado, Madrid. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:BuenPastorMurillo1660.jpg"
+    },
+    "pentecost-greco": {
+      "title": "Pentecost",
+      "artist": "El Greco",
+      "year": "c. 1596–1600",
+      "image": "art/img/pentecost-greco.jpg",
+      "width": 700,
+      "height": 1492,
+      "alt": "Mary and the apostles look up as the dove appears and tongues of fire rest on them.",
+      "credit": "Museo del Prado, Madrid. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:El_Greco_-_The_Pentecost_-_WGA10533.jpg"
+    },
+    "trinity-rublev": {
+      "title": "The Trinity",
+      "artist": "Andrei Rublev",
+      "year": "c. 1411",
+      "image": "art/img/trinity-rublev.jpg",
+      "width": 1292,
+      "height": 1600,
+      "alt": "Three angels sit at a table in quiet conversation, the icon of Abraham's hospitality read as the Trinity.",
+      "credit": "Tretyakov Gallery, Moscow. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Andrey_Rublev_-_%D0%A1%D0%B2._%D0%A2%D1%80%D0%BE%D0%B8%D1%86%D0%B0_-_Google_Art_Project.jpg"
+    },
+    "last-supper-giotto": {
+      "title": "The Last Supper",
+      "artist": "Giotto di Bondone",
+      "year": "c. 1304–1306",
+      "image": "art/img/last-supper-giotto.jpg",
+      "width": 960,
+      "height": 918,
+      "alt": "Christ and the apostles sit at a long table, and Christ gives the bread.",
+      "credit": "Cappella degli Scrovegni, Padua. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giotto_di_Bondone_-_No._29_Scenes_from_the_Life_of_Christ_-_13._Last_Supper_-_WGA09214.jpg"
+    },
+    "sacred-heart-batoni": {
+      "title": "The Sacred Heart of Jesus",
+      "artist": "Pompeo Batoni",
+      "year": "c. 1767",
+      "image": "art/img/sacred-heart-batoni.jpg",
+      "width": 1034,
+      "height": 1441,
+      "alt": "Christ holds his heart, crowned with thorns and lit, and opens his other hand toward the viewer.",
+      "credit": "Public domain (CC0), via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:SacredHeartBatoni.jpg"
+    },
+    "assumption-titian": {
+      "title": "The Assumption of the Virgin",
+      "artist": "Titian",
+      "year": "1516–1518",
+      "image": "art/img/assumption-titian.jpg",
+      "width": 870,
+      "height": 1600,
+      "alt": "Mary rises on a cloud toward the Father, apostles reaching up from below, in the great arched altarpiece.",
+      "credit": "Basilica di Santa Maria Gloriosa dei Frari, Venice. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tizian_041.jpg"
+    },
+    "all-saints-durer": {
+      "title": "Adoration of the Trinity",
+      "artist": "Albrecht Dürer",
+      "year": "1511",
+      "image": "art/img/all-saints-durer.jpg",
+      "width": 1463,
+      "height": 1600,
+      "alt": "The Trinity is adored above a great company of saints, clergy, and people gathered in a landscape.",
+      "credit": "Kunsthistorisches Museum, Vienna. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Albrecht_D%C3%BCrer_-_Adoration_of_the_Trinity_(Landauer_Altar)_-_Google_Art_Project.jpg"
+    },
+    "all-souls-greco": {
+      "title": "The Burial of the Count of Orgaz",
+      "artist": "El Greco",
+      "year": "1586–1588",
+      "image": "art/img/all-souls-greco.jpg",
+      "width": 1306,
+      "height": 1600,
+      "alt": "Saints Stephen and Augustine lower a nobleman into the grave while heaven opens above the funeral.",
+      "credit": "Iglesia de Santo Tomé, Toledo. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:El_Greco_-_The_Burial_of_the_Count_of_Orgaz.JPG"
+    },
+    "last-judgment-angelico": {
+      "title": "The Last Judgment",
+      "artist": "Fra Angelico",
+      "year": "c. 1425–1430",
+      "image": "art/img/last-judgment-angelico.jpg",
+      "width": 1600,
+      "height": 1324,
+      "alt": "Christ in glory judges the living and the dead, saints ranked above and the blessed and the lost below.",
+      "credit": "Gemäldegalerie, Berlin. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fra_Angelico_-_The_Last_Judgement_(Winged_Altar)_-_Google_Art_Project.jpg"
+    },
+    "advent-blake": {
+      "title": "The Parable of the Wise and Foolish Virgins",
+      "artist": "William Blake",
+      "year": "c. 1826",
+      "image": "art/img/advent-blake.jpg",
+      "width": 1200,
+      "height": 1452,
+      "alt": "An angel sounds a trumpet above the wise virgins with their lamps, while the foolish ones plead at the door.",
+      "credit": "Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Blake_Wise_And_Foolish_Virgins_1826.jpg"
+    },
+    "baptist-greco": {
+      "title": "Saint John the Baptist",
+      "artist": "El Greco",
+      "year": "c. 1600",
+      "image": "art/img/baptist-greco.jpg",
+      "width": 500,
+      "height": 837,
+      "alt": "John stands nearly nude in a rocky landscape, a camel skin over one shoulder, a tall reed cross in his hand, and a lamb asleep on a stone.",
+      "credit": "Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:El_Greco_-_St._John_the_Baptist_-_WGA10548.jpg"
+    },
+    "peter-paul-greco": {
+      "title": "Saint Peter and Saint Paul",
+      "artist": "El Greco",
+      "year": "c. 1587–1592",
+      "image": "art/img/peter-paul-greco.jpg",
+      "width": 1245,
+      "height": 1600,
+      "alt": "Peter and Paul stand together, Peter with the keys, the two heads turned toward one another.",
+      "credit": "State Hermitage Museum, Saint Petersburg. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:El_Greco_-_Saint_Peter_and_Saint_Paul_-_Google_Art_Project.jpg"
+    },
+    "conversion-caravaggio": {
+      "title": "The Conversion of Saint Paul",
+      "artist": "Caravaggio",
+      "year": "1601",
+      "image": "art/img/conversion-caravaggio.jpg",
+      "width": 1218,
+      "height": 1600,
+      "alt": "Paul lies on his back in the stable while a horse fills the darkness and the light strikes him.",
+      "credit": "Santa Maria del Popolo, Rome. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Conversion_on_the_Way_to_Damascus-Caravaggio_(c.1600-1).jpg"
+    },
+    "matthew-caravaggio": {
+      "title": "The Calling of Saint Matthew",
+      "artist": "Caravaggio",
+      "year": "1599–1600",
+      "image": "art/img/matthew-caravaggio.jpg",
+      "width": 1283,
+      "height": 1200,
+      "alt": "Christ points through a shaft of light at Matthew, seated with coins at a table of tax collectors.",
+      "credit": "San Luigi dei Francesi, Rome. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caravaggio,_Michelangelo_Merisi_da_-_The_Calling_of_Saint_Matthew_-_1599-1600_(hi_res).jpg"
+    },
+    "michael-raphael": {
+      "title": "Saint Michael Vanquishing Satan",
+      "artist": "Raphael",
+      "year": "1518",
+      "image": "art/img/michael-raphael.jpg",
+      "width": 947,
+      "height": 1600,
+      "alt": "Michael stands winged and armored, spear planted, over the fallen enemy.",
+      "credit": "Musée du Louvre, Paris. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Le_Grand_Saint_Michel,_by_Raffaello_Sanzio,_from_C2RMF_retouched.jpg"
+    },
+    "visitation-giotto": {
+      "title": "The Visitation",
+      "artist": "Giotto di Bondone",
+      "year": "c. 1304–1306",
+      "image": "art/img/visitation-giotto.jpg",
+      "width": 848,
+      "height": 1000,
+      "alt": "Mary and Elizabeth embrace at a doorway, both with halos.",
+      "credit": "Cappella degli Scrovegni, Padua. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giotto_di_Bondone_-_No._16_Scenes_from_the_Life_of_the_Virgin_-_7._Visitation_-_WGA09192.jpg"
+    },
+    "innocents-giotto": {
+      "title": "The Massacre of the Innocents",
+      "artist": "Giotto di Bondone",
+      "year": "c. 1304–1306",
+      "image": "art/img/innocents-giotto.jpg",
+      "width": 960,
+      "height": 964,
+      "alt": "Soldiers seize children while mothers reach for them, in Giotto's compact fresco.",
+      "credit": "Cappella degli Scrovegni, Padua. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giotto_di_Bondone_-_No._21_Scenes_from_the_Life_of_Christ_-_5._Massacre_of_the_Innocents_-_WGA09199.jpg"
+    },
+    "temple-giotto": {
+      "title": "Expulsion of the Money-changers",
+      "artist": "Giotto di Bondone",
+      "year": "c. 1304–1306",
+      "image": "art/img/temple-giotto.jpg",
+      "width": 1000,
+      "height": 935,
+      "alt": "Christ drives the sellers from the temple, arm raised, tables and figures giving way.",
+      "credit": "Cappella degli Scrovegni, Padua. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giotto_di_Bondone_-_No._27_Scenes_from_the_Life_of_Christ_-_11._Expulsion_of_the_Money-changers_from_the_Temple_-_WGA09209.jpg"
+    },
+    "carrying-greco": {
+      "title": "Christ Carrying the Cross",
+      "artist": "El Greco",
+      "year": "c. 1577–1587",
+      "image": "art/img/carrying-greco.jpg",
+      "width": 1024,
+      "height": 1600,
+      "alt": "Christ embraces the cross, eyes lifted, the wood filling the frame.",
+      "credit": "Public domain. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:El_Greco_-_Christ_Carrying_the_Cross_-_Google_Art_Project.jpg"
+    },
+    "dream-champaigne": {
+      "title": "The Dream of Saint Joseph",
+      "artist": "Philippe de Champaigne",
+      "year": "c. 1642–1643",
+      "image": "art/img/dream-champaigne.jpg",
+      "width": 1179,
+      "height": 1600,
+      "alt": "An angel appears to the sleeping Joseph and points toward Mary, who waits in prayer.",
+      "credit": "National Gallery, London. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Philippe_de_Champaigne_(1602-1674)_-_The_Dream_of_Saint_Joseph_-_NG6276_-_National_Gallery.jpg"
+    },
+    "sermon-angelico": {
+      "title": "The Sermon on the Mount",
+      "artist": "Fra Angelico",
+      "year": "c. 1440–1445",
+      "image": "art/img/sermon-angelico.jpg",
+      "width": 1525,
+      "height": 1600,
+      "alt": "Christ sits teaching on the hillside, the apostles gathered close in a spare landscape.",
+      "credit": "Convent of San Marco, Florence. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fra_Angelico_-_Die_Bergpredigt.jpeg"
+    },
+    "storm-rembrandt": {
+      "title": "Christ in the Storm on the Sea of Galilee",
+      "artist": "Rembrandt van Rijn",
+      "year": "1633",
+      "image": "art/img/storm-rembrandt.jpg",
+      "width": 1288,
+      "height": 1600,
+      "alt": "A fishing boat heels in a black wave while the disciples strain at the sail and Christ is among them.",
+      "credit": "Isabella Stewart Gardner Museum, Boston. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_Christ_in_the_Storm_on_the_Lake_of_Galilee.jpg"
+    },
+    "teaching-tissot": {
+      "title": "Jesus Teaching on the Sea Shore",
+      "artist": "James Tissot",
+      "year": "c. 1886–1894",
+      "image": "art/img/teaching-tissot.jpg",
+      "width": 1188,
+      "height": 1600,
+      "alt": "Christ sits on a rock by the water and teaches a crowd in pale robes, hills and palms behind them.",
+      "credit": "Brooklyn Museum, New York. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jesus_Teaching_on_the_Sea-Shore.jpg"
+    },
+    "sassoferrato": {
+      "title": "The Virgin in Prayer",
+      "artist": "Giovanni Battista Salvi, called Sassoferrato",
+      "year": "c. 1640–1650",
+      "image": "art/img/sassoferrato.jpg",
+      "width": 1272,
+      "height": 1600,
+      "alt": "Mary is shown in quiet prayer, hands joined, veil and blue mantle against a dark ground.",
+      "credit": "Nationalmuseum, Stockholm. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sassoferrato_-_Jungfrun_i_b%C3%B6n.jpg"
+    },
+    "francis-giotto": {
+      "title": "Saint Francis Receiving the Stigmata",
+      "artist": "Giotto di Bondone",
+      "year": "c. 1295–1300",
+      "image": "art/img/francis-giotto.jpg",
+      "width": 987,
+      "height": 1600,
+      "alt": "Francis kneels on a rocky slope as the seraphim marks his hands, feet, and side.",
+      "credit": "Musée du Louvre, Paris. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giotto_-_Saint_Francis_Receiving_the_Stigmata.jpg"
+    },
+    "pantocrator": {
+      "title": "Christ Pantocrator",
+      "artist": "Monastery of Saint Catherine, Sinai",
+      "year": "6th century",
+      "image": "art/img/pantocrator.jpg",
+      "width": 886,
+      "height": 1600,
+      "alt": "Christ faces outward, one hand raised in blessing, the other holding a jeweled book, a gold halo behind him.",
+      "credit": "Monastery of Saint Catherine, Sinai. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:CHRIST_PANTOCRATOR-SINAI(6th_Century).jpg"
+    },
+    "jesse-tree": {
+      "title": "The Tree of Jesse",
+      "artist": "Armenian Gospels",
+      "year": "1455",
+      "image": "art/img/jesse-tree.jpg",
+      "width": 960,
+      "height": 1435,
+      "alt": "A tree rises from Jesse through rows of ancestors to Mary and the child at the crown of the page.",
+      "credit": "Walters Art Museum, Baltimore, manuscript W.543. CC0.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gospels,_Tree_of_Jesse,_Walters_Manuscript_W.543,_fol._4v.jpg"
+    },
+    "birth-john": {
+      "title": "The Birth and Naming of Saint John the Baptist",
+      "artist": "Netherlandish painter",
+      "year": "early 16th century",
+      "image": "art/img/birth-john.jpg",
+      "width": 1600,
+      "height": 1403,
+      "alt": "Women bathe and wrap the infant John while Zechariah writes the name, a peacock in the courtyard.",
+      "credit": "The Metropolitan Museum of Art, New York. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Birth_and_Naming_of_Saint_John_the_Baptist%3B_(reverse)_Trompe-l'oeil_with_Painting_of_The_Man_of_Sorrows_MET_DP136254.jpg"
+    },
+    "serpent-rubens": {
+      "title": "Moses and the Brazen Serpent",
+      "artist": "Peter Paul Rubens",
+      "year": "c. 1635–1640",
+      "image": "art/img/serpent-rubens.jpg",
+      "width": 1461,
+      "height": 1600,
+      "alt": "Moses lifts the bronze serpent while the people reach toward it, bodies tangled below.",
+      "credit": "National Gallery, London. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Peter_Paul_Rubens_-_Moses_and_the_Brazen_Serpent.jpg"
+    },
+    "lamentation-giotto": {
+      "title": "The Lamentation",
+      "artist": "Giotto di Bondone",
+      "year": "c. 1304–1306",
+      "image": "art/img/lamentation-giotto.jpg",
+      "width": 1600,
+      "height": 1505,
+      "alt": "Mary holds her son at the foot of the cross while angels tear the sky and the mourners bend close.",
+      "credit": "Cappella degli Scrovegni, Padua. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Compianto_sul_Cristo_morto.jpg"
+    },
+    "flight-giotto": {
+      "title": "The Flight into Egypt",
+      "artist": "Giotto di Bondone",
+      "year": "c. 1304–1306",
+      "image": "art/img/flight-giotto.jpg",
+      "width": 950,
+      "height": 980,
+      "alt": "Mary rides with the child while Joseph leads them across a bare hillside.",
+      "credit": "Cappella degli Scrovegni, Padua. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giotto_di_Bondone_-_No._20_Scenes_from_the_Life_of_Christ_-_4._Flight_into_Egypt_-_WGA09198.jpg"
+    },
+    "ascension-giotto": {
+      "title": "The Ascension",
+      "artist": "Giotto di Bondone",
+      "year": "c. 1304–1306",
+      "image": "art/img/ascension-giotto.jpg",
+      "width": 1000,
+      "height": 927,
+      "alt": "Christ rises in a mandorla while the apostles and Mary look up from the hillside.",
+      "credit": "Cappella degli Scrovegni, Padua. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Giotto_di_Bondone_-_No._38_Scenes_from_the_Life_of_Christ_-_22._Ascension_-_WGA09226.jpg"
+    },
+    "prodigal-rembrandt": {
+      "title": "The Return of the Prodigal Son",
+      "artist": "Rembrandt van Rijn",
+      "year": "c. 1668–1669",
+      "image": "art/img/prodigal-rembrandt.jpg",
+      "width": 1226,
+      "height": 1600,
+      "alt": "The father bends and lays both hands on the kneeling son, the household watching from the shadow.",
+      "credit": "State Hermitage Museum, Saint Petersburg. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rembrandt_Harmensz_van_Rijn_-_Return_of_the_Prodigal_Son_-_Google_Art_Project.jpg"
+    },
+    "noli-titian": {
+      "title": "Noli Me Tangere",
+      "artist": "Titian",
+      "year": "c. 1514",
+      "image": "art/img/noli-titian.jpg",
+      "width": 1334,
+      "height": 1600,
+      "alt": "The risen Christ, with a hoe, draws back from Mary Magdalene as she reaches toward him in a landscape.",
+      "credit": "National Gallery, London. Public domain, via Wikimedia Commons.",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Titian_-_Noli_me_Tangere_-_Google_Art_Project.jpg"
+    }
+  },
+  "feasts": {
+    "advent-1": {
+      "work": "advent-blake",
+      "relation": "First Sunday of Advent · Stay awake. Mark 13:33–37"
+    },
+    "advent-2": {
+      "work": "baptist-greco",
+      "relation": "Second Sunday of Advent · John the Baptist"
+    },
+    "advent-3": {
+      "work": "baptist-greco",
+      "relation": "Third Sunday of Advent · The testimony of John. John 1:6–8, 19–28"
+    },
+    "advent-4": {
+      "work": "annunciation-angelico",
+      "relation": "Fourth Sunday of Advent · The Annunciation. Luke 1:26–38"
+    },
+    "advent-17": {
+      "work": "jesse-tree",
+      "relation": "December 17, Advent · The genealogy. Matthew 1:1–17"
+    },
+    "advent-18": {
+      "work": "dream-champaigne",
+      "relation": "December 18, Advent · Joseph’s dream. Matthew 1:18–25"
+    },
+    "advent-20": {
+      "work": "annunciation-angelico",
+      "relation": "December 20, Advent · The Annunciation. Luke 1:26–38"
+    },
+    "advent-21": {
+      "work": "visitation-giotto",
+      "relation": "December 21, Advent · The Visitation. Luke 1:39–45"
+    },
+    "advent-22": {
+      "work": "sassoferrato",
+      "relation": "December 22, Advent · The Magnificat. Luke 1:46–56"
+    },
+    "advent-23": {
+      "work": "birth-john",
+      "relation": "December 23, Advent · The birth of John. Luke 1:57–66"
+    },
+    "advent-24": {
+      "work": "birth-john",
+      "relation": "December 24, Advent · The Benedictus. Luke 1:67–79"
+    },
+    "christmas": {
+      "work": "nativity-giotto",
+      "relation": "The Nativity of the Lord · Luke 2:1–14"
+    },
+    "holy-family": {
+      "work": "holy-family-murillo",
+      "relation": "The Holy Family of Jesus, Mary, and Joseph"
+    },
+    "holy-innocents": {
+      "work": "innocents-giotto",
+      "relation": "The Holy Innocents, Martyrs · Matthew 2:13–18"
+    },
+    "mary-mother-of-god": {
+      "work": "madonna-duccio",
+      "relation": "Mary, the Holy Mother of God · Luke 2:16–21"
+    },
+    "epiphany": {
+      "work": "magi-gentile",
+      "relation": "The Epiphany of the Lord · Matthew 2:1–12"
+    },
+    "baptism-of-the-lord": {
+      "work": "baptism-giotto",
+      "relation": "The Baptism of the Lord"
+    },
+    "presentation-of-the-lord": {
+      "work": "presentation-lord-giotto",
+      "relation": "The Presentation of the Lord · Luke 2:22–40"
+    },
+    "ash-wednesday": {
+      "work": "wilderness-kramskoi",
+      "relation": "Ash Wednesday · Into the wilderness"
+    },
+    "lent-1": {
+      "work": "wilderness-kramskoi",
+      "relation": "First Sunday of Lent · The temptation in the wilderness"
+    },
+    "lent-2": {
+      "work": "transfiguration-raphael",
+      "relation": "Second Sunday of Lent · The Transfiguration"
+    },
+    "lent-3": {
+      "work": "temple-giotto",
+      "relation": "Third Sunday of Lent · Christ cleanses the temple"
+    },
+    "lent-4": {
+      "work": "serpent-rubens",
+      "relation": "Fourth Sunday of Lent · The bronze serpent. John 3:14–21"
+    },
+    "lent-5": {
+      "work": "carrying-greco",
+      "relation": "Fifth Sunday of Lent · The hour is coming. John 12:20–33"
+    },
+    "palm-sunday": {
+      "work": "entry-giotto",
+      "relation": "Palm Sunday of the Passion of the Lord"
+    },
+    "holy-monday": {
+      "work": "carrying-greco",
+      "relation": "Monday of Holy Week · The agony in the garden"
+    },
+    "holy-tuesday": {
+      "work": "carrying-greco",
+      "relation": "Tuesday of Holy Week"
+    },
+    "holy-thursday": {
+      "work": "washing-giotto",
+      "relation": "Thursday of the Lord’s Supper · John 13:1–15"
+    },
+    "good-friday": {
+      "work": "crucifix-velazquez",
+      "relation": "Friday of the Passion of the Lord"
+    },
+    "holy-saturday": {
+      "work": "entombment-caravaggio",
+      "relation": "Holy Saturday · The burial of the Lord"
+    },
+    "easter": {
+      "work": "resurrection-piero",
+      "relation": "Easter Sunday · John 20:1–9"
+    },
+    "easter-monday": {
+      "work": "emmaus-caravaggio",
+      "relation": "Monday within the Octave of Easter · The road to Emmaus. Luke 24:13–35"
+    },
+    "easter-2": {
+      "work": "thomas-caravaggio",
+      "relation": "Second Sunday of Easter · John 20:19–31"
+    },
+    "easter-3": {
+      "work": "emmaus-caravaggio",
+      "relation": "Third Sunday of Easter · The risen Lord at table"
+    },
+    "easter-4": {
+      "work": "shepherd-murillo",
+      "relation": "Fourth Sunday of Easter · The Good Shepherd. John 10"
+    },
+    "ascension": {
+      "work": "ascension-giotto",
+      "relation": "The Ascension of the Lord"
+    },
+    "pentecost": {
+      "work": "pentecost-greco",
+      "relation": "Pentecost Sunday · The coming of the Holy Spirit"
+    },
+    "trinity": {
+      "work": "trinity-rublev",
+      "relation": "The Most Holy Trinity"
+    },
+    "corpus-christi": {
+      "work": "last-supper-giotto",
+      "relation": "The Most Holy Body and Blood of Christ"
+    },
+    "sacred-heart": {
+      "work": "sacred-heart-batoni",
+      "relation": "The Most Sacred Heart of Jesus"
+    },
+    "immaculate-heart": {
+      "work": "sassoferrato",
+      "relation": "The Immaculate Heart of the Blessed Virgin Mary"
+    },
+    "mary-mother-of-the-church": {
+      "work": "sassoferrato",
+      "relation": "The Blessed Virgin Mary, Mother of the Church"
+    },
+    "christ-the-king": {
+      "work": "last-judgment-angelico",
+      "relation": "Our Lord Jesus Christ, King of the Universe"
+    },
+    "joseph": {
+      "work": "joseph-latour",
+      "relation": "Saint Joseph, Spouse of the Blessed Virgin Mary"
+    },
+    "annunciation": {
+      "work": "annunciation-martini",
+      "relation": "The Annunciation of the Lord · Luke 1:26–38"
+    },
+    "immaculate-conception": {
+      "work": "immaculate-murillo",
+      "relation": "The Immaculate Conception of the Blessed Virgin Mary"
+    },
+    "guadalupe": {
+      "work": "guadalupe",
+      "relation": "Our Lady of Guadalupe"
+    },
+    "presentation-of-mary": {
+      "work": "presentation-mary-giotto",
+      "relation": "The Presentation of the Blessed Virgin Mary"
+    },
+    "francis": {
+      "work": "francis-giotto",
+      "relation": "Saint Francis of Assisi"
+    },
+    "assumption": {
+      "work": "assumption-titian",
+      "relation": "The Assumption of the Blessed Virgin Mary"
+    },
+    "transfiguration": {
+      "work": "transfiguration-raphael",
+      "relation": "The Transfiguration of the Lord"
+    },
+    "holy-cross": {
+      "work": "crucifix-velazquez",
+      "relation": "The Exaltation of the Holy Cross"
+    },
+    "all-saints": {
+      "work": "all-saints-durer",
+      "relation": "All Saints"
+    },
+    "all-souls": {
+      "work": "all-souls-greco",
+      "relation": "The Commemoration of All the Faithful Departed"
+    },
+    "peter-and-paul": {
+      "work": "peter-paul-greco",
+      "relation": "Saints Peter and Paul, Apostles"
+    },
+    "nativity-of-john": {
+      "work": "birth-john",
+      "relation": "The Nativity of Saint John the Baptist"
+    },
+    "conversion-of-paul": {
+      "work": "conversion-caravaggio",
+      "relation": "The Conversion of Saint Paul"
+    },
+    "matthew": {
+      "work": "matthew-caravaggio",
+      "relation": "Saint Matthew, Apostle and Evangelist"
+    },
+    "mary-magdalene": {
+      "work": "noli-titian",
+      "relation": "Saint Mary Magdalene · John 20:11–18"
+    },
+    "archangels": {
+      "work": "michael-raphael",
+      "relation": "Saints Michael, Gabriel, and Raphael"
+    },
+    "visitation": {
+      "work": "visitation-giotto",
+      "relation": "The Visitation of the Blessed Virgin Mary · Luke 1:39–56"
+    },
+    "thomas-apostle": {
+      "work": "thomas-caravaggio",
+      "relation": "Saint Thomas, Apostle · John 20:24–29"
+    }
+  },
+  "days": {},
+  "seasons": {
+    "advent": [
+      "advent-blake",
+      "annunciation-angelico",
+      "visitation-giotto",
+      "dream-champaigne",
+      "baptist-greco",
+      "birth-john"
+    ],
+    "christmas": [
+      "nativity-giotto",
+      "magi-gentile",
+      "holy-family-murillo",
+      "madonna-duccio",
+      "flight-giotto",
+      "baptism-giotto"
+    ],
+    "lent": [
+      "wilderness-kramskoi",
+      "transfiguration-raphael",
+      "temple-giotto",
+      "serpent-rubens",
+      "carrying-greco"
+    ],
+    "holy-week": [
+      "entry-giotto",
+      "carrying-greco",
+      "lamentation-giotto"
+    ],
+    "triduum": [
+      "lamentation-giotto",
+      "crucifix-velazquez",
+      "entombment-caravaggio",
+      "washing-giotto"
+    ],
+    "easter": [
+      "resurrection-piero",
+      "emmaus-caravaggio",
+      "thomas-caravaggio",
+      "shepherd-murillo",
+      "pentecost-greco"
+    ],
+    "ordinary": [
+      "sermon-angelico",
+      "prodigal-rembrandt",
+      "storm-rembrandt",
+      "teaching-tissot",
+      "noli-titian"
+    ]
+  }
+}
