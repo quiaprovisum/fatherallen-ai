@@ -1,6 +1,40 @@
 {
   "entries": [
     {
+      "id": "2026-11-21-morning",
+      "date": "2026-11-21",
+      "edition": "Morning",
+      "items": [
+        {
+          "text": "Pope Leo XIV named French Dominican Fr. Serge-Thomas Bonino, president of the Pontifical Academy of St. Thomas Aquinas since 2014 and former secretary general of the International Theological Commission, as Theologian of the Papal Household. The Pope also gave the personal title of archbishop to Msgr. Aurelio García Macías, secretary of the Dicastery for Divine Worship, and Msgr. Paul Tighe, secretary of the Dicastery for Culture and Education, and named Msgr. Javier Domingo Fernández González nuncio to Liberia and Sierra Leone.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/it/papa/news/2026-11/nomia-teologo-casa-pontificia-sotto-segretario-dicastero-clero.html"
+            }
+          ]
+        },
+        {
+          "text": "Pope Leo approved decrees clearing Blessed Zdenka Schelingová, a Slovak Sister of Charity of the Holy Cross who suffered under the Communist regime in Czechoslovakia, for canonization, and Venerable Rosa Staltari for beatification. Decrees also recognize the martyrdom of Fr. José Gómez Llor and 54 companions killed in the Spanish Civil War, and declare Venerable two priests, Angelo Lolli and Abundio García Román, and 14-year-old Giulia Gabrieli.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/it/papa/news/2026-11/papa-leone-xiv-decreti-santa-venerabile-chiesa.html"
+            }
+          ]
+        },
+        {
+          "text": "Receiving delegations from the International Astronautical Federation and the Italian Space Agency ahead of the International Space Forum in Rome on Monday, Pope Leo urged that outer space be kept from any non-peaceful use and said those who wage war and ruin creation are blinded by the idols of power and money.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/it/papa/news/2026-11/leonexiv-spazio-pace-benecomune.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-21-early-morning",
       "date": "2026-11-21",
       "edition": "Early Morning",
