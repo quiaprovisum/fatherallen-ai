@@ -1,6 +1,44 @@
 {
   "entries": [
     {
+      "id": "2026-11-22-morning",
+      "date": "2026-11-22",
+      "edition": "Morning",
+      "items": [
+        {
+          "text": "On the Solemnity of Christ the King, Pope Leo XIV said at the Angelus that Christ reveals the true meaning of justice. He called the Last Judgement a word of salvation and a proclamation of mercy, and said Christ is not a despot who threatens but the true King who redeems.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-at-angelus-god-s-judgement-is-salvation.html"
+            }
+          ]
+        },
+        {
+          "text": "After the Angelus, the Pope prayed for victims of conflicts worldwide and urged leaders to seek reconciliation and peace without delay. He voiced closeness to Papua New Guinea and other Pacific countries hit by El Niño drought, and asked young people marking World Youth Day in their dioceses to be gentle and humble like Christ, looking ahead to Seoul 2027.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-appeals-drought-war-peace-conflict-young-people-poor-wyd.html"
+            }
+          ]
+        },
+        {
+          "text": "For the tenth World Day of the Poor, Pope Leo XIV shared lunch with about 1,300 people in need in the Paul VI Hall, telling them, \"Today, we are all one family.\" More than 400 Italian Red Cross volunteers served the meal, and guests came through Rome charities.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-at-lunch-with-the-poor-today-we-are-all-one-family.html"
+            },
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/vatican/pope-leo-xiv-shares-lunch-with-1-300-people-in-need-at-vatican"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-22-early-morning",
       "date": "2026-11-22",
       "edition": "Early Morning",
