@@ -1,6 +1,22 @@
 {
   "entries": [
     {
+      "id": "2026-11-22-afternoon",
+      "date": "2026-11-22",
+      "edition": "Afternoon",
+      "items": [
+        {
+          "text": "Bishop Oscar Cantú of San Jose, who chairs the U.S. bishops' task force on AI and human dignity, told POLITICO the task force will make advocacy with lawmakers a central focus, aiming to build a groundswell among Catholics for AI rules. He named children's safety as widely agreed ground and argued that a human must stay responsible when AI agents cause harm. \"We don't want to stifle progress, but we need progress to be safe,\" he said, adding that Pope Leo has called for a democratization of the debate.",
+          "links": [
+            {
+              "label": "POLITICO",
+              "url": "https://www.politico.com/news/2026/11/22/catholic-church-ai-regulation-lobbying-01179266"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-22-morning",
       "date": "2026-11-22",
       "edition": "Morning",
