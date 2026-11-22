@@ -1,6 +1,49 @@
 {
   "entries": [
     {
+      "id": "2026-11-21-evening",
+      "date": "2026-11-21",
+      "edition": "Evening",
+      "items": [
+        {
+          "text": "Catholics in Mexico City are marking 100 years since the start of the Cristero War with two Christ the King processions: a Blessed Sacrament procession at the Basilica of Our Lady of Guadalupe on Nov. 21 and a procession through the historic center to the Metropolitan Cathedral on Nov. 22. A jubilee year honoring the Cristero witnesses opens Nov. 22, with a plenary indulgence available.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/world/americas/100-years-after-cristero-war-catholics-to-process-in-mexico-city-to-honor-christ-the-king"
+            }
+          ]
+        },
+        {
+          "text": "The EU bishops' commission COMECE issued a position paper on Nov. 20 opposing the erasure of baptismal records at the request of people who leave the Church. It responds to an EU Court of Justice advocate general's opinion in a case against the Diocese of Ghent, and argues that a baptismal record documents a sacramental event rather than a person's current beliefs.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/world/europe/european-bishops-reiterate-that-baptismal-records-should-be-protected-from-erasure"
+            }
+          ]
+        },
+        {
+          "text": "Archbishop Paul Richard Gallagher, the Holy See's foreign minister, urged the international community at the MED Dialogues in Naples to redouble its efforts for Lebanon, calling the country crucial for democracy in the region and for the continued Christian presence in the Middle East. He voiced concern about the future of the UNIFIL mission.",
+          "links": [
+            {
+              "label": "Vatican News (Italian)",
+              "url": "https://www.vaticannews.va/it/vaticano/news/2026-11/gallagher-libano-israele-medio-oriente-guerra-hezbollah-med.html"
+            }
+          ]
+        },
+        {
+          "text": "World Jewish Congress president Ronald Lauder met Pope Leo XIV on Nov. 20 for their first private audience. He thanked the Pope for his condemnations of antisemitism, proposed joint education for young Jews and Catholics, and called for Church-Jewish cooperation, including with senior technology leaders, to put humanity first in the development of artificial intelligence.",
+          "links": [
+            {
+              "label": "World Jewish Congress",
+              "url": "https://www.worldjewishcongress.org/en/news/wjc-president-ronald-s-lauder-meets-pope-leo-xiv-at-the-vatican"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-21-afternoon",
       "date": "2026-11-21",
       "edition": "Afternoon",
