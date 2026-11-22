@@ -1,6 +1,31 @@
 {
   "entries": [
     {
+      "id": "2026-11-22-early-morning",
+      "date": "2026-11-22",
+      "edition": "Early Morning",
+      "items": [
+        {
+          "text": "Cambridge Dictionary named \"human\" its Word of the Year for 2026, citing global debates over what it means to be human as AI blurs the line between people and machines. Its announcement quotes Pope Leo XIV's letter Magnifica humanitas on the \"pressing duty to remain profoundly human.\"",
+          "links": [
+            {
+              "label": "Cambridge University Press & Assessment",
+              "url": "https://www.cambridge.org/news-and-insights/human-is-Cambridge-dictionary-word-of-the-year-2026"
+            }
+          ]
+        },
+        {
+          "text": "EWTN premiered its first late-night-style comedy talk show, It's Not Too Late with Paul Laudiero, on Nov. 20. The hourlong family-friendly program streams free on EWTN+ and EWTN.com every other Friday at 6 p.m. ET.",
+          "links": [
+            {
+              "label": "EWTN via PR Newswire",
+              "url": "https://www.prnewswire.com/news-releases/ewtn-ventures-into-comedy-with-first-catholic-late-night-series-302945852.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-21-evening",
       "date": "2026-11-21",
       "edition": "Evening",
