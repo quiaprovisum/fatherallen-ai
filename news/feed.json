@@ -1,6 +1,31 @@
 {
   "entries": [
     {
+      "id": "2026-11-22-evening",
+      "date": "2026-11-22",
+      "edition": "Evening",
+      "items": [
+        {
+          "text": "Carbon monoxide from a newly bought heater injured 56 people, many of them children, during Sunday Mass on Nov. 22 at the Schlosskapelle in Bad Grönenbach, Bavaria, where the Priestly Fraternity of St. Peter offers the Traditional Latin Mass. Police said the heater's automatic shut-off failed; 16 people were hospitalized as a precaution, no one was in danger of death, and most went home by evening.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/world/europe/carbon-monoxide-leak-injures-56-at-sunday-mass-in-bavarian-chapel-police-say"
+            }
+          ]
+        },
+        {
+          "text": "Deacon Ernie Hart, 67, a former New York Supreme Court justice, NYPD deputy commissioner, lawyer and professor, and a father of three, was set to be ordained a priest for the Diocese of Bridgeport on Nov. 21. He first felt the call in second grade in Brooklyn and will remain the diocese's general counsel.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/world/us/never-too-late-brooklyn-born-deacon-with-decades-in-law-and-academia-becomes-priest-at-67"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-22-afternoon",
       "date": "2026-11-22",
       "edition": "Afternoon",
