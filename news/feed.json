@@ -1,6 +1,40 @@
 {
   "entries": [
     {
+      "id": "2026-11-23-morning",
+      "date": "2026-11-23",
+      "edition": "Morning",
+      "items": [
+        {
+          "text": "Cardinal Michael Czerny, who coordinates the Holy See's interdicasterial commission on artificial intelligence, spoke at a Pontifical Lateran University study day on Pope Leo XIV's encyclical Magnifica humanitas. He urged education built on intellectual humility, love of truth and a desire for peace, warning against mistaking a machine-made summary for real understanding and saying the human desire for truth \"is not an algorithm.\"",
+          "links": [
+            {
+              "label": "Vatican News (Italian)",
+              "url": "https://www.vaticannews.va/it/vaticano/news/2026-11/czerny-intelligenza-artificiale-enciclica-magnifica-humanitas.html"
+            }
+          ]
+        },
+        {
+          "text": "Pope Leo XIV received representatives of the Union Cycliste Internationale, calling cycling a metaphor for \"life in abundance\" and a way to cultivate attentiveness to creation. He recalled Our Lady of Ghisallo, patroness of cyclists, and Blessed Giovanni Fornasini, who brought the sacraments to villages by bicycle during the Second World War.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-cycling-can-be-a-metaphor-for-abundant-life.html"
+            }
+          ]
+        },
+        {
+          "text": "Pope Leo XIV thanked the foundation funding new barracks for the Pontifical Swiss Guard, saying they should be a place where young guardsmen grow \"close to God and to their brothers and sisters.\" Construction is expected to begin in 2027.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-xiv-swiss-guards-foundation-23-november-2026.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-22-evening",
       "date": "2026-11-22",
       "edition": "Evening",
