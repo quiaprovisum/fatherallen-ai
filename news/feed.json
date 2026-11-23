@@ -1,6 +1,40 @@
 {
   "entries": [
     {
+      "id": "2026-11-23-afternoon",
+      "date": "2026-11-23",
+      "edition": "Afternoon",
+      "items": [
+        {
+          "text": "Mexico's bishops issued a pastoral letter for the centenary of the Cristero War, titled \"Long Live Christ the King! Their Faith, Our Memory; Their Witness, Our Mission.\" They said the best tribute to the martyrs is reconciliation, peace, and charity, not revenge, and asked that the period be studied without reducing it to good guys versus bad guys. The Church recognizes 40 martyrs from that persecution, including Blessed Miguel Pro, whose memorial is today.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/world/americas/mexico-s-bishops-call-for-honoring-cristero-war-martyrs-by-building-peace"
+            }
+          ]
+        },
+        {
+          "text": "Cardinal Claudio Gugerotti, prefect of the Dicastery for the Eastern Churches, finished a six-day visit to the Holy Land for Pope Leo XIV, from Jerusalem and Bethlehem to Galilee, ending with Mass in Nazareth. He said \"the first need is peace\" if Christians are to stay, and urged pilgrims to return when it is safe, since many Christian families live from welcoming them.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/world/middle-east/peace-is-essential-to-keeping-christians-in-the-holy-land-cardinal-gugerotti-says"
+            }
+          ]
+        },
+        {
+          "text": "Archbishop Rino Fisichella gave Pope Leo XIV the first copy of the official photo book of the 2025 Jubilee, which drew more than 33 million pilgrims to Rome. Published by the Vatican Publishing House, it goes on sale in bookshops and online on November 27.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/vatican-city/news/2026-11/vatican-pope-leo-xiv-jubilee-photo-book-hope-2025-evangelization.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-23-morning",
       "date": "2026-11-23",
       "edition": "Morning",
