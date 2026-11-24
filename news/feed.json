@@ -1,6 +1,40 @@
 {
   "entries": [
     {
+      "id": "2026-11-24-early-morning",
+      "date": "2026-11-24",
+      "edition": "Early Morning",
+      "items": [
+        {
+          "text": "\"The Private Diary of Pope Francis,\" edited by Cardinal Victor Manuel Fernández, was released on Nov. 24 in five languages for 94 countries. The 160-page book collects notes the late pope kept in a planner from 1992 to 2024, including his fears, prayers, encounters he described with the devil, and a spiritual crisis from early 2021 into 2022 that he said ended in renewal. Cardinal Fernández said Pope Leo XIV approved its publication.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/vatican-city/news/2026-11/personal-diary-pope-francis-cardinal-fernandez-book.html"
+            }
+          ]
+        },
+        {
+          "text": "The U.S. bishops announced that the Catholic American Bible, the new translation that will replace the New American Bible, Revised Edition for use at Mass, study and devotion, is available for pre-order and will be released on Feb. 10, 2027.",
+          "links": [
+            {
+              "label": "The Catholic Herald",
+              "url": "https://thecatholicherald.com/article/us-bishops-announce-february-2027-release-of-new-catholic-american-bible"
+            }
+          ]
+        },
+        {
+          "text": "The Dicastery for Interreligious Dialogue opens its 15th Plenary Assembly in Rome, Nov. 24 to 26, on educating for an \"unarmed and disarming peace.\" One of its five sessions covers artificial intelligence, human relations and human dignity in the digital age. Participants will meet Pope Leo XIV at the end.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/vatican-city/news/2026-11/vatican-dicastery-interreligious-dialogue-education-peace.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-23-evening",
       "date": "2026-11-23",
       "edition": "Evening",
