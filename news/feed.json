@@ -1,6 +1,49 @@
 {
   "entries": [
     {
+      "id": "2026-11-24-afternoon",
+      "date": "2026-11-24",
+      "edition": "Afternoon",
+      "items": [
+        {
+          "text": "The Commission of the Bishops' Conferences of the EU (COMECE) argued in a Nov. 20 paper that the GDPR right to erasure should not apply to baptismal records, which it says document a historical and sacramental fact rather than current Church membership. The European Court of Justice is considering a Belgian data protection case on the question.",
+          "links": [
+            {
+              "label": "Catholic Herald",
+              "url": "https://thecatholicherald.com/article/eu-bishops-defend-baptismal-records-against-gdpr-right-to-erasure"
+            }
+          ]
+        },
+        {
+          "text": "Cardinal Víctor Fernández told the National Catholic Register that the five-judge tribunal in the canonical trial of ex-Jesuit artist Fr. Marko Rupnik is working in complete autonomy. He said the Holy See wants a resolution as soon as possible but will not impose time limits or demand information.",
+          "links": [
+            {
+              "label": "National Catholic Register",
+              "url": "https://www.ncregister.com/news/cardinal-fernandez-speaks-on-status-of-rupnik-trial"
+            }
+          ]
+        },
+        {
+          "text": "Attorneys general from 18 states, led by Kentucky, filed a Supreme Court brief backing the Missionaries of St. John the Baptist, who were blocked by a zoning ruling from building a Marian shrine at Our Lady of Lourdes Chapel in Park Hills, Kentucky. They argue federal religious land-use law protects the project.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/world/us/nearly-20-state-attorneys-general-back-catholic-religious-group-in-zoning-dispute-at-supreme"
+            }
+          ]
+        },
+        {
+          "text": "At a KAICIID dialogue session in the European Parliament, Longbeard CEO Matthew Harvey Sanders, whose company builds Magisterium AI, called for public tests of whether AI systems represent religions accurately and fairly, plus authoritative sources for AI use and safeguards for pastoral data.",
+          "links": [
+            {
+              "label": "Magisterium AI",
+              "url": "https://www.magisterium.com/blog/accurately-fairly-kaiciid-european-parliamentary-talks"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-24-morning",
       "date": "2026-11-24",
       "edition": "Morning",
