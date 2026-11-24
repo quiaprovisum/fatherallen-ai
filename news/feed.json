@@ -1,6 +1,40 @@
 {
   "entries": [
     {
+      "id": "2026-11-24-morning",
+      "date": "2026-11-24",
+      "edition": "Morning",
+      "items": [
+        {
+          "text": "The Vatican released Pope Leo XIV's Christmas season schedule: Mass during the Night on Dec. 24 at 10 p.m. in St. Peter's Basilica, Christmas Day Mass at 10 a.m. followed by the Urbi et Orbi blessing at noon, First Vespers and the Te Deum on Dec. 31, Mass for Mary, Mother of God on Jan. 1, Epiphany Mass on Jan. 6, and Mass with infant baptisms in the Sistine Chapel on Jan. 10.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-s-set-to-preside-at-liturgies-throughout-christmas.html"
+            }
+          ]
+        },
+        {
+          "text": "The bishops of England and Wales plan to consecrate both countries to the Sacred Heart in 2029, the bicentenary of Catholic emancipation, ideally on the Solemnity of the Sacred Heart, June 8, 2029, alongside a Mass of Thanksgiving at Westminster Cathedral.",
+          "links": [
+            {
+              "label": "The Catholic Herald",
+              "url": "https://thecatholicherald.com/article/england-and-wales-to-be-consecrated-to-the-sacred-heart-in-2029"
+            }
+          ]
+        },
+        {
+          "text": "At the U.S. bishops' fall assembly, Archbishop Thomas Wenski of Miami said young Catholics who kneel for Communion and attend the traditional Latin Mass show \"a search for re-enchantment.\" He spoke after a panel on a Catholic University of America and Gallup survey that found 64 percent of Catholic young adults say religion matters more to them than five years ago.",
+          "links": [
+            {
+              "label": "LifeSiteNews",
+              "url": "https://www.lifesitenews.com/news/watch-archbishop-tells-usccb-that-young-people-want-the-latin-mass/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-24-early-morning",
       "date": "2026-11-24",
       "edition": "Early Morning",
