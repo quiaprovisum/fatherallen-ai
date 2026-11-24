@@ -1,6 +1,31 @@
 {
   "entries": [
     {
+      "id": "2026-11-23-evening",
+      "date": "2026-11-23",
+      "edition": "Evening",
+      "items": [
+        {
+          "text": "More than 30,000 Catholics joined Sydney's Walk with Christ Eucharistic procession on Sunday, Nov. 22, a record and about 10,000 more than last year. It was the first time the walk was held on Christ the King instead of Corpus Christi, as the city prepares to host the International Eucharistic Congress, Eucharist28.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/world/asia-pacific/sydney-shows-the-world-it-s-ready-for-eucharistic-congress-as-record-30-000-walk-with-christ"
+            }
+          ]
+        },
+        {
+          "text": "The Archdiocese of New York has borrowed more than $160 million against several Manhattan properties to help fund its $804 million abuse settlement, finalized Nov. 5. A spokesman said no active churches were mortgaged; most collateral is other parish property such as an unused school, a parking lot, and an unused convent.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/world/us/new-york-archdiocese-mortgages-church-properties-to-fund-usd800-million-sex-abuse-settlement"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-23-afternoon",
       "date": "2026-11-23",
       "edition": "Afternoon",
