@@ -1,6 +1,22 @@
 {
   "entries": [
     {
+      "id": "2026-11-25-early-morning",
+      "date": "2026-11-25",
+      "edition": "Early Morning",
+      "items": [
+        {
+          "text": "Pope Leo XIV met the International Theological Commission on Wednesday as it opened the first plenary of its new five-year term, focused on Apostolic Tradition and how the faith is handed on through cultures. He said that because Tradition is living, the Church's understanding of it deepens continuously and coherently, developing without rupture, and pointed to war, slavery, and the death penalty as examples. He also rejected any 'pseudo-liberation' that would break from what the Church has authoritatively taught, and called the inculturation of the faith indispensable, including popular piety.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-xiv-audience-international-theological-commission.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-24-evening",
       "date": "2026-11-24",
       "edition": "Evening",
