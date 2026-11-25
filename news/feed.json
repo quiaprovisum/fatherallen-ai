@@ -1,6 +1,40 @@
 {
   "entries": [
     {
+      "id": "2026-11-24-evening",
+      "date": "2026-11-24",
+      "edition": "Evening",
+      "items": [
+        {
+          "text": "Dutch auxiliary Bishop Rob Mutsaerts of 's-Hertogenbosch published an essay arguing that restrictions on the traditional Latin Mass target communities of young families, students and young priests drawn by silence and reverence, and that the dispute reflects a deeper question about guarding the received faith.",
+          "links": [
+            {
+              "label": "Edward Pentin",
+              "url": "https://edwardpentin.substack.com/p/bishop-mutsaerts-rome-seems-more"
+            }
+          ]
+        },
+        {
+          "text": "The Archdiocese of Philadelphia issued an edict from Archbishop Nelson Pérez opening the proposed cause of beatification and canonization of Maria Middleton, who died in 2020 at 18 of an inoperable brain tumor. The archdiocese asks anyone holding her writings to submit them.",
+          "links": [
+            {
+              "label": "LifeSiteNews",
+              "url": "https://www.lifesitenews.com/news/canonization-cause-announced-for-young-american-woman-who-died-of-brain-tumor/"
+            }
+          ]
+        },
+        {
+          "text": "Writer and governance researcher Nathan Schneider described founding the Inference Cooperative, a member-governed AI service offering privacy-focused or renewable-energy model options, citing Pope Leo XIV's encyclical call to enter the construction sites of history rather than leave AI to tech oligarchs.",
+          "links": [
+            {
+              "label": "Nathan Schneider",
+              "url": "https://nathanschneider.info/2026/11/from-ai-rabbit-holes-to-a-warm-den-co-building-the-inference-cooperative/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-24-afternoon",
       "date": "2026-11-24",
       "edition": "Afternoon",
