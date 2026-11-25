@@ -1,6 +1,40 @@
 {
   "entries": [
     {
+      "id": "2026-11-25-afternoon",
+      "date": "2026-11-25",
+      "edition": "Afternoon",
+      "items": [
+        {
+          "text": "In New Orleans, teacher Ciara Littlejohn runs the school garden at Langston Hughes Academy, which grows about 500 pounds of food a year for students' families and staff. A Sisters of Notre Dame de Namur Mission Volunteer, she took part this summer in the congregation's first Laudato Seeds of Change ecological immersion program and brings its lessons on caring for creation back to her students.",
+          "links": [
+            {
+              "label": "Global Sisters Report",
+              "url": "https://www.globalsistersreport.org/environment/new-orleans-school-garden-grows-lessons-inspired-catholic-nuns"
+            }
+          ]
+        },
+        {
+          "text": "A citation from Maryland Gov. Wes Moore honoring the GU272, the 272 enslaved men, women and children the Maryland Jesuits sold in 1838 to Louisiana sugar planters to keep Georgetown College afloat, was proclaimed Nov. 15 at Sacred Heart Cemetery in Bowie, Md., on land once part of the Jesuits' White Marsh Plantation. Cardinal Robert McElroy of Washington took part.",
+          "links": [
+            {
+              "label": "America (OSV News)",
+              "url": "https://www.americamagazine.org/news/2026/11/25/maryland-slavery-jesuits-georgetown/"
+            }
+          ]
+        },
+        {
+          "text": "Cardinal Charles Maung Bo reconsecrated Sacred Heart Cathedral in Mandalay, Myanmar, on Nov. 15, its 136th anniversary, after it nearly collapsed in the March 2025 earthquake. He called for rebuilding hope, unity and reconciliation in a country still at civil war; two other damaged churches still need time and donors.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/church/news/2026-11/myanmar-mandalay-cathedral-earthquake-community-church.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-25-morning",
       "date": "2026-11-25",
       "edition": "Morning",
