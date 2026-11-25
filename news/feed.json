@@ -1,6 +1,40 @@
 {
   "entries": [
     {
+      "id": "2026-11-25-morning",
+      "date": "2026-11-25",
+      "edition": "Morning",
+      "items": [
+        {
+          "text": "At Wednesday's General Audience, continuing his catechesis on Gaudium et spes, Pope Leo XIV said there is no room for resignation, as if violence were inevitable. He noted that cyberattacks and information manipulation have changed how wars are fought, and he repeated the Council's warning that the arms race is an utterly treacherous trap for humanity that ensnares the poor to an intolerable degree.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-break-the-ideological-economic-chains-that-enslave-us-war.html"
+            }
+          ]
+        },
+        {
+          "text": "At the end of the audience, the Pope called it concerning that COP31 in Antalya ended on November 22 without clear climate commitments. He urged people not to forget the human face of the climate crisis and appealed for a renewed culture of care for creation and solidarity with the poorest and with future generations.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-we-must-not-forget-the-human-face-of-the-climate-crisis.html"
+            }
+          ]
+        },
+        {
+          "text": "In the motu proprio In carcere eram, signed November 22 and released November 25, Pope Leo XIV abolished the International Commission of Catholic Prison Pastoral Care, founded in 1950, and replaced it with a Prison Ministry Pastoral Outreach Service under the Dicastery for Promoting Integral Human Development. The new service is meant to be a more flexible network for prison chaplains, and Archbishop Jorge Ignacio García Cuerva of Buenos Aires will coordinate it.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/vatican-city/news/2026-11/pope-leo-xiv-motu-proprio-prison-ministry-coordination-service.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-25-early-morning",
       "date": "2026-11-25",
       "edition": "Early Morning",
