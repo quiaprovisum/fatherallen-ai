@@ -1,6 +1,49 @@
 {
   "entries": [
     {
+      "id": "2026-11-26-morning",
+      "date": "2026-11-26",
+      "edition": "Morning",
+      "items": [
+        {
+          "text": "Meeting the Plenary Assembly of the Dicastery for Interreligious Dialogue on Nov. 26, Pope Leo XIV said peace is threatened by technological advances that promote the militarization of artificial intelligence, increasingly entrusting machines with life-or-death decisions. He said integral disarmament cannot come only from political agreements or fewer weapons but requires \"a profound transformation of hearts and minds,\" and that religions must warn against turning thoughts and words into weapons.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-interreligious-dialogue-peace-conflict-education-war.html"
+            }
+          ]
+        },
+        {
+          "text": "In a separate audience with the Dicastery for Promoting Integral Human Development, the Pope said integral human development is inseparable from evangelization. He warned against both reducing the Gospel to a social or charitable programme and separating it from people's concrete lives: \"In Christ, there are not two missions, one spiritual and one social.\"",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-integral-human-development-inseparable-from-evangelization.html"
+            }
+          ]
+        },
+        {
+          "text": "Pope Leo also met more than 250 superiors general at the close of the second joint assembly of the UISG and USG, telling men and women religious that \"the Church needs consecrated life\" and urging them to lead through service and charity as artisans of peace.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-audience-usg-uisg-religious-superiors-audience-peace.html"
+            }
+          ]
+        },
+        {
+          "text": "A profile in The Times-Picayune follows New Orleans Archbishop James Checchio through his first year leading the archdiocese, from blessing the fishing fleet in St. Bernard to celebrating a Latin Mass on the northshore. He has celebrated Mass in nearly all of the archdiocese's 104 church parishes, with a few still to go.",
+          "links": [
+            {
+              "label": "NOLA.com",
+              "url": "https://www.nola.com/news/new-orleans-archbishop-checchio-profile/article_e666c797-0e3e-44e4-a4df-266ca1bcf35a.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-25-evening",
       "date": "2026-11-25",
       "edition": "Evening",
