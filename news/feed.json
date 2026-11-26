@@ -1,6 +1,31 @@
 {
   "entries": [
     {
+      "id": "2026-11-25-evening",
+      "date": "2026-11-25",
+      "edition": "Evening",
+      "items": [
+        {
+          "text": "Italy's bishops received a pilot study on clerical abuse from 2001 to 2021 at their general assembly in Assisi on Nov. 25. It covers 198 of 226 dioceses and analyzes 356 alleged perpetrators and 385 victims, most of them boys aged 14 to 17. Cardinal Matteo Zuppi called abuse an open wound and said the Church feels shame and does not wish to hide it.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/world/europe/study-on-two-decades-of-clerical-abuse-in-italy-presented-to-italian-bishops-conference"
+            }
+          ]
+        },
+        {
+          "text": "Fr. Donald Calloway, MIC, vicar provincial of the Marian Fathers of the Immaculate Conception, celebrated his first Traditional Latin Mass on Nov. 24 at a private chapel in San Diego after training. The Marian Fathers have requested four training sessions as they plan to bring the older rite into community life.",
+          "links": [
+            {
+              "label": "LifeSiteNews",
+              "url": "https://www.lifesitenews.com/news/fr-donald-calloway-celebrates-his-first-latin-mass/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-25-afternoon",
       "date": "2026-11-25",
       "edition": "Afternoon",
