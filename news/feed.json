@@ -1,6 +1,49 @@
 {
   "entries": [
     {
+      "id": "2026-11-26-afternoon",
+      "date": "2026-11-26",
+      "edition": "Afternoon",
+      "items": [
+        {
+          "text": "Opening the 2026-2027 academic year of the Pontifical Lateran University, with Italian President Sergio Mattarella present, Cardinal Pietro Parolin named the spread of artificial intelligence among today's major challenges. He asked universities to examine the proper use of technology, keep human dignity at the center, and offer serious study in place of readings shaped by fear. He cited Pope Leo XIV's encyclical Magnifica Humanitas.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/vatican-city/news/2026-11/cardinal-parolin-academic-year-pontifical-lateran-university.html"
+            }
+          ]
+        },
+        {
+          "text": "Cardinal Parolin celebrated Mass at the Basilica of Saint John Lateran for the victims of the Holodomor, the 1932-1933 famine inflicted on Ukraine by the Soviet regime, saying bread must never become an instrument of oppression or a hostage to war. A kalyna tree donated by Ukraine was planted in the Vatican Gardens.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/vatican-city/news/2026-11/cardinal-parolin-bread-must-not-become-a-hostage-to-war.html"
+            }
+          ]
+        },
+        {
+          "text": "Pope Leo XIV begins five Advent visits to Roman parishes on Friday, November 27, at Sant'Andrea delle Fratte, the Shrine of Our Lady of the Miracle where Alphonse Ratisbonne converted in 1842. He arrives at 4 pm Rome time and celebrates the parish Mass at 5 pm.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-make-first-advent-pastoral-visit-central-roman-parish.html"
+            }
+          ]
+        },
+        {
+          "text": "Archbishop Richard Moth of Westminster was taken to hospital on November 25 after feeling unwell. The archdiocese says he is undergoing preliminary tests, is in good spirits, and looks forward to returning home.",
+          "links": [
+            {
+              "label": "Catholic Herald",
+              "url": "https://thecatholicherald.com/article/archbishop-richard-moth-hospitalised-after-feeling-unwell"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-26-morning",
       "date": "2026-11-26",
       "edition": "Morning",
