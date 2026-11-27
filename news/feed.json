@@ -1,6 +1,49 @@
 {
   "entries": [
     {
+      "id": "2026-11-27-afternoon",
+      "date": "2026-11-27",
+      "edition": "Afternoon",
+      "items": [
+        {
+          "text": "Pope Leo XIV visited Sant'Andrea delle Fratte in central Rome on Nov. 27, the feast of Our Lady of the Miraculous Medal, the first of five Advent visits to parishes in the Diocese of Rome. Preaching on the Wedding at Cana, he asked the parish to notice people often invisible behind the city's monuments and shops: those sleeping on the streets, elderly people living alone, foreign residents, and underpaid workers.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-homily-parish-rome-advent-visit.html"
+            }
+          ]
+        },
+        {
+          "text": "A Budapest court on Nov. 25 revoked its Oct. 21 order requiring the Institute for the Works of Religion (IOR, the Vatican bank) to pay 20 million euros in a dispute over the city's former Stock Exchange building. The decision cannot be appealed, and first-instance proceedings can now begin. A Maltese civil court ruled for the IOR at first instance weeks earlier.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/vatican-city/news/2026-11/hungary-budapest-court-revokes-payment-order-vatican-bank.html"
+            }
+          ]
+        },
+        {
+          "text": "Fr. Peter Konteh, president of the Regional Union of Priests of West Africa and head of Caritas Freetown, urged Africa to take part in designing and governing artificial intelligence rather than only consuming it. Citing Antiqua et Nova, he named education, healthcare, evangelization and humanitarian aid as areas where AI can help, while warning about inequality and misinformation.",
+          "links": [
+            {
+              "label": "ACI Africa",
+              "url": "https://www.aciafrica.org/news/25613/president-of-catholic-priests-in-west-africa-calls-on-africa-to-participate-in-development-of-artificial-intelligence"
+            }
+          ]
+        },
+        {
+          "text": "Fr. Bashar Fawadleh, pastor in Taybeh, the last entirely Christian town in the West Bank, warned at an Aid to the Church in Need briefing that settler attacks, checkpoints and land seizures are driving Christian families away. \"We wouldn't want to be the last generation of Christians in the Holy Land,\" he said.",
+          "links": [
+            {
+              "label": "OSV News",
+              "url": "https://www.osvnews.com/palestinian-priest-warns-of-christian-exodus-from-the-holy-land/"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-27-morning",
       "date": "2026-11-27",
       "edition": "Morning",
