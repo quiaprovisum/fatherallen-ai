@@ -1,6 +1,31 @@
 {
   "entries": [
     {
+      "id": "2026-11-27-early-morning",
+      "date": "2026-11-27",
+      "edition": "Early Morning",
+      "items": [
+        {
+          "text": "Cardinal José Tolentino de Mendonça, prefect of the Vatican Dicastery for Culture and Education, told the Catholic Bishops' Conference of India's National Consultation on Education in Goa on November 26 that Catholic schools must put human dignity, moral integrity and spiritual formation at the heart of education. He acknowledged that artificial intelligence can improve research, personalized learning and access to knowledge, while cautioning against cognitive dependence and noting that the quantity of information is not the same as wisdom.",
+          "links": [
+            {
+              "label": "Radio Veritas Asia",
+              "url": "https://www.rvasia.org/asian-news/india-vatican-prefect-urges-human-centered-education-cbci-consultation-amid-ai"
+            }
+          ]
+        },
+        {
+          "text": "In his Advent column for the Clarion Herald, Archbishop James Checchio of New Orleans calls Advent a season of hope amid darkness and urges extra time for prayer. He also reprints his recent letter on the archdiocese publishing the names of deceased clergy accused of child sexual abuse and on the planned archive of eligible files with Louisiana State University.",
+          "links": [
+            {
+              "label": "Clarion Herald",
+              "url": "https://clarionherald.org/news/advent-a-season-of-hope-amidst-darkness"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-26-afternoon",
       "date": "2026-11-26",
       "edition": "Afternoon",
