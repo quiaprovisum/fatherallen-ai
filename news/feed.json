@@ -1,6 +1,40 @@
 {
   "entries": [
     {
+      "id": "2026-11-27-morning",
+      "date": "2026-11-27",
+      "edition": "Morning",
+      "items": [
+        {
+          "text": "Pope Leo XIV has chosen \"Let us embrace fragility\" (2 Cor 12:9) as the theme of his Lent 2027 message. Announced by the Dicastery for Promoting Integral Human Development on November 27, it draws on paragraphs 118 to 126 of his encyclical Magnifica humanitas and offers an alternative to the illusion of a humanity that wants to recreate itself without limits.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-theme-lent-message-2027-fragility-magnifica-humanitas.html"
+            }
+          ]
+        },
+        {
+          "text": "The Holy See has named three new Pontifical Commissaries for the Heralds of the Gospel: Bishop Lucio Nicoletto for the clerical society Virgo Flos Carmeli, Sr. Ana Teresa Pinto, FMA, for the women's society Regina Virginum, and Fr. Siro Stocchetti, MCCI, for the Heralds of the Gospel association. They succeed Cardinal Raymundo Damasceno Assis, commissary since 2019, whose resignation was accepted November 9.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/vatican-city/news/2026-11/heralds-of-the-gospel-commissioners-dicasteries-vatican-appoint.html"
+            }
+          ]
+        },
+        {
+          "text": "A German appeals court held the Archdiocese of Cologne liable for a priest's abuse of a girl in his care and set damages at 550,000 euros (about $604,000), the highest a German court has awarded a victim of Church abuse. The 360,000 euros already paid through the Church's recognition commission counts toward the total.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/world/europe/german-court-holds-cologne-archdiocese-liable-for-priest-s-abuse-awards-record-usd604-000"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-27-early-morning",
       "date": "2026-11-27",
       "edition": "Early Morning",
