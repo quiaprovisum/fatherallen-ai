@@ -1,6 +1,40 @@
 {
   "entries": [
     {
+      "id": "2026-11-28-morning",
+      "date": "2026-11-28",
+      "edition": "Morning",
+      "items": [
+        {
+          "text": "Pope Leo XIV met participants in a conference on St. Augustine's spirituality as a bridge for interreligious dialogue, organized by the Dicastery for Interreligious Dialogue and the Augustinianum. He said truth is not a human idea but the Person of Christ, and warned that religious belonging should not become a pretext for setting ourselves apart from others.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/pope/news/2026-11/pope-leo-xiv-spirituality-saint-augustine-conference.html"
+            }
+          ]
+        },
+        {
+          "text": "Cardinal Marcello Semeraro beatified Ignacio Aláez Vaquero and ten companions at Madrid's Almudena Cathedral. The eleven martyrs of the Spanish Civil War, nine of them seminarians along with a priest and a layman, were killed in hatred of the faith. Blessed Ignacio was a 22-year-old philosophy student.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/vatican-city/news/2026-11/cardinal-semeraro-beatification-mass-spain-martyrs-alaez-vaquero.html"
+            }
+          ]
+        },
+        {
+          "text": "Pope Leo received leaders of the Pentecostal World Fellowship, including chairman William Wilson. They prayed together and discussed evangelization, and Rev. Max Barroso said Pentecostals share the Church's journey toward 2033. The Catholic-Pentecostal dialogue began in 1972.",
+          "links": [
+            {
+              "label": "Vatican News",
+              "url": "https://www.vaticannews.va/en/church/news/2026-11/pentecostal-world-fellowship-max-barroso-pope-leo-audience.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-28-early-morning",
       "date": "2026-11-28",
       "edition": "Early Morning",
