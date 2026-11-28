@@ -1,6 +1,35 @@
 {
   "entries": [
     {
+      "id": "2026-11-27-evening",
+      "date": "2026-11-27",
+      "edition": "Evening",
+      "items": [
+        {
+          "text": "The British Columbia Supreme Court ruled on Nov. 27 that provincial policy allowing faith-based hospitals to decline to provide medical assistance in dying on-site does not violate the Canadian Charter of Rights and Freedoms. The challenge arose after a patient was transferred out of Vancouver's Catholic St. Paul's Hospital in 2023 to receive MAiD. Chief Justice Ronald Skolrood wrote that the policy \"does not amount to state sponsorship\" of the hospitals' beliefs.",
+          "links": [
+            {
+              "label": "EWTN News",
+              "url": "https://www.ewtnnews.com/world/americas/catholic-hospitals-in-canada-can-be-allowed-to-refuse-assisted-suicide-high-court-rules"
+            }
+          ]
+        },
+        {
+          "text": "Jesuit High School in New Orleans ran its Thanksgiving Drive for the 100th year, delivering meals to a record 717 families across the area. The drive traces back to 1927, when the school's Sodality first prepared Thanksgiving boxes; it reached 680 families last year.",
+          "links": [
+            {
+              "label": "Jesuit High School",
+              "url": "https://www.jesuitnola.org/2026/11/25/the-thanksgiving-drive-at-100-years/"
+            },
+            {
+              "label": "Clarion Herald",
+              "url": "https://clarionherald.org/news/putting-a-man-for-others-into-action-for-100-thanksgivings"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-27-afternoon",
       "date": "2026-11-27",
       "edition": "Afternoon",
