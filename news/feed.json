@@ -1,6 +1,22 @@
 {
   "entries": [
     {
+      "id": "2026-11-28-early-morning",
+      "date": "2026-11-28",
+      "edition": "Early Morning",
+      "items": [
+        {
+          "text": "A Holy See and Vatican City State delegation led by Sr. Raffaella Petrini, president of the Governorate, with Dicastery for Communication prefect Maria Montserrat Alvarado as deputy head, took part in the International Telecommunication Union's Plenipotentiary Conference (PP-26) in Doha, Qatar, held November 9 to 27. The delegation stressed equitable access to satellite resources, protection of the radio spectrum, and artificial intelligence at the service of the human person, and backed telecommunications governance built on cooperation, equity, and the common good.",
+          "links": [
+            {
+              "label": "Vatican News (Spanish)",
+              "url": "https://www.vaticannews.va/es/vaticano/news/2026-11/santa-sede-conferencia-union-telecomunicaciones-doha.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "2026-11-27-evening",
       "date": "2026-11-27",
       "edition": "Evening",
